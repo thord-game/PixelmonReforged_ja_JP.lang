@@ -2326,9 +2326,7 @@ item.porygon_piece_body.name=ポリゴンの体
 item.porygon_piece_leg.name=ポリゴンの脚
 item.porygon_piece_tail.name=ポリゴンの尻尾
 item.ultra_deep_sea_key.name=ウルトラディープシーキー
-
 item.ultra_forest_key.name=ウルトラフォレストキー
-
 item.strange_souvenir.name=ふしぎなおきもの
 
 item.n_lunarizer.name=ネクロプラスルナ
@@ -2336,7 +2334,6 @@ item.n_lunarizer.name=ネクロプラスルナ
 item.n_solarizer.name=ネクロプラスソル
 
 item.ultra_ruin_key.name=ウルトラビルディングキー
-
 item.eye_of_lugia.name=ルギアのめ
 
 item.reins_of_unity.name=キズナのタヅナ
@@ -2681,6 +2678,8 @@ attack.bind.name=しめつける
 attack.bind.description=長い体やつるなどを使い2-5ターンのあいだ相手を締めつけて攻撃する。
 attack.bite.name=かみつく
 attack.bite.description=鋭くとがった歯でかみついて攻撃する。相手を怯ませることがある。
+attack.bitter_malice.name=うらみつらみ
+attack.bitter_malice.description=背筋が凍るような怨念で攻撃して 相手をしもやけ状態にすることもある。 相手が状態異常だと威力は2倍。
 attack.blizzard.name=ふぶき
 attack.blizzard.description=激しい吹雪を相手に吹きつけて攻撃する。こおり状態にすることがある。
 attack.body_slam.name=のしかかり
@@ -6270,7 +6269,10 @@ pixelmon.zweilous.name=ジヘッド
 pixelmon.zweilous.description=2つの あたまは なかが わるく あいてより おおく たべることで しゅどうけんを にぎろうと する。
 pixelmon.zygarde.name=ジガルデ
 pixelmon.zygarde.description=カロスちほうの せいたいけが くずれると すがたをあらわして ひめた ちからを はっきするらしい。
-
+pixelmon.basculegion.name=イダイトウ
+pixelmon.basculegion.description=遡上の旅路にて 志半ばに 散った 輩の魂を まとう。 ヒスイ 流れし 河川においては 敵うもの 皆無なり。
+pixelmon.overqwil.name=ハリーマン
+pixelmon.overqwil.description=槍の如き 針と 凶暴なる 気質にて 海鬼の 異名を 持つ ポケモン。 毒を すすりて 己の 糧とす。
 pixelmon.unimplemented.description=このポケモンはまだPixelmonに実装されていません。
 
 #Creator form thing.
@@ -6303,8 +6305,8 @@ pixelmon.alcremie.form.lovematcha=ハートミルキィまっちゃ
 pixelmon.alcremie.form.lovemint=ハートミルキィミント
 pixelmon.alcremie.form.lovelemon=ハートミルキィレモン
 pixelmon.alcremie.form.lovesalted=ハートミルキィソルト
-pixelmon.alcremie.form.loverubyswirl=ハートルビーミックス
 pixelmon.alcremie.form.lovecaramel=ハートキャラメルミックス
+pixelmon.alcremie.form.loverubyswirl=ハートルビーミックス
 pixelmon.alcremie.form.loverainbow=ハートトリプルミックス
 pixelmon.alcremie.form.loveshiny=いろちがいハート
 pixelmon.alcremie.form.star=スターミルキィバニラ
@@ -6606,6 +6608,7 @@ pixelmon.spheal.form.masterball=マスターボール
 pixelmon.spheal.form.masterball.descroption=このけがわのパターンはひじょうにまれです。かがくしゃはほんのひとにぎりのれいしかきろくしていません。
 pixelmon.spheal.form.gsball=GSボール
 pixelmon.spheal.form.gsball.descroption=このけがわのパターンはひじょうにまれです。かがくしゃはほんのひとにぎりのれいしかきろくしていません。
+pixelmon.basculin.form.white=しろすじのすがた
 
 pixelmon.snorlax.form.snow=ゆき
 pixelmon.snorlax.form.normal=ノーマル
@@ -6968,6 +6971,7 @@ pixelmon.cosmetic.hat.sylveonscarf=Sylveon Scarf
 pixelmon.cosmetic.hat.umbreonscarf=Umbreon Scarf
 pixelmon.cosmetic.hat.vaporeonscarf=Vaporeon Scarf
 pixelmon.cosmetic.hat.welkinhat=Welkin Hat
+pixelmon.cosmetic.hat.sableyehood=アニバーサリーフード
 
 pixelmon.cosmetic.monocle=片眼鏡
 pixelmon.cosmetic.monocle.none=なし
@@ -8466,7 +8470,20 @@ npc.shopkeeper.pokemartmain3=Poké Mart Main 3
 npc.shopkeeper.pokemartsecond1=Poké Mart Second 1
 npc.shopkeeper.pokemartsecond2=Poké Mart Second 2
 npc.shopkeeper.pokemartsecond3=Poké Mart Second 3
+npc.shopkeeper.pokemartsecond4=Poké Mart Second 4
 npc.shopkeeper.spawn1=Spawn 1
+npc.shopkeeper.boostershop=Booster Shop
+npc.shopkeeper.cardshop1=Card Shop 1
+npc.shopkeeper.cardshop2=Card Shop 2
+npc.shopkeeper.cardshop3=Card Shop 3
+npc.shopkeeper.cardshop4=Card Shop 4
+npc.shopkeeper.cardshop5=Card Shop 5
+npc.shopkeeper.cardshop6=Card Shop 6
+npc.shopkeeper.cardshop7=Card Shop 7
+npc.shopkeeper.cardshop8=Card Shop 8
+npc.shopkeeper.cardshop9=Card Shop 9
+npc.shopkeeper.cardshop10=Card Shop 10
+npc.shopkeeper.cardshop11=Card Shop 11
 
 container.MechanicalAnvil=自動ボール金床
 container.infuser=インフューザー
