@@ -14,19 +14,19 @@
 #   tooltip defines the tooltip text. If an item doesn't have value here, it won't have a tooltip.
 #
 item.fossil_machine_tank.name=かせきマシンのタンク
-
+item.fossil_machine_tank.tooltip=かせきマシンの4つの部品の一つで中心の部品。
 item.fossil_machine_display.name=かせきマシンの画面
-
+item.fossil_machine_display.tooltip=かせきマシンの4つの部品の一つで画面の部品
 item.fossil_machine_top.name=かせきマシンの上部
-
+item.fossil_machine_top.tooltip=かせきマシンの4つの部品の一つで上部の部品
 item.fossil_machine_base.name=かせきマシンの下部
-
+item.fossil_machine_base.tooltip=かせきマシンの4つの部品の一つで下部の部品
 item.green_tank.name=グリーンタンク
-
+item.green_tank.tooltip=クローンマシーンの部品
 item.orange_tank.name=オレンジタンク
-
+item.orange_tank.tooltip=クローンマシーンの部品
 item.cloner_cord.name=クローナーのコード
-
+item.cloner_cord.tooltip=クローンマシーンの部品
 item.hidden_iron_door.name=隠された鉄のドア
 item.hidden_wooden_door.name=隠された木のドア
 item.pokedex.name=ポケモン図鑑
@@ -44,7 +44,9 @@ item.wailmer_pail.name=ホエルコじょうろ
 item.pokemon_editor.name=ポケモンエディター
 item.trainer_editor.name=NPCエディター
 item.quest_editor.name=Questエディター
-
+item.quest_editor.tooltip=エンティティを左クリックしてUUIDをコピーします。 右クリックしてクエストエディタを開きます。
+item.quest_editor.copy=UUIDをクリップボードにコピーしました!
+item.quest_editor.cantuse=このアイテムを使用するには外部クエストJSONを有効にする必要があります!
 item.aluminium_sword.name=アルミの剣
 item.aluminium_helmet.name=アルミのヘルメット
 item.aluminium_chestplate.name=アルミのチェストプレート
@@ -82,13 +84,13 @@ item.superrod.quality_4=レアなすごいつりざお
 item.superrod.quality_5=プロのすごいつりざお
 item.superrod.quality_6=さいこうなすごいつりざお
 item.trade_monitor.name=トレードマシンの画面
-
+item.trade_monitor.tooltip=トレードマシンの4つの部品の一つで上部の部品
 item.trade_holder_right.name=トレードマシンの右端
-
+item.trade_holder_right.tooltip=トレードマシンの4つの部品の一つで右の部品.
 item.trade_holder_left.name=トレードマシンの左端
-
+item.trade_holder_left.tooltip=トレードマシンの4つの部品の一つで左の部品
 item.trade_panel.name=トレードマシンのパネル
-
+item.trade_panel.tooltip=トレードマシンの4つの部品の一つで中心の部品
 item.mystery_dungeon_map.name=不思議のダンジョンの地図
 item.uno_orb.name=氷のオーブ
 
@@ -373,158 +375,160 @@ item.galarica_wreath.name=ガラナツリース
 item.galarica_wreath.tooltip=ガラナツのえだを編み込んだ冠。ガラル地方のヤドンにかぶせてあげると喜ぶ。
 
 item.rare_candy.name=ふしぎなアメ
-
+item.rare_candy.tooltip=エネルギーのつまったアメ。あたえるとポケモン1匹のレベルが 1だけあがる。
 item.xs_exp_candy.name=けいけんアメXS
-
+item.xs_exp_candy.tooltip=エネルギーのつまったアメ。与えるとポケモン1匹の経験値がほんの少し増える。
 item.s_exp_candy.name=けいけんアメS
-
+item.s_exp_candy.tooltip=エネルギーのつまったアメ。与えるとポケモン1匹の経験値が少し増える。
 item.m_exp_candy.name=けいけんアメM
-
+item.m_exp_candy.tooltip=エネルギーのつまったアメ。 与えるとポケモン1匹の経験値が増える。
 item.l_exp_candy.name=けいけんアメL
-
+item.l_exp_candy.tooltip=エネルギーのつまったアメ。与えるとポケモン1匹の経験値がかなり増える。
 item.xl_exp_candy.name=けいけんアメXL
-
+item.xl_exp_candy.tooltip=エネルギーのつまったアメ。与えるとポケモン1匹の経験値がとても増える。
 item.dynamax_candy.name=ダイマックスアメ
-
+item.dynamax_candy.tooltip=エネルギーがつまったアメ。与えるとダイマックスレベルが1あがる。レベルが 高いとダイマックスのHPが増える。
 item.max_soup.name=ダイスープ
-
+item.max_soup.tooltip=特定のポケモンが飲むとキョダイマックスできるようになるスープ。
 item.potion.name=キズぐすり
-
+item.potion.tooltip=スプレー式のキズぐすり。ポケモン1匹のHPを20だけ回復する。
 item.super_potion.name=いいキズぐすり
-
+item.super_potion.tooltip=スプレー式のキズぐすり。ポケモン1匹のHPを60だけ回復する。
 item.hyper_potion.name=すごいキズぐすり
-
+item.hyper_potion.tooltip=スプレー式のキズぐすり。ポケモン1匹のHPを120だけ回復する。
 item.full_restore.name=かいふくのくすり
-
+item.full_restore.tooltip=ポケモン1匹のHPと状態異常をすべて回復する。
 item.fresh_water.name=おいしいみず
-
+item.fresh_water.tooltip=ミネラルたっぷりの水。ポケモン1匹のHPを30だけ回復する。
 item.soda_pop.name=サイコソーダ
-
+item.soda_pop.tooltip=シュワっとはじけるソーダ。ポケモン1匹のHPを50だけ回復する。
 item.lemonade.name=ミックスオレ
-
+item.lemonade.tooltip=とてもあまいジュース。ポケモン1匹のHPを70だけ回復する。
 item.moomoo_milk.name=モーモーミルク
-
+item.moomoo_milk.tooltip=栄養満点のミルク。ポケモン1匹のHPを100だけ回復する。
 item.revive.name=げんきのかけら
-
+item.revive.tooltip=ひんしになったポケモン1匹を元気にしたうえでHPを半分まで回復する。
 item.max_revive.name=げんきのかたまり
-
+item.max_revive.tooltip=ひんしになったポケモン1匹を元気にしたうえでHPをすべて回復する。
 item.max_potion.name=まんたんのくすり
-
+item.max_potion.tooltip=スプレー式のキズぐすり。ポケモン1匹のHPをすべて回復する。
 item.ether.name=ピーピーエイド
-
+item.ether.tooltip=ポケモンが覚えている技のうち1つのPPを10だけ回復する。
 item.max_ether.name=ピーピーリカバー
-
+item.max_ether.tooltip=ポケモンが覚えている技のうち1つのPPをすべて回復する。
 item.elixir.name=ピーピーエイダー
-
+item.elixir.tooltip=ポケモンが覚えている4つの技のPPを10ずつ回復する。
 item.max_elixir.name=ピーピーマックス
-
+item.max_elixir.tooltip=ポケモンが覚えている4つの技のPPをすべて回復する。
 item.antidote.name=どくけし
-
+item.antidote.tooltip=スプレー式の薬。ポケモン1匹のどくの状態を回復する。
 item.paralyze_heal.name=まひなおし
-
+item.paralyze_heal.tooltip=スプレー式の薬。ポケモン1匹のまひの状態を回復する。
 item.awakening.name=ねむけざまし
-
+item.awakening.tooltip=スプレー式の薬。ポケモン1匹のねむりの状態を回復する。
 item.burn_heal.name=やけどなおし
-
+item.burn_heal.tooltip=スプレー式の薬。ポケモン1匹のやけどの状態を回復する。
 item.ice_heal.name=こおりなおし
-
+item.ice_heal.tooltip=スプレー式の薬ポケモン1匹のこおりの状態を回復する。
 item.full_heal.name=なんでもなおし
-
+item.full_heal.tooltip=スプレー式の薬。ポケモン1匹の状態の異常をすべて回復する。
 item.blue_flute.name=あおいビードロ
-
+item.blue_flute.tooltip=青いガラスでできた笛。眠り状態を回復する。
 item.yellow_flute.name=きいろビードロ
-
+item.yellow_flute.tooltip=黄色のガラスでできた笛。混乱状態を回復する。
 item.red_flute.name=あかいビードロ
-
+item.red_flute.tooltip=赤いガラスでできた笛。メロメロ状態を回復する。
 item.green_flute.name=みどりビードロ
-
+item.green_flute.tooltip=緑色のガラスでできた笛。HPを20回復する。
 item.white_flute.name=しろビードロ
-
+item.white_flute.tooltip=白いガラスでできた笛。使った場所で弱いポケモンと遭遇しやすくなる。
 item.black_flute.name=くろビードロ
+item.black_flute.tooltip=黒いガラスでできた笛。使った場所で強いポケモンと遭遇しやすくなる。
 
 item.hp_up.name=マックスアップ
-
+item.hp_up.tooltip=ポケモンの栄養ドリンク。ポケモン1匹のHPの基礎ポイントを10あげる。インフューザーでたいりょくのハネにオボンのみを10個注入することで作れます。
 item.pp_up.name=PP Up
 item.pp_max.name=PP Max
 item.protein.name=タウリン
-
+item.protein.tooltip=ポケモンの栄養ドリンク。ポケモン1匹の攻撃の基礎ポイントを10あげる。インフューザーできんりょくのハネにチイラのみを10個注入することで作れます。
 item.iron.name=ブロムヘキシン
-
+item.iron.tooltip=ポケモンの栄養ドリンク。ポケモン1匹の攻撃の防御ポイントを10あげる。インフューザーでていこうのハネにリュガのみを10個注入することで作れます。
 item.calcium.name=リゾチウム
-
+item.calcium.tooltip=ポケモンの栄養ドリンク。ポケモン1匹の特攻ポイントを10あげる。インフューザーでちりょくのハネにヤタピのみを10個注入することで作れます。
 item.zinc.name=キトサン
-
+item.zinc.tooltip=ポケモンの栄養ドリンク。ポケモン1匹の特防ポイントを10あげる。インフューザーでせいしんのハネにズアのみを10個注入することで作れます。
 item.carbos.name=インドメタシン
-
+item.carbos.tooltip=ポケモンの栄養ドリンク。ポケモン1匹のすばやさポイントを10あげる。インフューザーでしゅんぱつのハネにカムラのみを10個注入することで作れます。
 item.health_wing.name=たいりょくのハネ
-
+item.health_wing.tooltip=ポケモンに使う道具。ポケモン1匹のHPの基礎ポイントを1あげる。
 item.muscle_wing.name=きんりょくのハネ
-
+item.muscle_wing.tooltip=ポケモンに使う道具。ポケモン1匹の攻撃の基礎ポイントを1あげる。
 item.resist_wing.name=ていこうのハネ
-
+item.resist_wing.tooltip=ポケモンに使う道具。ポケモン1匹の防御の基礎ポイントを1あげる。
 item.genius_wing.name=ちりょくのハネ
-
+item.genius_wing.tooltip=ポケモンに使う道具。ポケモン1匹の特攻の基礎ポイントを1あげる。
 item.clever_wing.name=せいしんのハネ
-
+item.clever_wing.tooltip=ポケモンに使う道具。ポケモン1匹の特防の基礎ポイントを1あげる。
 item.swift_wing.name=しゅんぱつのハネ
-
+item.swift_wing.tooltip=ポケモンに使う道具。ポケモン1匹のすばやさの基礎ポイントを1あげる。
 item.pretty_wing.name=きれいなハネ
-
+item.pretty_wing.tooltip=きれいなだけでなんの効果もないごくごく普通のハネ。ショップで売れる。
 item.silver_wing.name=ぎんいろのはね
 item.rainbow_wing.name=にじいろのはね
-
+item.rainbow_wing.tooltip=特定のポケモンを虹のフォームに変える事ができる。
 item.health_feather.name=たいりょくのハネ
-
+item.health_feather.tooltip=ポケモン1匹のHPの基礎ポイントを1あげる。インフューザーにオボンのみ10個と注入することでHP UPが作れる。
 item.muscle_feather.name=きんりょくのハネ
-
+item.muscle_feather.tooltip=ポケモン1匹の攻撃の基礎ポイントを1あげる。インフューザーにチイラのみ10個と注入することでタウリンが作れる。
 item.resist_feather.name=ていこうのハネ
-
+item.resist_feather.tooltip=ポケモン1匹の防御の基礎ポイントを1あげる。インフューザーにリュガのみ10個と注入することでブロムヘキシンが作れる。
 item.genius_feather.name=ちりょくのハネ
-
+item.genius_feather.tooltip=ポケモン1匹の特攻の基礎ポイントを1あげる。インフューザーにヤタピのみ10個と注入することでリゾチウムが作れる。
 item.clever_feather.name=せいしんのハネ
-
+item.clever_feather.tooltip=ポケモン1匹の特防の基礎ポイントを1あげる。インフューザーにズアのみ10個と注入することでキトサンが作れる。
 item.swift_feather.name=しゅんぱつのハネ
-
+item.swift_feather.tooltip=ポケモン1匹のすばやさの基礎ポイントを1あげる。インフューザーにカムラのみ10個と注入することでインドメタシンが作れるす。
 item.pretty_feather.name=きれいなハネ
+item.pretty_feather.tooltip=きれいなだけでなんの効果もないごくごく普通のハネ。ショップで売れる。
 
 item.balm_mushroom.name=かおるキノコ
-
+item.balm_mushroom.tooltip=あたりいったいにいい香りがひろがる珍しいキノコ。マニアが高く買ってくれる。
 item.big_mushroom.name=おおきなキノコ
-
+item.big_mushroom.tooltip=おおきな珍しいキノコ。一部のマニアのあいだではとても人気が高い。
 item.big_nugget.name=でかいきんのたま
-
+item.big_nugget.tooltip=キラキラと金色に光る純金製のおおきな玉。ショップで高く売れる。
 item.big_pearl.name=おおきなしんじゅ
-
+item.big_pearl.tooltip=きれいな銀色に光るかなり大粒の真珠。ショップで高く売れる。
 item.comet_shard.name=すいせいのかけら
-
+item.comet_shard.tooltip=すい星が近づいたとき地表に落ちたかけら。ショップで高く売れる。
 item.nugget.name=きんのたま
-
+item.nugget.tooltip=キラキラと金色に光る純金製の玉。ショップで高く売れる。
 item.pearl.name=しんじゅ
-
-item.pearl_string.name=だんごしんじゅ
-
+item.pearl.tooltip=きれいな銀色に光る少しちいさめの真珠。ショップで安く売れる。
+item.pearl_string.name=おだんごしんじゅ
+item.pearl_string.tooltip=きれいな銀色に光るとても大粒の真珠。ショップで高く売れる。
 item.rare_bone.name=きちょうなホネ
-
-item.relic_copper.name=だいのどうか
-
+item.rare_bone.tooltip=ポケモン考古学のうえでとても貴重なホネ。ショップで高く売れる。
+item.relic_copper.name=こだいのどうか
+item.relic_copper.tooltip=3000年ほど昔の文明で使われた銅貨。マニアが高く買ってくれる。
 item.relic_gold.name=こだいのきんか
-
+item.relic_gold.tooltip=3000年ほど昔の文明で使われた金貨。マニアが高く買ってくれる。
 item.relic_silver.name=こだいのぎんか
-
+item.relic_silver.tooltip=3000年ほど昔の文明で使われた銀貨。マニアが高く買ってくれる。
 item.shoal_salt.name=あさせのしお
-
+item.shoal_salt.tooltip=浅瀬の洞穴でみつけた塩。ショップで売れる。
 item.shoal_shell.name=あさせのかいがら
-
+item.shoal_shell.tooltip=浅瀬の洞穴でみつけた貝殻。ショップで売れる。
 item.slowpoke_tail.name=おいしいシッポ
-
+item.slowpoke_tail.tooltip=とてもおいしいなにかのしっぽ。ショップで高く売れる。
 item.stardust.name=ほしのすな
-
+item.stardust.tooltip=てざわりがサラサラの赤くてきれいな砂。ショップで安く売れる。
 item.star_piece.name=ほしのかけら
-
+item.star_piece.tooltip=キラキラと赤く光るきれいな宝石のかけら。ショップで高く売れる。
 item.strange_souvenier.name=ふしぎなおきもの
-
-item.tiny_mushroom.name=いさなキノコ
-
+item.strange_souvenier.tooltip=古くから守り神とされる不思議なポケモンをかたどった置物。ショップで売れる。
+item.tiny_mushroom.name=ちいさなキノコ
+item.tiny_mushroom.tooltip=ちいさな珍しいキノコ。一部のマニアのあいだではけっこう人気が高い。
 item.red_shard2.name=あかいかけら
 item.blue_shard2.name=あおいかけら
 item.green_shard.name=みどりのかけら
@@ -6926,6 +6930,8 @@ pixelmon.command.markcharm.notify=%s はあかしのおまもりをもってい�
 pixelmon.command.multipleSuccess=%s プレイヤーのコマンドを正常に実行した。
 pixelmon.command.tiershow.invalid=不明なティア!
 pixelmon.command.tier.everything=すべて!
+pixelmon.command.battlelog.not.battling=指定されたユーザーは現在戦っていません!
+pixlemon.command.battlelog.logged=ユーザーの戦闘が記録されました。
 
 pixelmon.command.invalidquest=クエストファイル名が無効です!
 pixelmon.command.setstage.permissionother=他のプレイヤーのクエストステージを設定する権限がない!
@@ -7161,6 +7167,7 @@ pixelmon.helditems.ejectbutton=%s はだっしゅつボタンで戻っていく!
 pixelmon.helditems.micleberry=%s はミクルのみでつぎにくりだすわざがあたりやすくなった!
 pixelmon.helditems.ironball=%s はくろいてっきゅうでじめんにおちた!
 pixelmon.helditems.adrenalineorb=%s はビビリだまで素早さが上がった!
+pixelmon.helditems.throatspray=%s はのどスプレーでとうこうが上がった!
 
 pixelmon.items.useitem=%s は %s を使った.
 pixelmon.items.zygarde_cube.pickup=不思議な生き物がジガルデキューブに吸い込まれた!
@@ -8226,264 +8233,264 @@ gui.trader.eggDescription=これは何のタマゴだろう...
 gui.spectate.spectateMessage=%s を押して %s のバトルを観戦する。
 gui.spectate.stopspectate=観戦をやめる。
 
-trainer.Steve=Steve
-trainer.Youngster=Youngster
-trainer.Lass=Lass
-trainer.BugCatcher=Bug Catcher
-trainer.Pokemaniac=Poké Maniac
-trainer.Pokemaniacgirl=Poké Maniac Girl
-trainer.Fisherman=Fisherman
-trainer.Fisherman2=Fisherman
-trainer.FemaleRocketGrunt=Female Rocket Grunt
-trainer.MaleRocketGrunt=Male Rocket Grunt
-trainer.FemaleMagmaGrunt=Female Magma Grunt
-trainer.MaleMagmaGrunt=Male Magma Grunt
-trainer.FemaleAquaGrunt=Female Aqua Grunt
-trainer.MaleAquaGrunt=Male Aqua Grunt
-trainer.Pirate=Pirates
-trainer.aquagruntmale=Male Aqua Grunt
-trainer.aquagruntfemale=Female Aqua Grunt
-trainer.magmagruntmale=Male Magma Grunt
-trainer.model.magmagruntfemale=Female Magma Grunt
-trainer.Sport=Sports Fans
-trainer.Gardener=Gardener
-trainer.BugManiac=Bug Maniac
-trainer.LittleBoySwimmer=Little Boy Swimmer
-trainer.MaleSwimmer=Male Swimmer
-trainer.Swimmer=Swimmer
-trainer.Ornithologist=Ornithologist
-trainer.FireBreather=Firebreather
-trainer.RichBoy=Rich Boy
-trainer.Policeman=Policeman
-trainer.Rancher=Rancher
-trainer.MaleScientist=Male Scientist
-trainer.FemaleScientist=Female Scientist
-trainer.PreschoolerGirl=Preschooler Girl
-trainer.PkmnBreederWoman=Female Pokémon Breeder
-trainer.Miner=Miner
-trainer.Blacksmith=Blacksmith
-trainer.Cueball=Cue Ball
-trainer.EvilTeamLeaders=Evil Team Leaders
-trainer.FemaleFlareGrunt=Female Flare Grunt
-trainer.FemaleGalacticGrunt=Female Galactic Grunt
-trainer.FemalePlasmaGrunt=Female Plasma Grunt
-trainer.FemaleSkullGrunt=Female Skull Grunt
-trainer.MaleFlareGrunt=Male Flare Grunt
-trainer.MaleGalacticGrunt=Male Galactic Grunt
-trainer.MalePlasmaGrunt=Male Plasma Grunt
-trainer.MaleSkullGrunt=Male Skull Grunt
-trainer.Mermaid=Mermaid
-trainer.Bosses=Team Bosses
-trainer.FemaleTeamYellGrunt=Female Yell Grunt
-trainer.MaleTeamYellGrunt=Male Yell Grunt
+trainer.Steve=スティーブ
+trainer.Youngster=たんぱんこぞう
+trainer.Lass=ミニスカート
+trainer.BugCatcher=むしとりしょうねん
+trainer.Pokemaniac=ポケモンごっこ♂
+trainer.Pokemaniacgirl=ポケモンごっこ♀
+trainer.Fisherman=つりびと
+trainer.Fisherman2=つりびと
+trainer.FemaleRocketGrunt=ロケットだんいん
+trainer.MaleRocketGrunt=ロケットだんいん♂
+trainer.FemaleMagmaGrunt=マグマだんいん♀
+trainer.MaleMagmaGrunt=マグマだんいん♂
+trainer.FemaleAquaGrunt=アクアだんいん♀
+trainer.MaleAquaGrunt=マグマだんいん♂
+trainer.Pirate=かいぞく
+trainer.aquagruntmale=マクアだんいん♂
+trainer.aquagruntfemale=アクアだんいん♀
+trainer.magmagruntmale=マグマだんいん♂
+trainer.model.magmagruntfemale=マグマだんいん♀
+trainer.Sport=トライアスリート
+trainer.Gardener=にわし
+trainer.BugManiac=こんちゅうマニア
+trainer.LittleBoySwimmer=うきわボーイ
+trainer.MaleSwimmer=かいパンやろう
+trainer.Swimmer=ビキニのおねえさん
+trainer.Ornithologist=とりつかい
+trainer.FireBreather=ひふきやろう
+trainer.RichBoy=おぼっちゃま
+trainer.Policeman=おまわりさん
+trainer.Rancher=ぼくじょうおじさん
+trainer.MaleScientist=けんきゅういん♂
+trainer.FemaleScientist=けんきゅういん♀
+trainer.PreschoolerGirl=えんじ
+trainer.PkmnBreederWoman=ポケモンブリーダー
+trainer.Miner=さぎょういん
+trainer.Blacksmith=かじや
+trainer.Cueball=スキンヘッズ
+trainer.EvilTeamLeaders=あくのチームリーダー
+trainer.FemaleFlareGrunt=フレアだんいん♀
+trainer.FemaleGalacticGrunt=ギンガだんいん♀
+trainer.FemalePlasmaGrunt=プラズマだんいん♀
+trainer.FemaleSkullGrunt=スカルだんいん♀
+trainer.MaleFlareGrunt=フレアだんいん♂
+trainer.MaleGalacticGrunt=ギンガだんいん♂
+trainer.MalePlasmaGrunt=プラズマだんいん♂
+trainer.MaleSkullGrunt=スカルだんいん♂
+trainer.Mermaid=マーメイド
+trainer.Bosses=チームボス
+trainer.FemaleTeamYellGrunt=エールだんいん♀
+trainer.MaleTeamYellGrunt=エールだんいん♂
 
-trainer.model.Steve=Steve
-trainer.model.Custom_RP=Custom Resource Pack
-trainer.model.Custom_PN=Custom Player Name
-trainer.model.santa=Santa
-trainer.model.suit=Suit
-trainer.model.jonsnow=Jon Snow
-trainer.model.professorras=Professor Ras
-trainer.model.knight=Knight
-trainer.model.scottish=Scottish
-trainer.model.prisoner=Prisoner
-trainer.model.youngster1=Spoiled Brat
-trainer.model.youngster2=Cool Youngster Boy
-trainer.model.youngster3=Pokeball Shirt Youth
-trainer.model.youngster4=Black Shirt Youth
-trainer.model.youngster5=Hooded Youth
-trainer.model.youngstergirl=Youngster Girl
-trainer.model.youngstergirl2=Youngster Girl 2
-trainer.model.lass2=Lass
-trainer.model.bugcatcher1=Beekeeper
-trainer.model.bugcatcher2=Super Bug Catcher
-trainer.model.bugcatcher3=Bug Catcher
-trainer.model.bugcatcher4=Bug Catcher 2
-trainer.model.pokemaniac1=Haunter
-trainer.model.pokemaniac2=Charizard
-trainer.model.pokemaniac3=Rhydon
-trainer.model.pokemaniacgirl1=Zangoose
-trainer.model.pokemaniacgirl2=Pika Girl
-trainer.model.pokemaniacgirl3=Eevee
-trainer.model.firebreather1=Medieval Firebreather
-trainer.model.firebreather2=Styling Fire Guy
-trainer.model.firebreather3=Fire Man
-trainer.model.firebreather4=Fire Bat
-trainer.model.rocketgruntfemale1=Grunt 1
-trainer.model.rocketgruntfemale2=Grunt 2
-trainer.model.rocketgruntfemale3=Grunt 3
-trainer.model.rocketgruntfemale4=Grunt 4
-trainer.model.rocketgruntfemale5=Grunt 5
-trainer.model.rocketgruntfemale6=Grunt 6
-trainer.model.rocketgruntmale1=Grunt 1
-trainer.model.rocketgruntmale2=Grunt 2
-trainer.model.rocketgruntmale3=Grunt 3
-trainer.model.rocketgruntmale4=Grunt 4
-trainer.model.rocketgruntmale5=Grunt 5
-trainer.model.rocketgruntmale6=Grunt 6
-trainer.model.piratecaptain=Pirate Captain
-trainer.model.pirategrunt1=Grunt 1
-trainer.model.pirategrunt2=Grunt 2
-trainer.model.football1=Football Fan 1
-trainer.model.football2=Football Fan 2
-trainer.model.gardenermale1=Gardener 1
-trainer.model.gardenermale2=Gardener 2
-trainer.model.pkmn_breeder_f=Breeder 1
-trainer.model.breedergreen_f=Breeder 2
-trainer.model.swimmer_m1=Male Swimmer 1
-trainer.model.swimmer_m2=Male Swimmer 2
-trainer.model.swimmer_f1=Female Swimmer 1
-trainer.model.swimmer_f2=Female Swimmer 2
-trainer.model.archie=Archie
-trainer.model.charles=Charles
-trainer.model.cueball1=Cue Ball 1
-trainer.model.cueball2=Cue Ball 2
-trainer.model.cyrus=Cyrus
-trainer.model.lass3=Lass 3
-trainer.model.femaleflaregrunt=Female Flare Grunt
-trainer.model.femalegalacticgrunt=Female Galactic Grunt
-trainer.model.femaleplasmagrunt=Female Plasma Grunt
-trainer.model.femaleskullgrunt=Female Skull Grunt
-trainer.model.giovanni=Giovanni
-trainer.model.guzma=Guzma
-trainer.model.lysandre=Lysandre
-trainer.model.aquaboss=Archie
-trainer.model.magmaboss=Maxie
-trainer.model.galacticboss=Cyrus
-trainer.model.maleflaregrunt=Male Flare Grunt
-trainer.model.malegalacticgrunt=Male Galactic Grunt
-trainer.model.maleplasmagrunt=Male Plasma Grunt
-trainer.model.maleskullgrunt=Male Skull Grunt
-trainer.model.mermaid1=Mermaid 1
-trainer.model.mermaid2=Mermaid 2
-trainer.model.mermaid3=Mermaid 3
+trainer.model.Steve=スティーブ
+trainer.model.Custom_RP=カスタムリソースパック
+trainer.model.Custom_PN=カスタムプレイヤーネーム
+trainer.model.santa=サンタ
+trainer.model.suit=スーツ
+trainer.model.jonsnow=ジョン スノウ
+trainer.model.professorras=ラスはかせ
+trainer.model.knight=ナイト
+trainer.model.scottish=スコットランド風
+trainer.model.prisoner=しゅうじん
+trainer.model.youngster1=おぼっちゃん
+trainer.model.youngster2=クールな少年
+trainer.model.youngster3=モンスターボールシャツの少年
+trainer.model.youngster4=くろシャツの少年
+trainer.model.youngster5=パーカー少年
+trainer.model.youngstergirl=おじょうさん
+trainer.model.youngstergirl2=おじょうさん2
+trainer.model.lass2=ミニスカート
+trainer.model.bugcatcher1=ようほうか
+trainer.model.bugcatcher2=むしとりかめん
+trainer.model.bugcatcher3=むしとりしょうねん
+trainer.model.bugcatcher4=むしとりしょうねん2
+trainer.model.pokemaniac1=ゴースト
+trainer.model.pokemaniac2=リザードン
+trainer.model.pokemaniac3=サイドン
+trainer.model.pokemaniacgirl1=ザングース
+trainer.model.pokemaniacgirl2=ピカチュー
+trainer.model.pokemaniacgirl3=イーブイ
+trainer.model.firebreather1=中世のひふきやろう
+trainer.model.firebreather2=スタイリッシュひふきやろう
+trainer.model.firebreather3=しょうぼうし
+trainer.model.firebreather4=ファイアバット
+trainer.model.rocketgruntfemale1=ロケットだんいん♀1
+trainer.model.rocketgruntfemale2=ロケットだんいん♀2
+trainer.model.rocketgruntfemale3=ロケットだんいん♀3
+trainer.model.rocketgruntfemale4=ロケットだんいん♀4
+trainer.model.rocketgruntfemale5=ロケットだんいん♀5
+trainer.model.rocketgruntfemale6=ロケットだんいん♀6
+trainer.model.rocketgruntmale1=ロケットだんいん♂1
+trainer.model.rocketgruntmale2=ロケットだんいん♂2
+trainer.model.rocketgruntmale3=ロケットだんいん♂3
+trainer.model.rocketgruntmale4=ロケットだんいん♂4
+trainer.model.rocketgruntmale5=ロケットだんいん♂5
+trainer.model.rocketgruntmale6=ロケットだんいん♂6
+trainer.model.piratecaptain=かいぞくせんちょう
+trainer.model.pirategrunt1=かいぞくだんいん1
+trainer.model.pirategrunt2=かいぞくだんいん2
+trainer.model.football1=サッカーファン1
+trainer.model.football2=サッカーファン2
+trainer.model.gardenermale1=にわし1
+trainer.model.gardenermale2=にわし2
+trainer.model.pkmn_breeder_f=ポケモンブリーダー1
+trainer.model.breedergreen_f=ポケモンブリーダー2
+trainer.model.swimmer_m1=かいパンやろう1
+trainer.model.swimmer_m2=かいパンやろう2
+trainer.model.swimmer_f1=ビキニのおねえさん1
+trainer.model.swimmer_f2=ビキニのおねえさん2
+trainer.model.archie=アオギリ
+trainer.model.charles=トウガン
+trainer.model.cueball1=スキンヘッズ1
+trainer.model.cueball2=スキンヘッズ2
+trainer.model.cyrus=アカギ
+trainer.model.lass3=ミニスカート3
+trainer.model.femaleflaregrunt=フレアだんいん♀
+trainer.model.femalegalacticgrunt=ギンガだんいん♀
+trainer.model.femaleplasmagrunt=プラズマだんいん♀
+trainer.model.femaleskullgrunt=スカルだんいん♀
+trainer.model.giovanni=サカキ
+trainer.model.guzma=グズマ
+trainer.model.lysandre=フラダリ
+trainer.model.aquaboss=アオギリ
+trainer.model.magmaboss=マツブサ
+trainer.model.galacticboss=アカギ
+trainer.model.maleflaregrunt=フレアだんいん♂
+trainer.model.malegalacticgrunt=ギンガだんいん♂
+trainer.model.maleplasmagrunt=プラズマだんいん♂
+trainer.model.maleskullgrunt=スカルだんいん♂
+trainer.model.mermaid1=マーメイド1
+trainer.model.mermaid2=マーメイド2
+trainer.model.mermaid3=マーメイド3
 trainer.model.n=N
-trainer.model.youngster6=Youngster 6
-trainer.model.youngster7=Youngster 7
+trainer.model.youngster6=たんパンこぞう6
+trainer.model.youngster7=たんパンこぞう7
 
-npc.model.aquagruntmale=Male Aqua Grunt
-npc.model.aquagruntfemale=Female Aqua Grunt
-npc.model.artist=Artist
-npc.model.baker=Baker
-npc.model.battlegirl=Battle Girl
-npc.model.blackbelt=Black Belt
-npc.model.blacksmith=Blacksmith
-npc.model.breedergreen_f=Pokemon Breeder 2
-npc.model.dress=Bride
-npc.model.suit=Groom
-npc.model.bugcatcher4=Bug Catcher 2
-npc.model.cueball=Cue Ball
-npc.model.cult=Cultist
-npc.model.doctor=Doctor
-npc.model.engineer=Engineer
-npc.model.evilprofessor=Evil Professor
-npc.model.firebreather2=Styling Fire Guy
-npc.model.firebreather4=Fire Bat
-npc.model.fisherman=Fisherman
-npc.model.gardenermale2=Gardener
-npc.model.gnome_trader=Gnome Trader
-npc.model.hexmaniac=Hex Maniac
-npc.model.hiker=Hiker
-npc.model.jonsnow=Jon Snow
-npc.model.knight=Knight
-npc.model.lass2=Lass
-npc.model.lighthousekeeper=Lighthouse Keeper
-npc.model.littleboy=Little Boy
-npc.model.littlegirl=Little Girl
-npc.model.madame=Madame
-npc.model.magmagruntfemale=Female Magma Grunt
-npc.model.magmagruntmale=Male Magma Grunt
-npc.model.mailman=Mailman
-npc.model.mechanic=Mechanic
-npc.model.mermaid=Mermaid
-npc.model.mermaid2=Mermaid 2
-npc.model.mermaid3=Mermaid 3
-npc.model.monk1=Monk 1
-npc.model.monk2=Monk 2
-npc.model.monsieur=Monsieur
-npc.model.npcchat1=Old Man
-npc.model.npcchat2=Man
-npc.model.officerjenny=Officer Jenny
-npc.model.ornithologist=Ornithologist
-npc.model.piratecaptain=Pirate Captain
-npc.model.pirategrunt1=Pirate Grunt
-npc.model.pkmn_breeder_f=Pokémon Breeder
-npc.model.pokefan_f=Female Pokéfan
-npc.model.pokefan_m=Male Pokéfan
-npc.model.policeman=Policeman
-npc.model.preschooler_f1=Female Preschooler
-npc.model.professorras=Professor Ras
-npc.model.psychic=Male Psychic
-npc.model.psychic_f=Female Psychic
-npc.model.punkgirl=Punk Girl
-npc.model.punkguy=Punk Guy
-npc.model.rancher=Rancher
-npc.model.ranger_f=Female Ranger
-npc.model.ranger_m=Male Ranger
-npc.model.richboy=Rich Boy
-npc.model.rocketgruntfemale1=Female Rocket Grunt
-npc.model.rocketgruntmale1=Male Rocket Grunt
-npc.model.sailor=Sailor
-npc.model.santa=Santa Claus
-npc.model.schoolboy=Schoolboy
-npc.model.schoolgirl=Schoolgirl
-npc.model.scientist_f=Female Scientist
-npc.model.scientist_m=Male Scientist
-npc.model.shopgirl=Shop Girl
-npc.model.shoplady=Shop Lady
-npc.model.shoplady2=Shop Lady 2
-npc.model.shoplady3=Shop Lady 3
-npc.model.shoplady4=Shop Lady 4
-npc.model.shopman=Shop Man
-npc.model.shopman2=Shop Man 2
-npc.model.shopman3=Shop Man 3
-npc.model.shopman4=Shop Man 4
-npc.model.shopman5=Shop Man 5
-npc.model.shopsecondman=Shop Second Man
-npc.model.spawntrader=Spawn Trader
-npc.model.streetthug=Street Thug
-npc.model.supernerd=Super Nerd
-npc.model.tesla=Tesla
-npc.model.archie=Archie
-npc.model.charles=Charles
-npc.model.cyrus=Cyrus
-npc.model.flaregruntfemale=Female Flare Grunt
-npc.model.flaregruntmale=Male Flare Grunt
-npc.model.galacticgruntfemale=Female Galactic Grunt
-npc.model.galacticgruntmale=Male Galactic Grunt
-npc.model.ghostbuster1=Ghostbuster 1
-npc.model.ghostbuster2=Ghostbuster 2
-npc.model.ghostbuster3=Ghostbuster 3
-npc.model.giovanni=Giovanni
-npc.model.guzma=Guzma
-npc.model.lysandre=Lysandre
-npc.model.mermaid1=Mermaid 1
+npc.model.aquagruntmale=アクアだんいん♂
+npc.model.aquagruntfemale=アクアだんいん♀
+npc.model.artist=げいじゅつか
+npc.model.baker=ベーカリー
+npc.model.battlegirl=バトルガール
+npc.model.blackbelt=からておう
+npc.model.blacksmith=かじや
+npc.model.breedergreen_f=ポケモンブリーダー2
+npc.model.dress=はなよめ
+npc.model.suit=しんろう
+npc.model.bugcatcher4=むしとりしょうねん2
+npc.model.cueball=スキンヘッズ
+npc.model.cult=カルト
+npc.model.doctor=ドクター
+npc.model.engineer=でんきやのオヤジ
+npc.model.evilprofessor=あくのはかせ
+npc.model.firebreather2=スタイリッシュひふきやろう
+npc.model.firebreather4=ファイアバット
+npc.model.fisherman=つりびと
+npc.model.gardenermale2=にわし
+npc.model.gnome_trader=ノームトレーダー
+npc.model.hexmaniac=オカルトマニア
+npc.model.hiker=やまおとこ
+npc.model.jonsnow=ジョン・スノウ
+npc.model.knight=ナイト
+npc.model.lass2=ミニスカート
+npc.model.lighthousekeeper=とうだいまもり
+npc.model.littleboy=しょうねん
+npc.model.littlegirl=しょうじょ
+npc.model.madame=マダム
+npc.model.magmagruntfemale=マグマだんいん♀
+npc.model.magmagruntmale=マグマだんいん♂
+npc.model.mailman=ポストマン
+npc.model.mechanic=メカニック
+npc.model.mermaid=マーメイド
+npc.model.mermaid2=マーメイド2
+npc.model.mermaid3=マーメイド3
+npc.model.monk1=モンク1
+npc.model.monk2=モンク2
+npc.model.monsieur=ムッシュ
+npc.model.npcchat1=おじいさん
+npc.model.npcchat2=おとこ
+npc.model.officerjenny=ジュンサー
+npc.model.ornithologist=とりつかい
+npc.model.piratecaptain=かいぞくせんちょう
+npc.model.pirategrunt1=かいぞくだんいん
+npc.model.pkmn_breeder_f=ポケモンブリーダー
+npc.model.pokefan_f=だいすきクラブ♀
+npc.model.pokefan_m=だいすきクラブ♂
+npc.model.policeman=おまわりさん
+npc.model.preschooler_f1=はかせ♀
+npc.model.professorras=ラスはかせ
+npc.model.psychic=サイキッカー♂
+npc.model.psychic_f=サイキッカー♀
+npc.model.punkgirl=バッドガール
+npc.model.punkguy=バッドガイ
+npc.model.rancher=ぼくじょうおじさん
+npc.model.ranger_f=ポケモンレンジャー♀
+npc.model.ranger_m=ポケモンレンジャー♂
+npc.model.richboy=おぼっちゃま
+npc.model.rocketgruntfemale1=ロケットだんいん♀
+npc.model.rocketgruntmale1=ロケットだんいん♂
+npc.model.sailor=ふなのり
+npc.model.santa=サンタクロース
+npc.model.schoolboy=スクールボーイ
+npc.model.schoolgirl=スクールガール
+npc.model.scientist_f=けんきゅういん♀
+npc.model.scientist_m=けんきゅういん♂
+npc.model.shopgirl=てんいん♀
+npc.model.shoplady=てんいん♀
+npc.model.shoplady2=てんいん♀2
+npc.model.shoplady3=てんいん♀3
+npc.model.shoplady4=てんいん♀4
+npc.model.shopman=てんいん♂
+npc.model.shopman2=てんいん♂2
+npc.model.shopman3=てんいん♂3
+npc.model.shopman4=てんいん♂4
+npc.model.shopman5=てんいん♂5
+npc.model.shopsecondman=てんいんサブ
+npc.model.spawntrader=スポーントレーダー
+npc.model.streetthug=こわいおじさん
+npc.model.supernerd=りかけいのおとこ
+npc.model.tesla=テスラ
+npc.model.archie=アオギリ
+npc.model.charles=トウガン
+npc.model.cyrus=アカギ
+npc.model.flaregruntfemale=フレアだんいん♀
+npc.model.flaregruntmale=フレアだんいん♂
+npc.model.galacticgruntfemale=ギンガだんいん♀
+npc.model.galacticgruntmale=ギンガだんいん♂
+npc.model.ghostbuster1=きとうし1
+npc.model.ghostbuster2=きとうし2
+npc.model.ghostbuster3=きとうし3
+npc.model.giovanni=サカキ
+npc.model.guzma=グズマ
+npc.model.lysandre=フラダリ
+npc.model.mermaid1=マーメイド1
 npc.model.n=N
-npc.model.plasmagruntfemale=Female Plasma Grunt
-npc.model.plasmagruntmale=Male Plasma Grunt
-npc.model.skullgruntfemale=Female Skull Grunt
-npc.model.skullgruntmale=Male Skull Grunt
+npc.model.plasmagruntfemale=プラズマだんいん♀
+npc.model.plasmagruntmale=プラズマだんいん♂
+npc.model.skullgruntfemale=スカルだんいん♀
+npc.model.skullgruntmale=スカルだんいん♂
 
-npc.shopkeeper.pokemartmain1=Poké Mart Main 1
-npc.shopkeeper.pokemartmain2=Poké Mart Main 2
-npc.shopkeeper.pokemartmain3=Poké Mart Main 3
-npc.shopkeeper.pokemartsecond1=Poké Mart Second 1
-npc.shopkeeper.pokemartsecond2=Poké Mart Second 2
-npc.shopkeeper.pokemartsecond3=Poké Mart Second 3
-npc.shopkeeper.pokemartsecond4=Poké Mart Second 4
-npc.shopkeeper.spawn1=Spawn 1
-npc.shopkeeper.boostershop=Booster Shop
-npc.shopkeeper.cardshop1=Card Shop 1
-npc.shopkeeper.cardshop2=Card Shop 2
-npc.shopkeeper.cardshop3=Card Shop 3
-npc.shopkeeper.cardshop4=Card Shop 4
-npc.shopkeeper.cardshop5=Card Shop 5
-npc.shopkeeper.cardshop6=Card Shop 6
-npc.shopkeeper.cardshop7=Card Shop 7
-npc.shopkeeper.cardshop8=Card Shop 8
-npc.shopkeeper.cardshop9=Card Shop 9
-npc.shopkeeper.cardshop10=Card Shop 10
-npc.shopkeeper.cardshop11=Card Shop 11
+npc.shopkeeper.pokemartmain1=フレンドショップメイン1
+npc.shopkeeper.pokemartmain2=フレンドショップメイン2
+npc.shopkeeper.pokemartmain3=フレンドショップメイン3
+npc.shopkeeper.pokemartsecond1=フレンドショップサブ1
+npc.shopkeeper.pokemartsecond2=フレンドショップサブ2
+npc.shopkeeper.pokemartsecond3=フレンドショップサブ3
+npc.shopkeeper.pokemartsecond4=フレンドショップサブ4
+npc.shopkeeper.spawn1=スポーン1
+npc.shopkeeper.boostershop=ブースターショップ
+npc.shopkeeper.cardshop1=カードショップ1
+npc.shopkeeper.cardshop2=カードショップ2
+npc.shopkeeper.cardshop3=カードショップ3
+npc.shopkeeper.cardshop4=カードショップ4
+npc.shopkeeper.cardshop5=カードショップ5
+npc.shopkeeper.cardshop6=カードショップ6
+npc.shopkeeper.cardshop7=カードショップ7
+npc.shopkeeper.cardshop8=カードショップ8
+npc.shopkeeper.cardshop9=カードショップ9
+npc.shopkeeper.cardshop10=カードショップ10
+npc.shopkeeper.cardshop11=カードショップ11
 
 container.MechanicalAnvil=自動ボール金床
 container.infuser=インフューザー
@@ -9590,6 +9597,7 @@ pixelmon.effect.regainedenergy=%s は力を取り戻した!
 pixelmon.effect.atedreams=%s は %s の夢を食べた!
 pixelmon.effect.notasleep=%s は眠っていない!
 pixelmon.effect.effectfailed=うまく決まらない!
+pixelmon.effect.snaptrap=%s はトラバサミに捕らわれた!
 pixelmon.effect.blockedbydynamax=ダイマックスの力ではじかれた!
 pixelmon.effect.foresawattack=%s は未来に攻撃を予知した!
 pixelmon.effect.modifierscleared=全ての能力変化がもとに戻った!
@@ -10016,6 +10024,33 @@ attack.curse.curse=%s は自分の体力を削って %s にのろいをかけた
 
 # Add key names from options menu
 key.categories.pixelmon=Pixelmon
+key.descend=下降
+key.minmaxoverlay=パーティGUIの最小/最大
+key.nextpokemon=次のパーティGUI枠
+key.previouspokemon=前のパーティGUI枠
+key.sendpokemon=ポケモンを出す/戻す
+key.pokemonaction=標的のポケモンを選ぶ
+key.pokemonexternal=移動わざを使う
+key.nextexternalmove=移動わざを選ぶ
+key.pokedex=ポケモン図鑑を開く
+key.wiki=Wikiを開く
+key.spectateBattle=バトルを観戦
+key.pixelmonoptions=設定を開く
+key.pcsearch=PCでポケモンを検索
+key.pcrename=PCのボックス名を変更
+key.pcwallpaper=PCのボックスの壁紙を変更
+
+halloween.entityname=幽霊の宝石商
+halloween.gemregistered=幽霊の宝石商は %s を受け取った!
+halloween.alreadyregistered=%s はもう受け取っている!
+halloween.alreadyawarded=もうこのクエストは完了している!
+halloween.message=私は神聖な宝石を交換するためにいます!
+
+christmas.notchristmas=このギフトを開けるにはクリスマスまで待つ必要があります!
+christmas.ischristmas=Pixelmon開発チームからのメリークリスマス!
+christmas.received=デリバードからクリスマスギフトを受け取った!
+christmas.alreadygifted=クリスマスギフトはもう開けている!
+item.gift_box.name=ギフトボックス
 
 #Unown blocks
 UnownBlock.A.name=アンノーンブロック 'A'
@@ -10048,8 +10083,8 @@ UnownBlock2.!.name=アンノーンブロック '!'
 UnownBlock2.?.name=アンノーンブロック '?'
 UnownBlock2._.name=ブランクアンノーンブロック
 
-pixelmon.dev.name=Pixelmon Dev
-pixelmon.dev.join=has joined.
+pixelmon.dev.name=Pixelmon開発
+pixelmon.dev.join=が参加した。
 
 #
 # Pixelmon config settings.
@@ -10083,7 +10118,32 @@ pixelmon.config.Gen7.comment=ぜんこくずかん 722-807
 pixelmon.config.Gen8=第八世代
 pixelmon.config.Gen8.comment=ぜんこくずかん 810-890
 
+pixelmon.time.dawn=夜明け
+pixelmon.time.morning=朝
+pixelmon.time.day=午前
+pixelmon.time.midday=真昼
+pixelmon.time.afternoon=午後
+pixelmon.time.dusk=夕暮れ
+pixelmon.time.night=夜
+pixelmon.time.midnight=真夜中
+
+weather.clear=晴れ
+weather.rain=雨
+weather.storm=嵐
+
 potion.repel=むしよけスプレー
 pixelmon.type:null.name=タイプ:ヌル
 pixelmon.type:null.description=おもい せいぎょマスクを つけており ほんらいの のうりょくを だせない。 とくべつな ちからを ひめている。
+pixelmon.command.heal.permissionother=他の誰かを癒す許可がありません。
+pixelmon.items.azure.fail=てんかいのふえが中空に響いた…
+pixelmon.blocks.plate.fail=このプレートのエネルギーはもう与えられている!
+pixelmon.blocks.plate.add=%s プレートが残っている!
+pixelmon.items.alreadyhave=もうアンロックされている!
+
+gui.pokemoneditor.copy=コピー
+gui.pokemoneditor.paste=貼り付け
+gui.nursejohn.name=ドクタージョン
+gui.badgecase.register=登録
+trainer.model.lass=ショートの女の子
+key.trainercard=トレーナーカードを開く
 
