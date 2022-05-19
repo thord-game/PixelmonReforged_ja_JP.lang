@@ -99,7 +99,9 @@ item.tres_orb.name=炎のオーブ
 item.orb.name=オーブ
 item.item_finder.name=ダウジングマシン
 item.zygarde_cube.name=ジガルデキューブ
-
+item.gaebolg.name=ゲイボルグ
+item.gaebolg.tooltip=もし見つけたら、クーフーリンに返してください
+item.ui_element.name=UI要素
 item.den_spawner.name=ポケモンの巣穴
 item.armorite_ore.name=ヨロイこうせき
 item.dynite_ore.name=マックスこうせき
@@ -677,15 +679,15 @@ item.durin_berry.name=ドリのみ
 item.belue_berry.name=ベリブのみ
 
 item.komala_coffee.name=グランブルマウンテン
-
+item.komala_coffee.tooltip=HPを100回復する。
 item.tapu_cocoa.name=エネココア
-
+item.tapu_cocoa.tooltip=HPを150回復する。
 item.pinap_juice.name=パイルジュース 
-
+item.pinap_juice.tooltip=HPを100回復する。
 item.roserade_tea.name=ロズレイティー
-
+item.roserade_tea.tooltip=HPを100回復する。
 item.skitty_smoothie.name=モーモーミルク
-
+item.skitty_smoothie.tooltip=HPを150回復する。
 item.rare_soda.name=ミラクルソーダ
 item.rare_soda.tooltip=ポケモンのレベルが2あがる。
 item.ultra_rare_soda.name=ワンダフルソーダ
@@ -707,14 +709,16 @@ item.colorful_shake.tooltip=なつき度が上昇する
 item.perilous_soup.name=デンジャースープ
 item.perilous_soup.tooltip=努力値が0に初期化される
 item.sweet_heart.name=ハートスイーツ
+item.sweet_heart.tooltip=HPを20回復する。
 
 item.heal_powder.name=ばんのうごな
-
+item.heal_powder.tooltip=とてもにがい粉薬。ポケモン1匹の状態の異常をすべて回復する。
 item.energy_powder.name=ちからのこな
-
+item.energy_powder.tooltip=とてもにがい粉薬。ポケモン1匹のHPを60だけ回復する。
 item.energy_root.name=ちからのねっこ
-
+item.energy_root.tooltip=とてもにがいねっこ。ポケモン1匹のHPを120だけ回復する。
 item.revival_herb.name=ふっかつそう
+item.revival_herb.tooltip=とてもにがい薬草。ひんしのポケモン1匹のHPをすべて回復する。
 
 item.grotto_spawner.name=隠し穴出現機
 item.black_apricorn.name=黒ぼんぐり
@@ -1028,10 +1032,11 @@ item.blunder_policy.tooltip=命中率によって技がはずれたとき素早�
 item.protective_pads.name=ぼうごパット
 item.protective_pads.tooltip=攻撃する相手にさわって受ける効果を受けないようにする。
 item.adamant_orb.name=こんごうだま
-
+item.adamant_orb.tooltip=ディアルガに持たせるとドラゴンとはがねタイプの技の威力があがる光り輝く珠。
 item.lustrous_orb.name=しらたま
-
+item.lustrous_orb.tooltip=パルキアに持たせるとドラゴンとみずタイプの技の威力があがる美しく輝く珠。
 item.griseous_orb.name=はっきんだま
+item.griseous_orb.tooltip=ギラティナに持たせるとドラゴンとゴーストタイプの技の威力があがる光り輝く珠。
 
 item.full_incense.name=まんぷくおこう
 
@@ -1195,6 +1200,7 @@ item.pinkbadgecase.name=ピンクのバッジケース
 item.bluebadgecase.name=あおいバッジケース
 item.redbadgecase.name=あかいバッジケース
 item.yellowbadgecase.name=きいろのバッジケース
+item.badgecase.tooltip=さまざまなバッジを保管します。バッジケースを最初に作成した時に、GUIの上部にある登録ボタンをクリックしてバッジケースを登録します。
 
 item.rage_candy_bar.name=いかりまんじゅう
 item.rage_candy_bar.tooltip=チョウジタウン名物のまんじゅう。ポケモン1匹の状態異常をすべて回復する。
@@ -1233,7 +1239,7 @@ tile.master_chest.name=マスターチェスト
 tile.beast_chest.name=ウルトラチェスト
 
 tile.cooking_pot.name=調理器具
-
+tile.cooking_pot.tooltip=きのみを入れて、火打石と打ち金で点火します！ファンでかき混ぜます。
 tile.bench.name=オークのベンチ
 tile.dark_oak_bench.name=ダークオークのベンチ
 tile.birch_bench.name=しらかばのベンチ
@@ -2055,6 +2061,7 @@ item.pokemail_tropic.name=トロピカルメール
 item.pokemail_tunnel.name=トンネルメール
 item.pokemail_wave.name=クロスメール
 item.pokemail_wood.name=ウッディメール
+item.mail.tooltip=本と羽根ペンのように、プレイヤーが書かれたメッセージが含まれています。
 
 item.pokeGift.name=ポケギフト
 item.amethyst.name=アメジスト
@@ -2194,30 +2201,31 @@ item.dusk_stone_boots.name=闇の石のブーツ
 
 tile.picket_fence.name=杭柵
 item.meteorite.name=いんせき
-
+item.meteorite.tooltip=流星の滝に落ちてきた宇宙の石。ゴツゴツしていて硬い。
 item.gracidea.name=グラシデアのはな
-
+item.gracidea.tooltip=誕生日や記念日などに感謝の気持ちを伝えるためブーケにして贈ることがある。
 item.reveal_glass.name=うつしかがみ
-
-item.prison_bottle.name=いましめのつぼ
-
+item.reveal_glass.tooltip=真実を映しだすことでポケモンを本来の姿に変えてしまう不思議な鏡。
+item.prison_bottle.name=いましめのツボ
+item.prison_bottle.tooltip=大昔にとあるポケモンの力を封じ込めたとされるツボ。
 item.burn_drive.name=ブレイズカセット
-
+item.burn_drive.tooltip=ゲノセクトに持たせるとテクノバスターという技がほのおタイプになるカセット。
 item.chill_drive.name=フリーズカセット
-
+item.chill_drive.tooltip=ゲノセクトに持たせるとテクノバスターという技がこおりタイプになるカセット。
 item.douse_drive.name=アクアカセット
-
+item.douse_drive.tooltip=ゲノセクトに持たせるとテクノバスターという技がみずタイプになるカセット。
 item.shock_drive.name=イナズマカセット
-
+item.shock_drive.tooltip=ゲノセクトに持たせるとテクノバスターという技がでんきタイプになるカセット。
 item.red_chain.name=あかいくさり
-
+item.red_chain.tooltip=シンオウ地方をうみだした伝説のポケモンをつなぐといわれる神話の道具。
 item.red_chain_shard.name=あかいくさりのかけら
-
-item.ruby_azelf.name=いしのルビー
-
-item.ruby_mesprit.name=かんじょうのルビー
-
-item.ruby_uxie.name=ちしきのルビー
+item.red_chain_shard.tooltip=長い間忘れられていたくさりのかけら
+item.ruby_azelf.name=意思のルビー
+item.ruby_azelf.tooltip=意思の神 アグノムに認められた証。あかいくさりをつくるために必要。
+item.ruby_mesprit.name=感情のルビー
+item.ruby_mesprit.tooltip=感情の神エムリットに認められた証。あかいくさりをつくるために必要。
+item.ruby_uxie.name=知識のルビー
+item.ruby_uxie.tooltip=知識の神ユクシーに認められた証。あかいくさりをつくるために必要。
 
 item.abomasite.name=ユキノオナイト
 
@@ -2314,16 +2322,16 @@ item.tyranitarite.name=バンギラスナイト
 item.venusaurite.name=フシギバナイト
 
 item.repel.name=むしよけスプレー 
-
+item.repel.tooltip=使うと少しのあいだ弱い野生のポケモンがまったくでてこなくなる。
 item.repel.apply=スプレーを使用した! 野生のポケモンと遭遇しにくくなった。
 item.repel.applyextended=再度スプレーを使用した!
 item.repel.expire=スプレーの効果が切れた。
 item.super_repel.name=シルバースプレー
-
+item.super_repel.tooltip=弱い野生のポケモンがまったくでてこなくなる。むしよけスプレーより長く効く。
 item.max_repel.name=ゴールドスプレー
-
+item.max_repel.tooltip=弱い野生のポケモンがまったくでてこなくなる。シルバースプレーより長く効く。
 item.dna_splicers.name=いでんしのくさび
-
+item.dna_splicers.tooltip=元はひとつだったといわれるキュレムとあるポケモンを合体させる一対のくさび。
 item.porygon_piece.name=ポリゴン
 item.porygon_piece_head.name=ポリゴンの頭
 item.porygon_piece_body.name=ポリゴンの体
@@ -2332,25 +2340,25 @@ item.porygon_piece_tail.name=ポリゴンの尻尾
 item.ultra_deep_sea_key.name=ウルトラディープシーキー
 item.ultra_forest_key.name=ウルトラフォレストキー
 item.strange_souvenir.name=ふしぎなおきもの
-
+item.strange_souvenir.tooltip=古くから守り神とされる不思議なポケモンをかたどった置物。
 item.n_lunarizer.name=ネクロプラスルナ
-
+item.n_lunarizer.tooltip=光を必要とするネクロズマとルナアーラを合体させるためのマシン。
 item.n_solarizer.name=ネクロプラスソル
-
+item.n_solarizer.tooltip=光を必要とするネクロズマとソルガレオを合体させるためのマシン。
 item.ultra_ruin_key.name=ウルトラビルディングキー
 item.eye_of_lugia.name=ルギアのめ
-
+item.eye_of_lugia.tooltip=目の形をした水晶の球
 item.reins_of_unity.name=キズナのタヅナ
-
+item.reins_of_unity.tooltip=人が王に献上していたタヅナ。豊穣の力を増幅しバドレックスと愛馬を合体させる。
 item.rusted_sword.name=くちたけん
-
+item.rusted_sword.tooltip=大昔の英雄が災厄を討ち払ったと伝えられる剣だがいまはさびてボロボロになっている。
 item.rusted_shield.name=くちたたて
-
+item.rusted_shield.tooltip=大昔の英雄が災厄を討ち払ったと伝えられる盾だがいまはさびてボロボロになっている。
 item.scroll_of_waters.name=みずのかけじく
-
+item.scroll_of_waters.tooltip=みずの教えが刻まれた巻物。ダクマに見せると進化します。
 item.scroll_of_darkness.name=あくのかけじく
-
-item.scroll_custom.name=Big Banner
+item.scroll_of_darkness.tooltip=あくの教えが刻まれた巻物。ダクマに見せると進化します。
+item.scroll_custom.name=おおきなかけじく
 tile.scroll_of_waters.name=みずのかけじく
 tile.scroll_of_darkness.name=あくのかけじく
 item.key_stone.name=キーストーン
@@ -2541,6 +2549,8 @@ item.mint.sassy.name=なまいきミント
 item.mint.careful.name=しんちょうミント
 
 item.mint_seeds.name=ミントの挿し木
+
+tile.mint_crop.name=ミントの収穫
 
 tile.braille_block.A.name=点字ブロック A
 tile.braille_block.B.name=点字ブロック B
@@ -4939,6 +4949,8 @@ pixelmon.empoleon.name=エンペルト
 pixelmon.empoleon.description=プライドを きずつける ものは りゅうひょうをも せつだんする つばさで まっぷたつに する。
 pixelmon.entei.name=エンテイ
 pixelmon.entei.description=エンテイが ほえると せかいの どこかの かざんが ふんかすると いわれている。
+pixelmon.enamorus.name=ラブトロス
+pixelmon.enamorus.description=海を越えて飛来したらば厳しき冬の終わりを知る。慈愛がヒスイの地に新しき命芽吹かせるとの伝承あり。
 pixelmon.escavalier.name=シュバルゴ
 pixelmon.escavalier.description=チョボマキから うばった カラで からだを おおい ガードしながら 2ほんの ヤリで ついてくる。
 pixelmon.espeon.name=エーフィ
@@ -6956,6 +6968,15 @@ pixelmon.command.reloadquests=クエストをリロードした!
 pixelmon.command.reloadquests.notify=%s はクエストをリロードした。
 pixelmon.command.reloadquests.failed=クエストのリロードに失敗しました！ 詳細についてはログを確認してください。
 
+#Set raid command
+pixelmon.command.setraid=巣穴の %s を %s に設定しました。
+pixelmon.command.setraid.notify=%s は %s をスポーンさせました。
+pixelmon.command.setraid.noden=巣穴が見つかりません。
+argument.coordinate.invalid=座標の使用が無効です!
+argument.world.notfound=世界が見つかりません。
+argument.species.notfound=種族が見つかりません。
+argument.raidstars.invalid=raidstarsの使用が無効です。!
+
 #Cosmetics
 pixelmon.cosmetic.hat=ぼうし
 pixelmon.cosmetic.hat.none=なし
@@ -7957,7 +7978,7 @@ gui.battlerules.description.fullheal=バトル開始時に全てのポケモン�
 
 gui.battlerules.clauses=条件
 gui.battlerules.selectedclauses=選択された条件
-
+gui.battlerules.pokemon=種族の条件
 gui.battlerules.bag=バッグの条件
 gui.battlerules.batonpass=バトンタッチの条件
 gui.battlerules.batonpass1=バトンタッチ1の条件
@@ -8928,7 +8949,7 @@ tile.yellow_water_float.name=黄色いウォーターフロート
 tile.shrineuno.name=氷の神社
 tile.shrinedos.name=電気の神社
 tile.shrinetres.name=炎の神社
-tile.ilex_shrine.name=モチノキの神社
+tile.ilex_shrine.name=ウバメの神社
 tile.ruins_wall.name=廃墟の壁
 tile.dusty_ruins_wall.name=ほこりっぽい廃墟の壁
 tile.poke_grass.name=ポケ草
@@ -9806,7 +9827,7 @@ pixelmon.effect.thief=%s は %s から %s を奪い取った!
 pixelmon.effect.celebrate=おめでとう %s!
 pixelmon.effect.addtype=%s タイプが %s に追加された!
 pixelmon.effect.geomancy=%s はパワーを溜め込んでいる!
-pixelmon.effect.restorehealth=%s は健康を回復した!
+pixelmon.effect.restorehealth=%s はHPを回復した!
 pixelmon.effect.happyhour=みんながハッピーな気分に包まれた!
 pixelmon.effect.topsyturvy=%s の能力変化はひっくりかえされた!
 pixelmon.effect.auroraveil.raised=%s はオーロラベールで物理と特殊に強くなった!
@@ -9877,7 +9898,7 @@ pixelmon.status.recharging=%s は力をためている!
 pixelmon.status.reflectoff=%s のリフレクターは無くなった!
 pixelmon.status.safeguardoff=%s のしんぴのまもりは無くなった!
 pixelmon.status.sandstormsubside=すなあらしがおさまった。
-pixelmon.status.sandstormrage=すなあらしが吹き始めた!
+pixelmon.status.sandstormrage=すなあらしが吹いている!
 pixelmon.effect.spectralthief=%s のステータス変更が奪われた!
 pixelmon.status.buffetedbysandstorm=すなあらしが %s を襲う!
 pixelmon.status.wokeup=%s が目をさました!
@@ -9889,7 +9910,7 @@ pixelmon.status.hurtbysharpsteel=%s にとがったはがねが食いこんだ!
 pixelmon.status.substitutedamage=%s にかわってみがわりが攻撃を受けた!
 pixelmon.status.substitutefade=%s のみがわりは消えてしまった…
 pixelmon.status.sunlightfaded=ひざしが弱まった。
-pixelmon.status.brightlight=ひざしが強くなった!
+pixelmon.status.brightlight=ひざしが強い!
 pixelmon.status.toxicspikesabsorbed=どくびしがばらまかれた!
 pixelmon.status.toxicspikespoisoned=どくびしで %s はどくになった!
 pixelmon.status.toxicspikesbadlypoisoned=どくびしで %s はもうどくになった!
