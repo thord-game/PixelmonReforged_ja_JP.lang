@@ -13,7 +13,7 @@ Pixelmon Reforgedは2022年5月より、Minecraftバージョン1.12.2に対応�
 PixelmonReforged_ja_JP.lang/Minecraft-v1.12.2_PixelmonReforged-v8/ja_JP.lang をダウンロードし、
 Pixelmon-1.12.2-8.4.2-universal.jarを7zipで開き、assets\pixelmon\lang\ja_JP.lang にコピーします。
 
-導入方法は以下URL参照
+導入方法は以下の動画を参照
 
 https://www.youtube.com/watch?v=p78Lv_xasjc&t=3s
 
@@ -32,6 +32,11 @@ PixelmonReforged_ja_JP.lang/Minecraft-v1.16.5_PixelmonReforged-v9/en_us.json を
 Pixelmon-1.16.5-9.0.1-universal.jarを7zipで開き、assets\pixelmmon\lang\en_us.json にコピーします。
 
 Pixelmon Reforged v9.0.0 - v9.0.1 に対応。
+
+
+導入方法は以下の動画を参照
+
+https://www.youtube.com/watch?v=3s85Ydo0h2U
 
 より新しいバージョンが出た場合、英語ファイルをそのまま置き換える都合上、新しい項目は表示がバグります。
 
