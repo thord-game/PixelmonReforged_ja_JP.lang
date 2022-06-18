@@ -24,19 +24,14 @@ Pixelmon Reforged v8.4.2まで対応している。
 
 ## Minecraft v1.16.5 Pixelmon Reforged v9.0.2
 
-現時点では、Minecraftの言語設定を利用した英語->日本語の変更ができません。
+PixelmonReforged_ja_JP.lang/Minecraft-v1.16.5_PixelmonReforged-v9/ja_jp.json をダウンロードし、
+Pixelmon-1.16.5-9.0.2-universal.jarを7zipで開き、assets\pixelmmon\lang\ja_jp.json にコピーします。
 
-そのため、英語ファイルを日本語ファイルで上書きします。
-
-PixelmonReforged_ja_JP.lang/Minecraft-v1.16.5_PixelmonReforged-v9/en_us.json をダウンロードし、
-Pixelmon-1.16.5-9.0.2-universal.jarを7zipで開き、assets\pixelmmon\lang\en_us.json にコピーします。
-
-Pixelmon Reforged v9.0.0 - v9.0.2 に対応。
-
+Pixelmon Reforged v9.0.2 まで対応。
 
 導入方法は以下の動画を参照
 
 https://www.youtube.com/watch?v=3s85Ydo0h2U
 
-より新しいバージョンが出た場合、英語ファイルをそのまま置き換える都合上、新しい項目は表示がバグります。
 
+なお、v9.0.1まではMinecraftの言語設定を利用した英語->日本語の変更ができなかったため、英語ファイル en_us.json の中身を日本語にし、上書きすることで日本語化します。
