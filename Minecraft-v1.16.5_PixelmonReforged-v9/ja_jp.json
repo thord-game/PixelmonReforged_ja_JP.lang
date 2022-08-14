@@ -8324,7 +8324,7 @@
     "item.pixelmon.copper_hourglass": "銅の砂時計",
     "item.pixelmon.copper_hourglass.tooltip": "預かり機のポケモンの条件を1つスキップする!",
     "item.pixelmon.silver_hourglass": "銀の砂時計",
-    "item.pixelmon.silver_hourglass.tooltip": "預かり機のポケモンの時間を25%スキップする!",
+    "item.pixelmon.silver_hourglass.tooltip": "預かり機のポケモンの時間を25%%スキップする!",
     "item.pixelmon.gold_hourglass": "金の砂時計",
     "item.pixelmon.gold_hourglass.tooltip": "預かり機のポケモン1つの全ての条件と時間を完了する!",
     "item.pixelmon.diamond_hourglass": "ダイヤモンドの砂時計",
