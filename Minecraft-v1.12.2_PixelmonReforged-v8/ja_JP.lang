@@ -1062,6 +1062,7 @@ item.wave_incense.tooltip=不思議な 香りの 御香。持たせると みず
 item.incense_burner.name=おこう
 item.incense_burner.tooltip=インフューザーでさまざまなお香を作成するのに使う
 
+
 item.bug_gem.name=むしのジュエル
 item.bug_gem.tooltip=むしタイプの ジュエル。 持たせると 1度だけ むしの 技の 威力が 1.3倍に強まる。クリスタルブロックにタンガのみを注入して作成する。
 item.dark_gem.name=あくのジュエル
@@ -4330,6 +4331,7 @@ attack.strange_steam.description=煙を噴出して相手を攻撃。混乱さ�
 attack.steel_beam.name=てっていこうせん
 attack.steel_beam.description=全身から集めたはがねをビームとして激しく撃ちだす。自分もダメージを受けてしまう。
 
+
 #Z-Moves
 
 attack.breakneck_blitz.name=ウルトラダッシュアタック
@@ -4403,6 +4405,7 @@ attack.light_that_burns_the_sky.description=ネクロズマが 相手の 特性�
 attack.soul-stealing_7-star_strike.name=しちせいだっこんたい
 attack.soul-stealing_7-star_strike.description=Zパワーを 得た マーシャドーが パンチと キックの 連続技を 全力で 相手に 叩き込む。
 
+
 # Max Moves
 
 attack.max_flare.name=ダイバーン
@@ -4443,6 +4446,7 @@ attack.max_steelspike.name=ダイスチル
 attack.max_steelspike.description=ダイマックスしたポケモンが繰りだすはがねタイプの攻撃。味方の防御を上げる。
 attack.max_guard.name=ダイウォール
 attack.max_guard.description=相手の攻撃をまったく受けない。連続で出すと失敗しやすい。
+
 
 # G-Max Moves
 
@@ -6800,6 +6804,7 @@ pixelmon.spheal.form.gsball=GSボール
 pixelmon.spheal.form.gsball.descroption=このけがわのパターンはひじょうにまれです。かがくしゃはほんのひとにぎりのれいしかきろくしていません。
 pixelmon.basculin.form.white=しろすじのすがた
 
+
 pixelmon.snorlax.form.snow=ゆき
 pixelmon.snorlax.form.normal=ノーマル
 pixelmon.solgaleo.form.normal=ノーマル
@@ -6906,6 +6911,15 @@ pixelmon.amoonguss.form.red=あか
 pixelmon.amoonguss.form.white=しろ
 pixelmon.amoonguss.form.yellow=きいろ
 
+
+
+
+
+
+
+
+
+
 pixelmon.burning_salt.form.normal=ノーマル
 pixelmon.burning_salt.form.copper_sulfate=えんかどう
 pixelmon.burning_salt.form.cupric_chloride=えんかだいにどう
@@ -6957,6 +6971,7 @@ pixelmon.generic.form.crystal.mega=メガクリスタル
 
 pixelmon.generic.form.zombiex=メガXゾンビ
 pixelmon.generic.form.zombiey=メガYゾンビ
+
 
 pixelmon.shearable.form.normal=ノーマル
 pixelmon.shearable.form.shorn=とげ
@@ -7150,6 +7165,7 @@ argument.coordinate.invalid=座標の使用が無効です!
 argument.world.notfound=世界が見つかりません。
 argument.species.notfound=種族が見つかりません。
 argument.raidstars.invalid=raidstarsの使用が無効です。!
+
 
 #Cosmetics
 pixelmon.cosmetic.hat=ぼうし
@@ -7702,6 +7718,7 @@ pixelmon.ranch.hourglass.alreadyhasegg=もうタマゴがあるよ!
 #   For instance "gui.guiEvolve.done" doesn't say done; it says
 #   "Your $p evolved into a $n"
 #
+#
 #   In here you will notice some symbols like $p and $n.
 #   "$p" refers to your Pokémon or a Pokémon in general when
 #   there is only one being referenced in that line.
@@ -7766,6 +7783,7 @@ gui.pokedex.spawning.weather1=during
 gui.pokedex.spawning.weather2=または
 gui.pokedex.spawning.above=より上 y=
 gui.pokedex.spawning.below=より下 y=
+
 
 gui.pokedexoptions.done=完了
 gui.pokedexoptions.options=設定
@@ -10440,10 +10458,386 @@ pixelmon.dev.join=が参加した。
 # Keys that end with .tooltip are category's tooltips used in-game instead of the .comment's
 #
 
+
 #
 # Config Category's
 #
 pixelmon.config.title=Pixelmon Config
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #
 # Spawning.Gens Category
@@ -10465,9 +10859,924 @@ pixelmon.config.Gen7.comment=ぜんこくずかん 722-807
 pixelmon.config.Gen8=第八世代
 pixelmon.config.Gen8.comment=ぜんこくずかん 810-890
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ribbon.none.description=上のリボンを選択してください
 ribbon.none.name=リボンが選択されていません
 ribbon.none.title=%s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 pixelmon.time.dawn=夜明け
 pixelmon.time.morning=朝
@@ -10544,7 +11853,7 @@ quest.ui.hide=非表示
 quest.ui.abandon=中止
 quest.ui.abandoncheck=いいですか?
 
-quest.catch_shiny.name=色違いたち
+quest.catch_shiny.name=色違い
 quest.catch_shiny.desc-10=?NAME? は珍しい色違いのポケモンを捕まえて欲しい。
 quest.catch_shiny.desc-20=色違いのポケモンを捕まえた、?NAME? に見せよう!
 quest.catch_shiny.desc-x=色違いのポケモンを捕まえ、報酬にでかいきんのたまをもらった!
@@ -10556,7 +11865,7 @@ quest.catch_shiny.accepted=すばらしい! お返事お待ちしています。
 quest.catch_shiny.rejected=残念です、またの機会に。
 quest.catch_shiny.stage-10-0=色違いのポケモンを捕まえる
 quest.catch_shiny.stage-20-0=?NAME? のところへ戻る
-quest.catch_shiny.end=すばらしい色違いを見せてくれてありがとう! さあ、これを持っていって!
+quest.catch_shiny.end=すばらしい 色違いを 見せてくれて ありがとう! さあ、 これを持っていって!
 quest.catch_shiny.goodbye=さようなら
 
 quest.catch_15.name=捕獲専門家: ?SPEC_T?
@@ -10574,7 +11883,7 @@ quest.catch_15.stage-20-0=?NAME? のところへ戻る
 quest.catch_15.end=すばらしい ?SPEC_T? タイプたちを見せてくれてありがとう! さあ、これを持っていって!
 quest.catch_15.goodbye=さようなら
 
-quest.defeat_5_specific.name=ポケモン図鑑うめ
+quest.defeat_5_specific.name=ポケモン図鑑の更新
 quest.defeat_5_specific.desc-10=?NAME? はたくさんの種類のポケモンを倒して欲しい。
 quest.defeat_5_specific.desc-20=充分なポケモンを倒した、?NAME? に見せよう!
 quest.defeat_5_specific.desc-x=充分なポケモンを倒し、報酬にふしぎなアメをもらった!
@@ -10638,7 +11947,7 @@ quest.mine_20_diamonds.stage-20-0=?NAME? のところへ戻る
 quest.mine_20_diamonds.end=ダイヤモンドを見せてくれてありがとう!さあ、これを持っていって!
 quest.mine_20_diamonds.goodbye=さようなら
 
-quest.mine_50_redstone.name=レッドストーンの力
+quest.mine_50_redstone.name=レッドストーンのちから
 quest.mine_50_redstone.desc-10=?NAME? はたくさんのレッドストーンを掘ってほしい。
 quest.mine_50_redstone.desc-20=充分なレッドストーンを掘った、 ?NAME? に見せよう!
 quest.mine_50_redstone.desc-x=充分なレッドストーンを見つけ, 報酬に'イエローストーン'をもらった!
@@ -10689,6 +11998,81 @@ quest.defeat_250.stage-20-0=?NAME? のところへ戻る
 quest.defeat_250.end=すばらしいスキル! さあ、これを持っていって!
 quest.defeat_250.goodbye=さようなら
 
+quest.find_fortress.name=異次元への道
+quest.find_fortress.desc-10=?NAME? はネザー要塞を見つけて欲しい。
+quest.find_fortress.desc-20=ネザー要塞を見つけた、?NAME? にその全てを語ろう!
+quest.find_fortress.desc-x=ネザー要塞を見つけ、報酬に金リンゴをもらった!
+quest.find_fortress.npcname=?NAME?
+quest.find_fortress.start=ネザー要塞を見つけて、後で教えてもらえますか?
+quest.find_fortress.startyes=いいですよ!
+quest.find_fortress.startno=少し忙しいです…
+quest.find_fortress.accepted=すばらしい、終わったら教えてください!
+quest.find_fortress.rejected=残念です、またの機会に。
+quest.find_fortress.stage-10-0=ネザー要塞を見つける
+quest.find_fortress.stage-20-0=?NAME? のところへ戻る
+quest.find_fortress.end=いろいろ教えてくれてありがとう、さあ、これを持っていって!
+quest.find_fortress.goodbye=さようなら
+
+quest.find_pyramid.name=ピラミッドへ走れ
+quest.find_pyramid.desc-10=?NAME? はピラミッドを見つけて欲しい。
+quest.find_pyramid.desc-20=ピラミッドを見つけた、?NAME? にその全てを語ろう!
+quest.find_pyramid.desc-x=ネザー要塞を見つけ、報酬に光る棒をもらった!
+quest.find_pyramid.npcname=?NAME?
+quest.find_pyramid.start=ピラミッドを見つけて、後で教えてもらえますか?
+quest.find_pyramid.startyes=いいですよ!
+quest.find_pyramid.startno=少し忙しいです…
+quest.find_pyramid.accepted=すばらしい、終わったら教えてください!
+quest.find_pyramid.rejected=残念です、またの機会に。
+quest.find_pyramid.stage-10-0=ピラミッドを見つける
+quest.find_pyramid.stage-20-0=?NAME? のところへ戻る
+quest.find_pyramid.end=いろいろ教えてくれてありがとう、さあ、これを持っていって!
+quest.find_pyramid.goodbye=さようなら
+
+quest.find_stronghold.name=深淵をみる眼
+quest.find_stronghold.desc-10=?NAME? はエンド要塞を見つけて欲しくて、あなたにエンターアイを渡した。
+quest.find_stronghold.desc-20=エンド要塞を見つけた、?NAME? にその全てを語ろう!
+quest.find_stronghold.desc-x=エンド要塞を見つけ、報酬にポケモンではないタマゴをもらった!
+quest.find_stronghold.npcname=?NAME?
+quest.find_stronghold.start=伝説のエンド要塞を見つけて、後で教えてもらえますか?
+quest.find_stronghold.startyes=いいですよ!
+quest.find_stronghold.startno=少し忙しいです…
+quest.find_stronghold.accepted=すばらしい、終わったら教えてください!
+quest.find_stronghold.rejected=残念です、またの機会に。
+quest.find_stronghold.stage-10-0=エンド要塞を見つける
+quest.find_stronghold.stage-20-0=?NAME? のところへ戻る
+quest.find_stronghold.end=いろいろ教えてくれてありがとう、さあ、これを持っていって!
+quest.find_stronghold.goodbye=さようなら
+
+quest.visit_end.name=おしまい?
+quest.visit_end.desc-10=?NAME? はエンドを旅して欲しい。
+quest.visit_end.desc-20=エンドを訪れた、?NAME? にその全てを語ろう!
+quest.visit_end.desc-x=エンドを訪れ、報酬により自由に旅する手段をもらった!
+quest.visit_end.npcname=?NAME?
+quest.visit_end.start=エンドを訪れて、後で教えてもらえますか?
+quest.visit_end.startyes=いいですよ!
+quest.visit_end.startno=少し忙しいです…
+quest.visit_end.accepted=すばらしい、終わったら教えてください!
+quest.visit_end.rejected=残念です、またの機会に。
+quest.visit_end.stage-10-0=エンドを訪れる
+quest.visit_end.stage-20-0=?NAME? のところへ戻る
+quest.visit_end.end=いろいろ教えてくれてありがとう、さあ、これを持っていって!
+quest.visit_end.goodbye=さようなら
+
+quest.visit_nether.name=さらなる深みへ
+quest.visit_nether.desc-10=?NAME? はネザーを旅して欲しい。
+quest.visit_nether.desc-20=ネザーを訪れた、?NAME? にその全てを語ろう!
+quest.visit_nether.desc-x=ネザーを訪れ、報酬に別のポータルの素材をもらった!
+quest.visit_nether.npcname=?NAME?
+quest.visit_nether.start=ネザーを訪れて、後で教えてもらえますか?
+quest.visit_nether.startyes=いいですよ!
+quest.visit_nether.startno=少し忙しいです…
+quest.visit_nether.accepted=すばらしい、終わったら教えてください!
+quest.visit_nether.rejected=残念です、またの機会に。
+quest.visit_nether.stage-10-0=ネザーを訪れる
+quest.visit_nether.stage-20-0=?NAME? のところへ戻る
+quest.visit_nether.end=いろいろ教えてくれてありがとう、さあ、これを持っていって!
+quest.visit_nether.goodbye=さようなら
+
 quest.visit_ultra_space.name=星間
 quest.visit_ultra_space.desc-10=ウルトラ調査隊 ?NAME? はウルトラスペースを旅して欲しい。
 quest.visit_ultra_space.desc-20=ウルトラスペースを訪れた! ウルトラ調査隊 ?NAME? にその全てを話そう!
@@ -10728,7 +12112,7 @@ quest.craft_pc.desc-x=PCを作り、パーティを入れ替えれるように�
 quest.craft_pc.stage-10-0=PCを作る
 quest.craft_pc.message=§6PCを作った!
 
-quest.craft_poke_ball.name=カートの足跡
+quest.craft_poke_ball.name=ガンテツの足跡
 quest.craft_poke_ball.desc-10=ポケモントレーナーの最初のステップはモンスターボールを作ることです! パーティが組めません。
 quest.craft_poke_ball.desc-x=モンスターボールを作り、新しいポケモンと仲良くなる準備ができた。
 quest.craft_poke_ball.stage-10-0=モンスターボールを作る
@@ -10746,37 +12130,318 @@ quest.defeat_a_pokemon.desc-x=ポケモンをうまく鍛えた! バトルで負
 quest.defeat_a_pokemon.stage-10-1=# 体の ?SPEC_T? タイプのポケモンを倒す
 quest.defeat_a_pokemon.message=§6特定のタイプのポケモンを3体倒した!
 
-quest.find_master_ball.name=Pinnacle of Silph Co.
-quest.find_master_ball.desc-10=Having made Ultra Balls, it is time to venture out and discover the most powerful of them all, the Master Ball!
-quest.find_master_ball.desc-x=You successfully found a Master Ball, ready to be used to befriend legendary beings of extraordinary strength.
-quest.find_master_ball.stage-10-0=Find a Master Ball
-quest.find_master_ball.message=§6You have found a Master Ball!
+quest.find_master_ball.name=シルフカンパニーの頂点
+quest.find_master_ball.desc-10=ハイパーボールが作れたら、冒険に出て最も強いマスターボールを見つける時です!
+quest.find_master_ball.desc-x=マスターボールを見つけることに成功し、並外れた強さを持つ伝説の存在と友達になるための準備が整った！
+quest.find_master_ball.stage-10-0=マスターボールを見つける
+quest.find_master_ball.message=§6マスターボールを見つけた！
+
+quest.find_village.name=村のルーツ
+quest.find_village.desc-0=住む村を 見つけることは 常に いいスタートです。 成功するには ポケモンセンターの サービスが 必要です!
+quest.find_village.desc-x=村を見つけることに成功した
+quest.find_village.stage-0-0=村を見つる
+quest.find_village.message=§6村を見つけた!
+
+quest.heal_team.name=衛生兵!
+quest.heal_team.desc-10=手持ちの ポケモンを 回復したいと 思うなら、 ポケモンセンターに 向かいましょう!
+quest.heal_team.desc-x=あなたのパーティを完全に回復することに成功した
+quest.heal_team.stage-10-0=回復装置を使う
+quest.heal_team.message=§6パーティを回復した!
+
+quest.open_pc.name=インターネット・エクスプローラー
+quest.open_pc.desc-10=パーティを 管理するには、 PCに アクセスする 必要があります。 試してみよう!
+quest.open_pc.desc-x=PCに アクセスし、 パーティを 管理した
+quest.open_pc.stage-10-0=PCを使う
+quest.open_pc.message=§6PCを開いた!
+
+quest.pick_apricorn.name=収穫の始まり
+quest.pick_apricorn.desc-10=荒野を 探索すると、 冒険に役立つ 多くの植物を 見つけることが できます
+quest.pick_apricorn.desc-x=赤ぼんぐりを 収穫し、 自分の モンスターボールを 作る準備が できました
+quest.pick_apricorn.stage-10-0=赤ぼんぐりを収穫する
+quest.pick_apricorn.message=§6赤ぼんぐりを収穫した!
+
+quest.talk_to_npc.name=地元の噂
+quest.talk_to_npc.desc-10=村の住民が 役立つ情報や タスクを 提供してくれるでしょう!
+quest.talk_to_npc.desc-x=地元の住民と 話した。 たぶん 彼らは 後でまた 助けてくれるでしょう!
+quest.talk_to_npc.stage-10-0=村人と話す
+quest.talk_to_npc.message=§6村人と話した!
+
+quest.zapdos.name=エレクトリックイーグル
+quest.zapdos.desc-10=魔法のオーブと サバンナの地の 滅多に見られない 電気の鳥についての 話を聞いたことが あります…
+quest.zapdos.desc-20=オーブに 雷の エッセンスを 注入する必要が あるようです…
+quest.zapdos.desc-30=オーブが 失った力を 取り戻すには、 あなたの 気概が 試されます…
+quest.zapdos.desc-40=オーブは エネルギッシュな草原にある 古代の神社を 探しています…
+quest.zapdos.desc-50=あなたは 目の前の 神社に 引き寄せられています…
+quest.zapdos.desc-60=サンダーを 捕まえた! ?NAME? に 知らせよう!
+quest.zapdos.desc-x=サンダーを 捕まえ、 語り部 ?NAME? に 貴重な情報を 提供した! 魅力的な 報酬として いくつかの キャンディーを もらった!
+quest.zapdos.npcname=語り部 ?NAME?
+quest.zapdos.start=この辺りでは 滅多に見かけない 伝説の ポケモンの話を、 ユーモアを 交えて ご紹介 しましょうか?
+quest.zapdos.startyes=是非に!
+quest.zapdos.startno=今は…
+quest.zapdos.rejected=残念です。 聞きたくなったら、 私まで 戻ってきてください!
+quest.zapdos.talka=素晴らしい! 歴史に残る前から、 伝説の鳥は 世界中で 知られていました。
+quest.zapdos.continuea=続けてください…
+quest.zapdos.talkb=時が経つにつれて、 記録は なくなりました。 目撃例は ほとんどなく、 100年以上 目撃されていません。
+quest.zapdos.continueb=興味深い…
+quest.zapdos.talkc=しかし、 私は 何かを 発見したのです! どうやら、エッセンスを定着できる珍しいオーブがあるようです。そのオーブを探してみてはいかがでしょうか。
+quest.zapdos.continuec=オーブ。 分かった!
+quest.zapdos.message.a=§eオーブに 雷の エッセンスを 注入する必要が あるようです…
+quest.zapdos.message.b=§eオーブが 失った力を 取り戻すには、 あなたの 気概が 試されます…
+quest.zapdos.message.c=§eオーブは エネルギッシュな草原にある 古代の神社を 探しています…
+quest.zapdos.message.d=§eあなたは 目の前の 神社に 引き寄せられています…
+quest.zapdos.message.e=§eサンダーを 捕まえた! 語り部 ?NAME? は 絶対に 見たいと 思うでしょう!
+quest.zapdos.end=新たに サンダーと 友達に なれたことを お祝いします! 他にも 見つけられるのを 待っている 珍しい伝説たちが いるのだろうか…
+quest.zapdos.stage-10-0=オーブを見つける
+quest.zapdos.stage-20-0=オーブに 雷を 注入する
+quest.zapdos.stage-30-0=# 体のポケモンを倒す
+quest.zapdos.stage-40-0=電気の神社を見つける
+quest.zapdos.stage-50-0=サンダーを捕まえる
+quest.zapdos.stage-60-0=語り部 ?NAME? のところへ戻る
+quest.zapdos.goodbye=さようなら
+
+quest.moltres.name=炎のような飛行
+quest.moltres.desc-10=魔法のオーブと 乾燥したメサの地の 滅多に見られない 鳥についての 話を聞いたことが あります…
+quest.moltres.desc-20=オーブに 火の エッセンスを 注入する必要が あるようです…
+quest.moltres.desc-30=オーブが 失った力を 取り戻すには、 あなたの 気概が 試されます…
+quest.moltres.desc-40=オーブは 灼熱の荒野にある 古代の神社を 探しています…
+quest.moltres.desc-50=あなたは 目の前の 神社に 引き寄せられています…
+quest.moltres.desc-60=ファイアーを 捕まえた! ?NAME? に 知らせよう!
+quest.moltres.desc-x=ファイアーを 捕まえ、 語り部 ?NAME? に 貴重な情報を 提供した! 魅力的な 報酬として いくつかの キャンディーを もらった!
+quest.moltres.npcname=語り部 ?NAME?
+quest.moltres.start=この辺りでは 滅多に見かけない 伝説の ポケモンの話を、 ユーモアを 交えて ご紹介 しましょうか?
+quest.moltres.startyes=是非に!
+quest.moltres.startno=今は…
+quest.moltres.rejected=残念です。 聞きたくなったら、 私まで 戻ってきてください!
+quest.moltres.talka=素晴らしい! 歴史に残る前から、 伝説の鳥は 世界中で 知られていました。
+quest.moltres.continuea=続けてください…
+quest.moltres.talkb=時が経つにつれて、 記録は なくなりました。 目撃例は ほとんどなく、 100年以上 目撃されていません。
+quest.moltres.continueb=興味深い…
+quest.moltres.talkc=しかし、 私は 何かを 発見したのです! どうやら、エッセンスを定着できる珍しいオーブがあるようです。そのオーブを探してみてはいかがでしょうか。
+quest.moltres.continuec=オーブ。 分かった!
+quest.moltres.message.a=§eオーブに 炎の エッセンスを 注入する必要が あるようです…
+quest.moltres.message.b=§eオーブが 失った力を 取り戻すには、 あなたの 気概が 試されます…
+quest.moltres.message.c=§eオーブは 灼熱の荒野にある 古代の神社を 探しています…
+quest.moltres.message.d=§eあなたは 目の前の 神社に 引き寄せられています…
+quest.moltres.message.e=§eファイアーを 捕まえた! 語り部 ?NAME? は 絶対に 見たいと 思うでしょう!
+quest.moltres.end=新たに ファイアーと 友達に なれたことを お祝いします! 他にも 見つけられるのを 待っている 珍しい伝説たちが いるのだろうか…
+quest.moltres.stage-10-0=オーブを見つける
+quest.moltres.stage-20-0=オーブに 火を 注入する
+quest.moltres.stage-30-0=# 体のポケモンを倒す
+quest.moltres.stage-40-0=炎の神社を見つける
+quest.moltres.stage-50-0=ファイアーを捕まえる
+quest.moltres.stage-60-0=語り部 ?NAME? のところへ戻る
+quest.moltres.goodbye=さようなら
+
+quest.articuno.name=北極鳥
+quest.articuno.desc-10=魔法のオーブと 北極のツンドラの地の 滅多に見られない 鳥についての 話を聞いたことが あります…
+quest.articuno.desc-20=オーブに 氷の エッセンスを 注入する必要が あるようです…
+quest.articuno.desc-30=オーブが 失った力を 取り戻すには、 あなたの 気概が 試されます…
+quest.articuno.desc-40=オーブは 冬の荒れ地にある 古代の神社を 探しています…
+quest.articuno.desc-50=あなたは 目の前の 神社に 引き寄せられています…
+quest.articuno.desc-60=フリーザーを 捕まえた! ?NAME? に 知らせよう!
+quest.articuno.desc-x=フリーザーを 捕まえ、 語り部 ?NAME? に 貴重な情報を 提供した! 魅力的な 報酬として いくつかの キャンディーを もらった!
+quest.articuno.npcname=語り部 ?NAME?
+quest.articuno.start=この辺りでは 滅多に見かけない 伝説の ポケモンの話を、 ユーモアを 交えて ご紹介 しましょうか?
+quest.articuno.startyes=是非に!
+quest.articuno.startno=今は…
+quest.articuno.rejected=残念です。 聞きたくなったら、 私まで 戻ってきてください!
+quest.articuno.talka=素晴らしい! 歴史に残る前から、 伝説の鳥は 世界中で 知られていました。
+quest.articuno.continuea=続けてください…
+quest.articuno.talkb=時が経つにつれて、 記録は なくなりました。 目撃例は ほとんどなく、 100年以上 目撃されていません。
+quest.articuno.continueb=興味深い…
+quest.articuno.talkc=しかし、 私は 何かを 発見したのです! どうやら、エッセンスを定着できる珍しいオーブがあるようです。そのオーブを探してみてはいかがでしょうか。
+quest.articuno.continuec=オーブ。 分かった!
+quest.articuno.message.a=§eオーブに 氷の エッセンスを 注入する必要が あるようです…
+quest.articuno.message.b=§eオーブが 失った力を 取り戻すには、 あなたの 気概が 試されます…
+quest.articuno.message.c=§eオーブは 冬の荒れ地にある 古代の神社を 探しています…
+quest.articuno.message.d=§eあなたは 目の前の 神社に 引き寄せられています…
+quest.articuno.message.e=§eフリーザーを 捕まえた! 語り部 ?NAME? は 絶対に 見たいと 思うでしょう!
+quest.articuno.end=新たに フリーザーと 友達に なれたことを お祝いします! 他にも 見つけられるのを 待っている 珍しい伝説たちが いるのだろうか…
+quest.articuno.stage-10-0=オーブを見つける
+quest.articuno.stage-20-0=オーブに 氷を 注入する
+quest.articuno.stage-30-0=# 体のポケモンを倒す
+quest.articuno.stage-40-0=氷の神社を見つける
+quest.articuno.stage-50-0=フリーザーを捕まえる
+quest.articuno.stage-60-0=語り部 ?NAME? のところへ戻る
+quest.articuno.goodbye=さようなら
+
+quest.celebi.name=森の守護者
+quest.celebi.desc-10=ガンテツは あなたに レベルボールを 作るよう 頼んだ
+quest.celebi.stage-10-0=レベルボールを # 個作る
+quest.celebi.desc-11=レベルボールを ガンテツに 渡して、 次は 何をするか 確認しましょう!
+quest.celebi.stage-11-0=ガンテツのところへ戻る
+quest.celebi.desc-20=ガンテツは あなたに フレンドボールを 作るよう 頼んだ
+quest.celebi.stage-20-0=フレンドボールを # 個作る
+quest.celebi.desc-21=フレンドボールを ガンテツに 渡して、 次は 何をするか 確認しましょう!
+quest.celebi.stage-21-0=ガンテツのところへ戻る
+quest.celebi.desc-30=ガンテツは あなたに ルアーボールを 作るよう 頼んだ
+quest.celebi.stage-30-0=ルアーボールを # 個作る
+quest.celebi.desc-31=ルアーボールを ガンテツに 渡して、 次は 何をするか 確認しましょう!
+quest.celebi.stage-31-0=ガンテツのところへ戻る
+quest.celebi.desc-40=ガンテツは あなたに ムーンボールを 作るよう 頼んだ
+quest.celebi.stage-40-0=ムーンボールを # 個作る
+quest.celebi.desc-41=ムーンボールを ガンテツに 渡して、 次は 何をするか 確認しましょう!
+quest.celebi.stage-41-0=ガンテツのところへ戻る
+quest.celebi.desc-50=ガンテツは あなたに ヘビーボールを 作るよう 頼んだ
+quest.celebi.stage-50-0=ヘビーボールを # 個作る
+quest.celebi.desc-51=ヘビーボールを ガンテツに 渡して、 次は 何をするか 確認しましょう!
+quest.celebi.stage-51-0=ガンテツのところへ戻る
+quest.celebi.desc-60=ガンテツは あなたに スピードボールを 作るよう 頼んだ
+quest.celebi.stage-60-0=スピードボールを # 個作る
+quest.celebi.desc-61=スピードボールを ガンテツに 渡して、 次は 何をするか 確認しましょう!
+quest.celebi.stage-61-0=ガンテツのところへ戻る
+quest.celebi.desc-70=ガンテツは あなたに ラブラブボールを 作るよう 頼んだ
+quest.celebi.stage-70-0=ラブラブボールを # 個作る
+quest.celebi.desc-71=ラブラブボールを ガンテツに 渡して、 次は 何をするか 確認しましょう!
+quest.celebi.stage-71-0=ガンテツのところへ戻る
+quest.celebi.desc-80=ガンテツには 何かの 作業時間が 必要です … 後で また 来ましょう!
+quest.celebi.stage-80-0=ガンテツの 準備が整うまで 待つ
+quest.celebi.desc-90=ガンテツは 準備が 出来たようです!
+quest.celebi.stage-90-0=ガンテツのところへ戻る
+quest.celebi.desc-100=ガンテツは 不思議な 金色の モンスターボールを 渡し、 この地の 森深くにある 神社に 奉納してほしいと 言った
+quest.celebi.stage-100-0=ウバメの神社を 見つける
+quest.celebi.desc-110=ときわたりポケモン登場
+quest.celebi.stage-110-0=セレビィを捕まえる
+quest.celebi.desc-120=あなたが 森の奥深くで 見つけたものを ガンテツは 聞きたがるでしょう!
+quest.celebi.stage-120-0=ガンテツのところへ戻る
+quest.celebi.desc-x=謎の神社で 不思議な 金色の モンスターボールを 使い、ときわたりポケモンの セレビィを 捕まえることに 成功した。
+quest.celebi.npcname=ガンテツ
+quest.celebi.start=やあ、 少し 仕事を 手伝って もらえないか?
+quest.celebi.startyes=はい、もちろん!
+quest.celebi.startno=すみません、 忙しいです
+quest.celebi.rejected=そうか、 また今度。
+quest.celebi.goodbye=さようなら
+quest.celebi.talka=助かる。俺は特殊なポケモンボールの製作者だが、研究の中で 珍しいものに出会った。
+quest.celebi.continuea=なるほど…
+quest.celebi.talkb=神秘的な 神社の伝承と、 その守護者を 引き寄せる 金色の モンスターボールが ある。
+quest.celebi.continueb=おもしろい!
+quest.celebi.talkc=このモンスターボールを 作って、 話が本当か 確かめたい。 協力してくれないか?
+quest.celebi.continuec=やりましょう!
+quest.celebi.talkd=素晴らしい! まず、 レベルボールが 5個 必要だ。 作成できるか?
+quest.celebi.ok=もちろんです。
+quest.celebi.sorry=申し訳 ありません。
+quest.celebi.give=(モンスターボールを 渡す)
+quest.celebi.wrongitem=ん? これは欲しい モンスターボール ではない。
+quest.celebi.givea=レベルボールが できたか?
+quest.celebi.accepteda=いいぞ! 次は フレンドボールを 5個 作ってくれ。
+quest.celebi.giveb=フレンドボールが できたか?
+quest.celebi.acceptedb=いいぞ! 次は ルアーボールを 5個 作ってくれ。
+quest.celebi.givec=ルアーボールが できたか?
+quest.celebi.acceptedc=いいぞ! 次は ムーンボールを 5個 作ってくれ。
+quest.celebi.gived=ムーンボールが できたか?
+quest.celebi.acceptedd=いいぞ! 次は ヘビーボールを 5個 作ってくれ。
+quest.celebi.givee=ヘビーボールが できたか?
+quest.celebi.acceptede=いいぞ! 次は スピードボールを 5個 作ってくれ。
+quest.celebi.givef=スピードボールが できたか?
+quest.celebi.acceptedf=いいぞ! 次は ラブラブボールを 5個 作ってくれ。
+quest.celebi.giveg=ラブラブボールが できたか?
+quest.celebi.acceptedg=いいぞ! やることが あるから、 後で また 来てくれ。
+quest.celebi.message.a=§eこのレベルボールを ガンテツに 渡して、 次は何が…
+quest.celebi.message.b=§eこのフレンドボールを ガンテツに 渡して、 次は何が…
+quest.celebi.message.c=§eこのルアーボールを ガンテツに 渡して、 次は何が…
+quest.celebi.message.d=§eこのムーンボールを ガンテツに 渡して、 次は何が…
+quest.celebi.message.e=§eこのヘビーボールを ガンテツに 渡して、 次は何が…
+quest.celebi.message.f=§eこのスピードボールを ガンテツに 渡して、 次は何が…
+quest.celebi.message.g=§eこのラブラブボールを ガンテツに 渡して、 次は何が…
+quest.celebi.return=よく来たな! やったぞ! GSボールができた。 持っていけ!
+quest.celebi.take=ありがとうございます! これは 何ですか?
+quest.celebi.shrine=わからん。 謎の神社を 今すぐ 見つけて、 何が起こるか 試してみろ。
+quest.celebi.message.h=§e目の前の神社はガンテツの説明と一致する…
+quest.celebi.message.i=§eときわたりポケモン、 セレビィを 捕まえた! ガンテツも 絶対 知りたいはずだ!
+quest.celebi.end=伝承は 本当だった! 見せてくれて ありがとう。今日の 記念に これを 持っていけ!
+quest.celebi.done=ありがとうございました!
+
+quest.galarian_articuno.name=変異した北極
+quest.galarian_articuno.desc-10=北極のツンドラの地では 滅多に見られない鳥の ガラルのすがたについての 話を聞いたことが あります… アルターポケモンを 倒すと 引き寄せられるかも しれません!
+quest.galarian_articuno.desc-20=北極のツンドラの地では 滅多に見られない鳥の ガラルのすがたについての 話を聞いたことが あります… アルターポケモンを 倒すと 引き寄せられるかも しれません!
+quest.galarian_articuno.desc-30=北極のツンドラの地では 滅多に見られない鳥の ガラルのすがたについての 話を聞いたことが あります… アルターポケモンを 倒すと 引き寄せられるかも しれません!
+quest.galarian_articuno.desc-x=珍しい ポケモンを 見つける あなたの スキルに 感心して、 ガラルのすがたの フリーザーが 現れた! しかし 影の語り部は どこにもいない…
+quest.galarian_articuno.npcname=影の語り部
+quest.galarian_articuno.start=この辺りでは 滅多に見かけない 伝説の ポケモンの話を、 ユーモアを 交えて ご紹介 しましょうか?
+quest.galarian_articuno.startyes=是非に!
+quest.galarian_articuno.startno=今は…
+quest.galarian_articuno.rejected=残念です。 聞きたくなったら、 私まで 戻ってきてください!
+quest.galarian_articuno.talka=素晴らしい! 歴史に残る前から、 伝説の鳥は 世界中で 知られていました。
+quest.galarian_articuno.continuea=続けてください…
+quest.galarian_articuno.talkb=時が経つにつれて、 記録は なくなりました。 目撃例は ほとんどなく、 100年以上 目撃されていません。
+quest.galarian_articuno.continueb=興味深い…
+quest.galarian_articuno.talkc=しかし、 私は 何かを 発見したのです!  ガラル地方から 移住してきた 伝説の別の姿が あるようです。 おそらくアルターポケモンと 交流することで、注目を集められるでしょう!
+quest.galarian_articuno.continuec=アルターポケモン、 わかった!
+quest.galarian_articuno.message=§eガラルのすがたのフリーザーが現れた!
+quest.galarian_articuno.stage-10-0=アルターポケモンを倒す
+quest.galarian_articuno.stage-20-0=アルターポケモンを倒す
+quest.galarian_articuno.stage-30-0=アルターポケモンを倒す
+quest.galarian_articuno.goodbye=さようなら
+
+quest.galarian_zapdos.name=謎のイーグル
+quest.galarian_zapdos.desc-10=電気のサバンナの地では 滅多に見られない鳥の ガラルのすがたについての 話を聞いたことが あります… ストライクポケモンを 倒すと 引き寄せられるかも しれません!
+quest.galarian_zapdos.desc-20=電気のサバンナの地では 滅多に見られない鳥の ガラルのすがたについての 話を聞いたことが あります… ストライクポケモンを 倒すと 引き寄せられるかも しれません!
+quest.galarian_zapdos.desc-30=電気のサバンナの地では 滅多に見られない鳥の ガラルのすがたについての 話を聞いたことが あります… ストライクポケモンを 倒すと 引き寄せられるかも しれません!
+quest.galarian_zapdos.desc-x=珍しい ポケモンを 見つける あなたの スキルに 感心して、 ガラルのすがたの サンダーが 現れた! しかし 影の語り部は どこにもいない…
+quest.galarian_zapdos.npcname=影の語り部
+quest.galarian_zapdos.start=この辺りでは 滅多に見かけない 伝説の ポケモンの話を、 ユーモアを 交えて ご紹介 しましょうか?
+quest.galarian_zapdos.startyes=是非に!
+quest.galarian_zapdos.startno=今は…
+quest.galarian_zapdos.rejected=残念です。 聞きたくなったら、 私まで 戻ってきてください!
+quest.galarian_zapdos.talka=素晴らしい! 歴史に残る前から、 伝説の鳥は 世界中で 知られていました。
+quest.galarian_zapdos.continuea=続けてください…
+quest.galarian_zapdos.talkb=時が経つにつれて、 記録は なくなりました。 目撃例は ほとんどなく、 100年以上 目撃されていません。
+quest.galarian_zapdos.continueb=興味深い…
+quest.galarian_zapdos.talkc=しかし、 私は 何かを 発見したのです!  ガラル地方から 移住してきた 伝説の別の姿が あるようです。 おそらくストライクポケモンと 交流することで、注目を集められるでしょう!
+quest.galarian_zapdos.continuec=ストライクポケモン、 わかった!
+quest.galarian_zapdos.message=§eガラルのすがたのサンダーが現れた!
+quest.galarian_zapdos.stage-10-0=ストライクポケモンを倒す
+quest.galarian_zapdos.stage-20-0=ストライクポケモンを倒す
+quest.galarian_zapdos.stage-30-0=ストライクポケモンを倒す
+quest.galarian_zapdos.goodbye=さようなら
+
+quest.galarian_moltres.name=灰色の鳥
+quest.galarian_moltres.desc-10=乾燥した台地では 滅多に見られない鳥の ガラルのすがたについての 話を聞いたことが あります… アシェン ポケモンを 倒すと 引き寄せられるかも しれません!
+quest.galarian_moltres.desc-20=乾燥した台地では 滅多に見られない鳥の ガラルのすがたについての 話を聞いたことが あります… アシェン ポケモンを 倒すと 引き寄せられるかも しれません!
+quest.galarian_moltres.desc-30=乾燥した台地では 滅多に見られない鳥の ガラルのすがたについての 話を聞いたことが あります… アシェン ポケモンを 倒すと 引き寄せられるかも しれません!
+quest.galarian_moltres.desc-x=珍しい ポケモンを 見つける あなたの スキルに 感心して、 ガラルのすがたの ファイアーが 現れた! しかし 影の語り部は どこにもいない…
+quest.galarian_moltres.npcname=影の語り部
+quest.galarian_moltres.start=この辺りでは 滅多に見かけない 伝説の ポケモンの話を、 ユーモアを 交えて ご紹介 しましょうか?
+quest.galarian_moltres.startyes=是非に!
+quest.galarian_moltres.startno=今は…
+quest.galarian_moltres.rejected=残念です。 聞きたくなったら、 私まで 戻ってきてください!
+quest.galarian_moltres.talka=素晴らしい! 歴史に残る前から、 伝説の鳥は 世界中で 知られていました。
+quest.galarian_moltres.continuea=続けてください…
+quest.galarian_moltres.talkb=時が経つにつれて、 記録は なくなりました。 目撃例は ほとんどなく、 100年以上 目撃されていません。
+quest.galarian_moltres.continueb=興味深い…
+quest.galarian_moltres.talkc=しかし、 私は 何かを 発見したのです!  ガラル地方から 移住してきた 伝説の別の姿が あるようです。 おそらくアシェンポケモンと 交流することで、注目を集められるでしょう!
+quest.galarian_moltres.continuec=アシェンポケモン、 わかった!
+quest.galarian_moltres.message=§eガラルのすがたのファイアーが現れた!
+quest.galarian_moltres.stage-10-0=アシェンポケモンを倒す
+quest.galarian_moltres.stage-20-0=アシェンポケモンを倒す
+quest.galarian_moltres.stage-30-0=アシェンポケモンを倒す
+quest.galarian_moltres.goodbye=さようなら
 
 quest.dynamax.name=願い星
-quest.dynamax.desc-10=あなたは旅をしている ?NAME? 博士が発見した願い星に力を与える任務を受けています。
-quest.dynamax.desc-20=?NAME? 博士へ戻って、次に何をするべきかを尋ねてください。
-quest.dynamax.desc-30=願い星があなたの強さを試そうとしているようです...
-quest.dynamax.desc-40=願い星はエネルギーで脈動しています...おそらく ?NAME? 博士は次に何をするべきかを知っているでしょう!
-quest.dynamax.desc-x=?NAME? 博士は願い星のエネルギーを捕らえ、それをあなたの新しいダイマックスバンドに集中させました!
+quest.dynamax.desc-10=あなたは 旅をしている ?NAME? 博士が 発見した 願い星に 力を与える 任務を 受けています。
+quest.dynamax.desc-20=?NAME? 博士へ戻って、 次に何をするべきかを 尋ねてください。
+quest.dynamax.desc-30=願い星が あなたの強さを 試そうとしているようです...
+quest.dynamax.desc-40=願い星は エネルギーで 脈動しています… おそらく ?NAME? 博士は 次に何をするべきかを 知っているでしょう!
+quest.dynamax.desc-x=?NAME? 博士は 願い星の エネルギーを捕らえ、 それを あなたの 新しいダイマックスバンドに 集中させました!
 quest.dynamax.npcname=?NAME? 博士
-quest.dynamax.start=こんにちは! 私はかなり奇妙なものを見つけました、調査をあなたに助けてもらえませんか?
-quest.dynamax.startyes=もちろん!
+quest.dynamax.start=こんにちは!  私は かなり奇妙なものを 見つけました。 調査を 手伝って もらえませんか?
+quest.dynamax.startyes=もちろん！
 quest.dynamax.startno=今はちょっと...
-quest.dynamax.rejected=残念です。気が変わったらまた会いに来てください!
-quest.dynamax.talka=素晴らしい! これを見てください、どう思いますか?
-quest.dynamax.continuea=それはなんですか?
-quest.dynamax.talkb=これは願い星だと思います! 印象的ですね、さあ、もっとやっていきましょう...
-quest.dynamax.continueb=続けていきます...
-quest.dynamax.talkc=ポケモンが人と調和することに反応しているようです。 少しの間それを握って、何が起こるか見てください。
-quest.dynamax.continuec=もちろんです!
-quest.dynamax.startquest=素晴らしい! しばらくしたら、私のところに戻ってきてください。もう一度見てみましょう。
-quest.dynamax.middle=本当に面白い! より多くの挑戦を見たいようです、他のトレーナーと戦ってみてください！
-quest.dynamax.middleok=わかりました、やります!
-quest.dynamax.message.a=§e願い星は触ると暖かく感じます...
-quest.dynamax.message.b=§e願い星はエネルギーで脈動しています...
-quest.dynamax.enda=これは素晴らしいものです! ちょっとこれを持ってみましょう...
+quest.dynamax.rejected=残念です。気が変わったらまた会いに来てください！
+quest.dynamax.talka=素晴らしい！ これを見てください、どう思います？
+quest.dynamax.continuea=これは何？
+quest.dynamax.talkb=これは願い星だと思います！ スゴイでしょう！ そして...
+quest.dynamax.continueb=続けます...
+quest.dynamax.talkc=ポケモンと 人のキズナに 反応するようです。  少しの間 それを持って 旅をして、 何が起こるか 確かめてください。
+quest.dynamax.continuec=もちろんです！
+quest.dynamax.startquest=素晴らしい！ しばらくしたら、私のところに 戻ってきてください。 もう一度 見てみましょう。
+quest.dynamax.middle=本当に面白い！ より多くの挑戦を 見たいようですので、 他のトレーナーと 戦ってみてください！
+quest.dynamax.middleok=わかりました、 やります！
+quest.dynamax.message.a=§e願い星は 触ると 暖かく 感じます...
+quest.dynamax.message.b=§e願い星は エネルギーで 脈動しています...
+quest.dynamax.enda=素晴らしい！ ちょっと 待っててください…
 quest.dynamax.endachoice=それは何ですか!?
-quest.dynamax.endb=どうぞ、ダイマックスバンド! これでポケモンに短時間だけ巨大な力を注ぐことができます!
+quest.dynamax.endb=どうぞ、 ダイマックスバンド！ これで ポケモンに 短時間だけ 巨大な力、 ダイマックスの力を 与えることができます！",
 quest.dynamax.stage-10-2=ポケモンを # 体 たおす
 quest.dynamax.stage-10-3=ポケモンを # 体 捕まえる
 quest.dynamax.stage-20-0=?NAME? 博士に話しかける
@@ -10784,3 +12449,250 @@ quest.dynamax.stage-30-1= # 人のトレーナーをたおす
 quest.dynamax.stage-40-0=?NAME? 博士に話しかける
 quest.dynamax.stage-41-0=?NAME? 博士に話しかける
 quest.dynamax.goodbye=ありがとう!
+
+quest.enter_drowned_world.name=水上飛行機
+quest.enter_drowned_world.desc-x=水中世界を 訪れると、 今までに なかった 繋がりを 感じています…
+quest.enter_drowned_world.npcname=???
+quest.enter_drowned_world.start=水中世界に 入りたいですか? 準備が できているか 確認してください!
+quest.enter_drowned_world.startyes=はい、お願いします!
+quest.enter_drowned_world.startno=少し忙しいです…
+quest.enter_drowned_world.accepted=行きましょう!
+quest.enter_drowned_world.rejected=また、あとで
+quest.enter_drowned_world.goodbye=さようなら
+
+quest.waterbreathing.name=空気のような水
+quest.waterbreathing.desc-10=以前訪れた 水中世界を もっと簡単に 探索したい… ある謎の人物は 水タイプの サンプルが あれば それができます…
+quest.waterbreathing.desc-20=サンプルを 集めた。 謎の人物が 待っていいる。
+quest.waterbreathing.desc-x=奇妙な力を 吹き込まれ、 水を 空気のように 吐き出し、 暗い深みを よりはっきり 見れるようになった
+quest.waterbreathing.npcname=???
+quest.waterbreathing.start=水中世界に 行ったことが あるようですね。 もっと 簡単に 過ごしませんか?
+quest.waterbreathing.startyes=はい、そうですね!
+quest.waterbreathing.startno=少し忙しいです…
+quest.waterbreathing.accepted=わかりました! 水タイプの サンプルが 必要です。 手に 入れられますか?
+quest.waterbreathing.rejected=また、あとで
+quest.waterbreathing.accept=やります!
+quest.waterbreathing.goodbye=さようなら
+quest.waterbreathing.end=ありがとう! では、 水を 呼吸する力を 授けます!
+quest.waterbreathing.stage-10-0=水タイプポケモンを # 体捕まえる
+quest.waterbreathing.stage-10-1=水タイプポケモンを # 体倒す
+quest.waterbreathing.stage-20-0=謎の人物へ戻る
+
+quest.defeat_drowned.name=ドラウンド
+quest.defeat_drowned.desc-10=深海に眠る 別世界の ルギアの 姿の 物語を 聞いたことが ある…
+quest.defeat_drowned.desc-20=ルギアが現れた!
+quest.defeat_drowned.desc-30=ルギアが 自分自身の 欠片を 落とした。 謎の人物は これが 欲しいのか?
+quest.defeat_drowned.desc-x=謎の人物がその欠片を使い、とてもユニークなマホイップに変えた!
+quest.defeat_drowned.npcname=???
+quest.defeat_drowned.start=ルギアは 水中世界で 眠っています。 ドラウンドポケモンが 休ませている。 彼らを 倒してください。
+quest.defeat_drowned.startyes=了解です!
+quest.defeat_drowned.startno=少し忙しいです…
+quest.defeat_drowned.accepted=頑張って。 準備してから 行ってください。
+quest.defeat_drowned.rejected=永遠に 休むことは ありません…
+quest.defeat_drowned.goodbye=さようなら
+quest.defeat_drowned.end=ルギアを 倒しましたか? その欠片を くれませんか? 私は 何かができます…
+quest.defeat_drowned.give=(ルギアの眼を渡す)
+quest.defeat_drowned.wrongitem=これは ルギアの 欠片では ありません。 その気になったら 来てください!
+quest.defeat_drowned.stage-10-1=ドラウンドポケモンを # 体倒す
+quest.defeat_drowned.stage-20-0=ルギアを 倒す!
+quest.defeat_drowned.stage-30-0=謎の人物にルギアの眼を渡す
+quest.defeat_drowned.message.a=§6ドラウンドローブのロックを解除した! '/redeem gui' を使って装備してください!
+
+quest.element.block_use.name=ブロックを使う
+quest.element.block_break.name=ブロックを壊す
+quest.element.block_place.name=ブロックを置く
+quest.element.item_use.name=アイテムを使う
+quest.element.item_pickup.name=アイテムを探す
+quest.element.item_craft.name=アイテムを作る
+quest.element.item_smelt.name=アイテムを精錬する
+quest.element.item_drop.name=アイテムを落とす
+quest.element.apricorn_harvest.name=ぼんぐりを入手する
+quest.element.pokemon_capture.name=ポケモンを捕まえる
+quest.element.pokemon_defeat.name=ポケモンを倒す
+quest.element.pokemon_defeat_npc.name=ポケモン(NPC)を倒す
+quest.element.pokemon_defeat_wild.name=ポケモン(野生)を倒す
+quest.element.pokemon_defeat_player.name=ポケモン(プレイヤー)を倒す
+quest.element.pokemon_defeated_by.name=ポケモンに負ける
+quest.element.pokemon_has.name=ポケモンを持つ
+quest.element.pokemon_hatch.name=ポケモンを孵化させる
+quest.element.pokemon_evolve_pre.name=から進化する
+quest.element.pokemon_evolve_post.name=に進化する
+quest.element.pokemon_trade_get.name=トレードする
+quest.element.pokemon_trade_give.name=トレードに出す
+quest.element.battle_move_user.name=わざを使う
+quest.element.battle_move_target.name=のわざが当たる
+quest.element.trainer_defeat.name=トレーナーを倒す
+quest.element.trainer_defeated_by.name=トレーナーに負ける
+quest.element.npc_respond.name=NPCに答える
+quest.element.npc_talk.name=NPCと話す
+quest.element.npc_give.name=NPCに渡す
+quest.element.npc_show.name=NPCに見せる
+quest.element.entity_interact.name=エンティティと対話する
+quest.element.entity_vicinity.name=エンティティの近くにいる
+quest.element.tileentity_vicinity.name=タイルエンティティの近くにいる
+quest.element.dialogue.name=ダイアログ
+quest.element.world_time.name=ワールド時間
+quest.element.server_time.name=サーバー時間
+quest.element.absolute_position.name=位置
+quest.element.dimension.name=ディメンジョン
+quest.element.structure.name=構造物
+quest.element.blocker.name=ブロッカー
+quest.element.random.name=ランダムチャンス
+quest.element.followthrough.name=オートコンプリート
+quest.element.date.name=日付
+quest.element.query.name=他のクエストを問い合わせる
+quest.element.flag.name=フラグチェック
+quest.element.timer.name=タイマー
+quest.element.npc_spawn_inserter.name=NPC挿入子 (スポーン)
+quest.element.npc_timed_inserter.name=NPC挿入子 (時間)
+quest.element.dex_values_spec_inserter.name=種族挿入子 (図鑑)
+quest.element.type_values_spec_inserter.name=種族挿入子 (タイプ)
+quest.element.name_inserter.name=名前挿入子
+quest.element.boolean_inserter.name=ブール挿入子
+quest.element.concatenate_inserter.name=連携挿入子
+quest.element.decimal_inserter.name=小数点挿入子
+quest.element.integer_inserter.name=整数挿入子
+quest.element.item_has.name=アイテムあり
+quest.element.item_has_not.name=アイテムなし
+quest.element.operation_inserter.name=操作挿入子
+quest.element.string_inserter.name=文字列挿入子
+quest.element.test_data.name=テストデータ
+quest.element.typing_inserter.name=タイプ挿入子
+
+quest.element.message.name=メッセージ
+quest.element.localized_message.name=翻訳されたメッセージ
+quest.element.set_stage.name=ステージ設定
+quest.element.complete_quest.name=クエスト完了
+quest.element.fail_quest.name=クエスト失敗
+quest.element.teleport.name=テレポート
+quest.element.command.name=コマンド実行
+quest.element.pokemon_give.name=ポケモンを与える
+quest.element.pokemon_spawn.name=ポケモンを生成
+quest.element.item_give.name=アイテムを与える
+quest.element.key_item.name=キーアイテムを与える
+quest.element.take_key_item.name=キーアイテムを取る
+quest.element.end_dialogue.name=対話終了
+quest.element.set_flag.name=フラグを設定
+quest.element.unset_flag.name=フラグを解除
+quest.element.potion.name=ポーションを適用
+quest.element.sound.name=サウンドを再生
+quest.element.xp_give.name=経験値を与える
+quest.element.abandonable.name=中止可能としてマーク
+quest.element.server_cosmetic.name=サーバーの装飾を与える
+quest.element.take_server_cosmetic.name=サーバの装飾を取る
+
+quest.argument.attacks=攻撃 (CSV)
+quest.argument.count=カウント
+quest.argument.type=タイプ
+quest.argument.category=カテゴリ
+quest.argument.result=結果
+quest.argument.damage=ダメージ
+quest.argument.full_damage=総ダメージ
+quest.argument.accuracy=命中率
+quest.argument.sound_based=サウンドベース
+quest.argument.user_spec=ユーザースペック
+quest.argument.target_spec=標的スペック
+quest.argument.entity_uuid=エンティティUUID
+quest.argument.name=名前
+quest.argument.dialogue=ダイアログ
+quest.argument.choice_1=選択肢1
+quest.argument.choice_2=選択肢2
+quest.argument.choice_3=選択肢3
+quest.argument.choice_4=選択肢4
+quest.argument.choice_5=選択肢5
+quest.argument.choice_6=選択肢6
+quest.argument.choice_7=選択肢7
+quest.argument.choice_8=選択肢8
+quest.argument.entity_uuid_class=エンティティUUID/クラス
+quest.argument.range=範囲
+quest.argument.dialogue_option=ダイアログオプション
+quest.argument.item=アイテム
+quest.argument.damage_metadata=ダメージ/メタデータ
+quest.argument.display_name=表示名
+quest.argument.domain_mod=ドメイン/Mod
+quest.argument.tags=タグ (CSV)
+quest.argument.spec=スペック
+quest.argument.tile_entity=タイルエンティティ
+quest.argument.pos_a_x=位置 A X
+quest.argument.pos_a_y=位置 A Y
+quest.argument.pos_a_z=位置 A Z
+quest.argument.pos_b_x=位置 B X
+quest.argument.pos_b_y=位置 B Y
+quest.argument.pos_b_z=位置 B Z
+quest.argument.dimension=ディメンジョンID
+quest.argument.ignore_y=Y を無視
+quest.argument.start_date=開始日
+quest.argument.end_date=終了日
+quest.argument.flag=フラグ
+quest.argument.quest_filename=クエストファイル名
+quest.argument.actions=アクション (例 0,1:2:3)
+quest.argument.weights=比重 (例 30:70:5)
+quest.argument.time=時間 (ミリ秒)
+quest.argument.time_range=時間範囲( ミリ秒)
+quest.argument.structure=構造名
+quest.argument.time_ticks=時間 (tick数)
+quest.argument.time_range_ticks=時間範囲 (tick数)
+quest.argument.command=コマンド (プレイヤーの場合は @p)
+quest.argument.lore=伝承 (\\n セパレーター)
+quest.argument.has_effect=効果あり
+quest.argument.hide_tooltip=ツールチップを非表示
+quest.argument.flags=フラグ
+quest.argument.key_item=キーアイテム
+quest.argument.server_cosmetic=サーバー装飾
+quest.argument.potion=ポーション効果
+quest.argument.duration=期間 (tick数)
+quest.argument.amplitude=幅
+quest.argument.ambient=周囲
+quest.argument.particles=パーティクル
+quest.argument.message=メッセージ
+quest.argument.lang_key=言語キー
+quest.argument.stage=ステージ
+quest.argument.x=X
+quest.argument.y=Y
+quest.argument.z=Z
+quest.argument.alignment=配置
+quest.argument.sound=サウンド
+quest.argument.volume=音量
+quest.argument.pitch=ピッチ
+quest.argument.sound_category=カテゴリ
+quest.argument.engage=エンゲージ
+quest.argument.yawangle=横回転
+quest.argument.pitchangle=縦回転
+quest.argument.success=成功した
+quest.argument.levels=レベル
+quest.argument.experience=経験値
+quest.argument.key=値ID
+quest.argument.chance=チャンス
+quest.argument.world_time=ワールドタイム
+quest.argument.world_time_optional=ワールドタイム (オプション)
+quest.argument.dex_values=図鑑ID (CSV+範囲)
+quest.argument.type_values=タイプ (CSV)
+quest.argument.natures=せいかく (CSV)
+quest.argument.growths=成長 (CSV)
+quest.argument.abandonable=中止可能
+quest.argument.gender=性別
+quest.argument.true_weight=真 (重み)
+quest.argument.false_weight=偽 (重み)
+quest.argument.nbt=NBT
+quest.argument.other_key=他の値ID
+quest.argument.spacer=スペーサー
+quest.argument.values=値 (x;y リスト または x-y 範囲)
+quest.argument.operator=オペレーター
+quest.argument.mode=モード
+quest.argument.pos_A_X=X (A)
+quest.argument.pos_A_Y=Y (A)
+quest.argument.pos_A_Z=Z (A)
+quest.argument.pos_B_X=X (B)
+quest.argument.pos_B_Y=Y (B)
+quest.argument.pos_B_Z=Z (B)
+quest.argument.strings=文字列 (x;y リスト)
+quest.argument.value=値
+quest.argument.typings=タイピング (x;y リスト)
+quest.argument.relative_x=相対 X
+quest.argument.relative_y=相対 Y
+quest.argument.relative_z=相対 Z
+quest.argument.relative_yaw=相対 横回転
+quest.argument.relative_pitch=相対 縦回転
+quest.argument.relative_dimension=相対 ディメンジョン
+quest.argument.x_alignment=X 整列
+quest.argument.y_alignment=Y 整列
+quest.argument.z_alignment=Z 整列
