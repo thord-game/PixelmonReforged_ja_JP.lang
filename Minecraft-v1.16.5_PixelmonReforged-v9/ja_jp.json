@@ -6962,11 +6962,12 @@
     "pixelmon.palette.savanna_shiny": "色違いサバンナのもよう",
     "pixelmon.palette.sun_shiny": "色違いたいようのもよう",
     "pixelmon.palette.tundra_shiny": "色違いせつげんのもよう",
+    "pixelmon.palette.main_circular": "一重円",
+    "pixelmon.palette.secondary_circular": "二重円",
+    "pixelmon.palette.dark": "闇",
+    "pixelmon.palette.none": "なし",
 
     "pixelmon.arbok.form.normal": "再生",
-    "pixelmon.arbok.form.main_circular": "一重円",
-    "pixelmon.arbok.form.secondary_circular": "二重円",
-    "pixelmon.arbok.form.dark": "闇",
     "pixelmon.authentic.form.phony": "がんさくフォルム",
     "pixelmon.authentic.form.antique": "しんさくフォルム",
     "pixelmon.aegislash.form.shield": "シールドフォルム",
@@ -7674,7 +7675,7 @@
     "pixelmon.command.pokesee.egg":"タマゴ",
     "pixelmon.command.pokesee.empty":"空",
     "pixelmon.command.pokesee.exempt":"%s のパーティを確認できません!",
-    "pixelmon.command.compsee.header":"%s's Compouter Box %i: (Move over for more info)",
+    "pixelmon.command.compsee.header":"%s's Compouter Box %s: (Move over for more info)",
     "pixelmon.command.compsee.noresults":"このPCボックスにはポケモンがいません!",
     "pixelmon.command.poketest.match":"%s はそのポケモンの仕様に一致します。",
     "pixelmon.command.poketest.nomatch":"%s はそのポケモンの仕様と一致しません。",
@@ -7723,6 +7724,7 @@
     "pixelmon.command.starter.success": "%s のスターターメニューが開かれました.",
 
     "pixelmon.command.other.nopermission": "このコマンドを他人に使用する権限がありません。",
+    "pixelmon.command.other.offline": "オフラインのため、%s コマンドを実行できません!",
 
     "pixelmon.command.setraid": "巣穴の %s を %s に設定しました。",
     "pixelmon.command.setraid.notify": "%s は %s をスポーンさせました。",
@@ -9378,6 +9380,7 @@
     "npc.model.firebreather2": "スタイリッシュひふきやろう",
     "npc.model.firebreather4": "ファイアバット",
     "npc.model.fisherman": "つりびと",
+    "npc.model.gardenermale1": "にわし",
     "npc.model.gardenermale2": "にわし",
     "npc.model.gnome_trader": "ノームトレーダー",
     "npc.model.hexmaniac": "オカルトマニア",
@@ -11689,7 +11692,7 @@
     "pixelmon.config.wildCanFlee": "Allow wild Pokémon to flee",
     "pixelmon.config.wildCanFlee.comment": "Wild Pokémon will have a chance based on unfavourable battle conditions to try and flee from battle.",
 
-    "ribbon.none.description": "上のリボンを選択してください.",
+    "ribbon.none.description": "リボンを選択してください.",
     "ribbon.none.name": "リボンが選択されていません",
     "ribbon.none.title": "%s",
 
@@ -13322,9 +13325,6 @@
     "pixelmon.palette.pumpkin": "カボチャスパイス",
     "pixelmon.palette.pumpkinshiny": "いろちがいカボチャスパイス",
     "pixelmon.palette.normal": "再生",
-    "pixelmon.palette.main_circular": "一重円",
-    "pixelmon.palette.secondary_circular": "二重円",
-    "pixelmon.palette.dark": "闇",
 "_comment": "v9.0.6 removed",
     "pixelmon.darmanitan.form.galar_standard": "ガラルのすがた",
     "pixelmon.darmanitan.form.galar_zen": "ガラルのすがた・ダルマモード",
@@ -13357,5 +13357,9 @@
     "pixelmon.ranch.maxcumulativepokemon": "多すぎます!",
     "pixelmon.ranch.hourglass.alreadyhasegg": "もうタマゴがあるよ!",
     "pixelmon.ranch.hourglass.environment": "これを使うにはもっといい環境が必要です!",
+"_comment": "v9.0.8 removed",
+    "pixelmon.arbok.form.main_circular": "一重円",
+    "pixelmon.arbok.form.secondary_circular": "二重円",
+    "pixelmon.arbok.form.dark": "闇",
 "_comment": "オリジナル追加終了"
 }
