@@ -1,0 +1,42 @@
+{
+  "spec": "type1:FIRE",
+  "durations": [
+    {
+      "type": "add",
+      "amount": 1.5,
+      "unit": "HOURS"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "itemstack",
+      "error_message": "5x 火打石と打ち金",
+      "items": [
+        {
+          "item": "minecraft:flint_and_steel",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "2x 溶岩入りバケツ",
+      "items": [
+        {
+          "item": "minecraft:lava_bucket",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "2x ブレイズロッド",
+      "items": [
+        {
+          "item": "minecraft:blaze_rod",
+          "amount": 2
+        }
+      ]
+    }
+  ]
+}

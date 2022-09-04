@@ -1,0 +1,42 @@
+{
+  "spec": "type1:DARK",
+  "durations": [
+    {
+      "type": "add",
+      "amount": 1.5,
+      "unit": "HOURS"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "itemstack",
+      "error_message": "2x 石炭ブロック",
+      "items": [
+        {
+          "item": "minecraft:coal_block",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "1x スケルトンの頭蓋骨",
+      "items": [
+        {
+          "item": "minecraft:skeleton_skull",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "1x 黒曜石",
+      "items": [
+        {
+          "item": "minecraft:obsidian",
+          "amount": 1
+        }
+      ]
+    }
+  ]
+}
