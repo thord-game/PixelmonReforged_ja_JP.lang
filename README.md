@@ -33,5 +33,5 @@ Pixelmon Reforged v9.0.8 まで対応しています。
 
 導入方法は以下の動画を参照ください。
 
-https://www.youtube.com/watch?v=3s85Ydo0h2U
+https://youtu.be/wQoTkWixY_c
 
