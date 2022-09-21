@@ -3224,9 +3224,21 @@
     "item.pixelmon.clear_bell.tooltip": "こころ やすまる ねいろが きける とても ふるめかしい スズ。",
     "block.pixelmon.clear_bell.tooltip": "こころ やすまる ねいろが きける とても ふるめかしい スズ。",
     "block.pixelmon.mailbox": "ポスト",
+    "block.pixelmon.pokestop": "ポケストップ",
+    "block.pixelmon.pokestop.exit": "出口",
+    "block.pixelmon.common_pokestop": "一般ポケストップ",
+    "block.pixelmon.rare_pokestop": "レアポケストップ",
+    "block.pixelmon.legendary_pokestop": "伝説ポケストップ",
+    "block.pixelmon.pokestop.use": "ポケストップを開いています...",
+    "block.pixelmon.claimedpokestop": "このポケストップは既に取得済みだ!",
+    "block.pixelmon.timedpokestop": "このポケストップは現在クールダウン中です。",
+
+    "block.pixelmon.mystery_box": "Mystery Box",
+    "block.pixelmon.mystery_box.cooldown": "This Mystery Box is still cooling down!",
+    "block.pixelmon.mystery_box.ingots": "This Mystery Box requires more ingots!",
+    "pixelmon.meltan.sated": "Meltan is sated and is ready to evolve!",
 
     "entity.pixelmon.ultra_wormhole": "ウルトラホール",
-    "entity.pixelmon.pokestop": "ポケストップ",
     "entity.pixelmon.den": "ポケモンの巣穴",
     "entity.pixelmon.painting": "ポケモン絵画",
 
@@ -8063,6 +8075,7 @@
     "pixelmon.pokeballs.pokeinbattle": "そのポケモンはバトル中だ!",
     "pixelmon.pokeballs.otherspokemon": "トレーナーにはじかれた！人のものを取ったら泥棒！",
     "pixelmon.pokeballs.statue": "ポケモンの像は捕まえられない!",
+    "pixelmon.pokeballs.fled": "%s を捕まえようとしたが…逃げられた!",
 
     "pixelmon.storage.compfull": "パソコンに空きがない!",
     "pixelmon.storage.partyfull": "%s はパソコンに送られた!",
@@ -9701,7 +9714,7 @@
     "raid.interact.wished": "ねがいのかたまりを巣穴に投げ込んだ!",
     "raid.interact.wishfailed": "巣穴はねがいのかたまりに反応しなかった...",
     "raid.interact.inuse": "この巣穴にはエネルギーがない!",
-    "raid.interact.no_party": "ポケモンたちは疲れていてムリだ",
+    "raid.barrier.destroy": "%s を守っていた不思議なバリアが消え去った!",
     "raid.watts": " %d W手に入れた!",
     "raid.singleplayer": "ひとりで挑戦",
     "raid.multiplayer": "みんなで挑戦",
@@ -13547,5 +13560,6 @@
     "pixelmon.greninja.form.alter": "アルター",
     "pixelmon.greninja.form.alter_battle_bond": "アルターきずなへんげ",
     "pixelmon.greninja.form.ash_alter": "アルターサトシゲッコウガ",
+    "raid.interact.no_party": "ポケモンたちは疲れていてムリだ",
 "_comment": "オリジナル追加終了"
 }
