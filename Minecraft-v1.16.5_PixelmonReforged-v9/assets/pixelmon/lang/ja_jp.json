@@ -11242,7 +11242,7 @@
     "pixelmon.status.powderexplode": "%s に反応してふんじんが爆発した!",
     "pixelmon.status.stickyweb": "相手の足元にねばねばネットが広がった!",
     "pixelmon.status.stickywebcaught": "%s はねばねばネットにひっかかった!",
-    "pixelmon.status.poisoncure": "%s はどくをあびた。",
+    "pixelmon.status.poisoncure": "%s のどくが治った。",
     "pixelmon.status.poisoncureitem": "%s は %s でどくを治した!",
     "pixelmon.status.burncure": "%s のやけどが治った。",
     "pixelmon.status.burncureitem": "%s は %s でやけどを治した!",
