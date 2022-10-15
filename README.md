@@ -29,7 +29,7 @@ Pixelmon Reforged v8.4.2まで対応しています。
 PixelmonReforged_ja_JP.lang/Minecraft-v1.16.5_PixelmonReforged-v9/ をダウンロードし、
 Pixelmon-1.16.5-9.x.x-universal.jarを7zipで開き、assetsフォルダ,dataフォルダをコピーします。
 
-Pixelmon Reforged v9.0.10 まで対応しています。
+Pixelmon Reforged v9.0.11 まで対応しています。
 
 導入方法は以下の動画を参照ください。
 
