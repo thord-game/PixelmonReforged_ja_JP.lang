@@ -889,8 +889,8 @@
     "item.pixelmon.soothe_bell.tooltip": "心地よい 音色の 鈴。持たせた ポケモンは こころが やすらぎ なつきやすくなる。",
     "item.pixelmon.smoke_ball": "けむりだま",
     "item.pixelmon.smoke_ball.tooltip": "持たせた ポケモンは 野生の ポケモンとの 戦闘から 絶対に 逃げられる。",
-    "item.pixelmon.wide_lens": "ものしりメガネ",
-    "item.pixelmon.wide_lens.tooltip": "ぶあつい レンズの ついた メガネ。持たせると 特殊技の 威力が 1.1倍に少し あがる。",
+    "item.pixelmon.wide_lens": "こうかくレンズ",
+    "item.pixelmon.wide_lens.tooltip": "ものが 大きく みえる レンズ。 持たせると 技の 命中率が 少し あがる。",
     "item.pixelmon.leftovers": "たべのこし",
     "item.pixelmon.leftovers.tooltip": "持たせると ポケモンの HPが 戦闘の あいだ 少しずつ 回復する。",
     "item.pixelmon.shell_bell": "かいがらのすず",
@@ -3716,7 +3716,7 @@
     "attack.toxic": "どくどく",
     "attack.toxic.description": "相手を猛毒の状態にする。ターンがすすむほど毒のダメージが増えていく",
     "attack.transform": "へんしん",
-    "attack.transform.description": "相手のポケモンに返信することで相手と全く同じ技が使える。",
+    "attack.transform.description": "相手のポケモンに変身することで相手と全く同じ技が使える。",
     "attack.tri_attack": "トライアタック",
     "attack.tri_attack.description": "3つの光線で攻撃する。まひかやけどかこおりの状態にすることがある。",
     "attack.twineedle": "ダブルニードル",
@@ -13790,7 +13790,5 @@
     "pixelmon.greninja.form.alter": "アルター",
     "pixelmon.greninja.form.alter_battle_bond": "アルターきずなへんげ",
     "pixelmon.greninja.form.ash_alter": "アルターサトシゲッコウガ",
-"_comment": "v9.1.0 removed",
-    "item.pixelmon.tumblestone": "たまいし",
 "_comment": "オリジナル追加終了"
 }
