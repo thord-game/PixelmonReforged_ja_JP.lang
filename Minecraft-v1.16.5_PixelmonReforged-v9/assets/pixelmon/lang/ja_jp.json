@@ -7074,6 +7074,8 @@
     "pixelmon.quaxwell.description": "ひたすらに 浅瀬を 走り込んで 足腰を 鍛え 仲間同士で 足技の 華麗さを 競いあう。",
     "pixelmon.quaquaval": "ウェーニバル",
     "pixelmon.quaquaval.description": "ひと蹴りで トラックを 転がす 強靭な 脚力を 駆使し エキゾチックな 踊りを みせる。",
+    "pixelmon.clodsire": "ドオー",
+    "pixelmon.clodsire.description": "敵に 襲われると 太い 棘を 胴体から 突き出して 反撃。 身を切る 覚悟の 危険な 技。",
 
     "pixelmon.unimplemented.description": "このポケモンはまだPixelmonに実装されていません。",
 
@@ -7654,6 +7656,7 @@
     "pixelmon.generic.form.noice_face": "ナイスフェイス",
     "pixelmon.generic.form.gulping": "うのみのすがた",
     "pixelmon.generic.form.gorging": "まるのみのすがた",
+    "pixelmon.generic.form.ultra": "ウルトラ",
     "pixelmon.palette.shiny": "色違い",
     "pixelmon.palette.zombie": "ゾンビ",
     "pixelmon.palette.online": "けいひん",
@@ -7725,6 +7728,7 @@
     "pixelmon.generic.form.alolan": "アローラ",
     "pixelmon.generic.form.galarian": "ガラル",
     "pixelmon.generic.form.hisuian": "ヒスイ",
+    "pixelmon.generic.form.paldean": "パルデア",
 
 
     "pixelmon.landorus.form.therian": "れいじゅう",
@@ -8855,9 +8859,9 @@
     "gui.pokedex.caught": "捕まえた:",
     "gui.pokedex.seen": "見つけた:",
     "gui.pokedex.completion": "完了:",
-    "gui.pokedex.spawning.times1": "at",
+    "gui.pokedex.spawning.times1": "の",
     "gui.pokedex.spawning.times2": "または",
-    "gui.pokedex.spawning.weather1": "during",
+    "gui.pokedex.spawning.weather1": "あいだ",
     "gui.pokedex.spawning.weather2": "または",
     "gui.pokedex.spawning.above": "より上 y",
     "gui.pokedex.spawning.below": "より下 y",
@@ -11179,6 +11183,7 @@
     "pixelmon.effect.trickroomnormal": "ゆがんだ時空が元に戻った.",
     "pixelmon.effect.becamedrowsy": "%s は眠くなった!",
     "pixelmon.effect.alreadydrowsy": "%s は眠くなっている!",
+    "pixelmon.effect.drowsy": "%s は眠くなった!",
     "pixelmon.effect.bellydrum": "%s は体力を削ってパワー全開!",
     "pixelmon.effect.applydestinybond": "%s は相手をみちづれにしようとしている!",
     "pixelmon.effect.destinybond": "%s は相手をみちづれにした!",
@@ -11434,6 +11439,8 @@
     "pixelmon.status.splinterscleared": "%s の破片は無くなった!",
     "pixelmon.status.obscured": "%s は煙幕に包まれた!",
     "pixelmon.status.obscuredworeoff": "%s の煙幕が解けた!",
+    "pixelmon.status.drowsy": "%s はねむけにおそわれた!",
+    "pixelmon.status.drowsymiss": "%s は ねむたくて 動けない!",
     "pixelmon.abilities.asone": "%s はとくせいが2つある!",
     "pixelmon.abilities.desolateland": "%s のおわりのだいちで日差しがとても強くなった!",
     "pixelmon.abilities.primordialsea": "%s のはじまりのうみで強い雨が降りはじめた!",

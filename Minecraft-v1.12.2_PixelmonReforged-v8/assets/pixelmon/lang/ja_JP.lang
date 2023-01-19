@@ -13,6 +13,9 @@
 #   name defines the display name of the item
 #   tooltip defines the tooltip text. If an item doesn't have value here, it won't have a tooltip.
 #
+item.griseous_core.name=だいはっきんだま
+item.adamant_crystal.name=だいこんごうだま
+item.lustrous_globe.name=だいしらたま
 item.fossil_machine_tank.name=かせきマシンのタンク
 item.fossil_machine_tank.tooltip=かせきマシンの4つの部品の一つで中心の部品。
 item.fossil_machine_display.name=かせきマシンの画面
@@ -886,6 +889,10 @@ item.flame_orb.name=かえんだま
 item.flame_orb.tooltip=触ると 熱をだす 不思議な玉。持たせると 戦闘中に やけどの 状態に なる。
 item.black_sludge.name=くろいヘドロ
 item.black_sludge.tooltip=持たせると どくタイプの ポケモンは 少しずつ HPを 回復する。それ以外は HPが 減ってしまう。
+item.black_augurite.name=くろのきせき
+item.black_augurite.tooltip=割ると鋭い切れ味を持つ ガラスに似た性質の黒い石。 あるポケモンが好んでいる。
+item.peat_block.name=ピートブロック
+item.peat_block.tooltip=泥のような石炭のかたまり。 乾かすことで燃料としても使える。 あるポケモンが好んでいる。
 item.scope_lens.name=ピントレンズ
 item.scope_lens.tooltip=弱点が みえる レンズ。持たせた ポケモンの 技が 急所に 当たりやすくなる。
 item.air_balloon.name=ふうせん
@@ -5443,6 +5450,8 @@ pixelmon.kirlia.name=キルリア
 pixelmon.kirlia.description=トレーナーが よろこぶと キルリアに エネルギーが みちあふれ たのしそうに くるくると おどる。
 pixelmon.klang.name=ギギアル
 pixelmon.klang.description=ちびギアと でかギアに わかれた。こうげきのため とばした ちびギアが もどってこないと しんでしまう。
+pixelmon.kleavor.name=バサギリ
+pixelmon.kleavor.description=硬き岩で 身を守り 無骨な 斧は 大木を 切り倒す。気性 荒々しく 荒地にて 遭遇しときは 逃げの一手。
 pixelmon.klefki.name=クレッフィ
 pixelmon.klefki.description=きにいった カギは ぜったいに てばなさないので ぼうはんのために きんこの カギを もたせるのだ。
 pixelmon.klink.name=ギアル
@@ -6104,6 +6113,8 @@ pixelmon.smoochum.name=ムチュール
 pixelmon.smoochum.description=なんでも くちびるで ふれてみて たしかめる。すきな ものも きらいな ものも くちびるが おぼえている。
 pixelmon.sneasel.name=ニューラ
 pixelmon.sneasel.description=ずるがしこい ポケモンで ゆびに かくした ながい ツメを いきなり のばして あいてを ひるませる。
+pixelmon.sneasler.name=オオニューラ
+pixelmon.sneasler.description=他種圧倒する 身体能力と 猛毒 有し 寒冷なる 高地においては 敵なし。 群れ成さず 単独を良しとする 性質。
 pixelmon.snivy.name=ツタージャ
 pixelmon.snivy.description=たいようの ひかりを あびると いつもよりも すばやく うごける。 てよりも ツルを うまくつかう。
 pixelmon.snom.name=ユキハミ
@@ -6314,6 +6325,8 @@ pixelmon.unfezant.name=ケンホロウ
 pixelmon.unfezant.description=あたまの かざりを ゆらして いかく してくる オスだが とぶのは メスよりも へただ。
 pixelmon.unown.name=アンノーン
 pixelmon.unown.description=1ぴきで いても なにも おきないが 2ひき いじょうで ならぶと なにかの ちからが めばえるという。
+pixelmon.ursaluna.name=ガチグマ
+pixelmon.ursaluna.description=ヒスイの地に 敷かれし 湿地の土こそ 頑丈なる体躯と 泥炭を 自在に 扱う 新たな 器量 もたらしたと 考察す。
 pixelmon.ursaring.name=リングマ
 pixelmon.ursaring.description=なわばりにある おいしい きのみや くだものの なる き には ツメで きずあとを つける。
 pixelmon.urshifu.name=ウーラオス
@@ -7277,9 +7290,9 @@ pixelmon.npc.trader=どうやら求めてるポケモンを持ってないよう
 
 pixelmon.npc.fishermanname=つりびと
 
-pixelmon.npc.relearnername=わざ思い出しマニア
-pixelmon.npc.relearnersetitem=わざ思い出しマニアのコストは %s (x%d) になった。
-pixelmon.npc.relearnernoitem=わざ思い出しマニアは自由に使用できるようになった。
+pixelmon.npc.relearnername=わざ思い出しじいさん
+pixelmon.npc.relearnersetitem=わざ思い出しじいさんのコストは %s (x%d) になった。
+pixelmon.npc.relearnernoitem=わざ思い出しじいさんは自由に使用できるようになった。
 pixelmon.npc.relearnerfull=このアイテムをこれ以上スタックすることはできない!
 pixelmon.npc.relearnercost=サービスに %s (x%d) が必要だ。
 
@@ -7977,7 +7990,7 @@ gui.chooseNPC.trainer=NPCトレーナーを作成
 gui.chooseNPC.trader=トレーダーを作成
 gui.chooseNPC.chatting=会話NPCを作成
 gui.chooseNPC.quest=クエストNPCを作成
-gui.chooseNPC.relearner=わざ思い出しマニアを作成
+gui.chooseNPC.relearner=わざ思い出しじいさんを作成
 gui.chooseNPC.tutor=わざ教え職人を作成
 gui.chooseNPC.transfer_tutor=わざ継承者
 gui.chooseNPC.nursejoy=ジョーイさん作成
@@ -11191,592 +11204,592 @@ ribbon.none.description=上のリボンを選択してください
 ribbon.none.name=リボンが選択されていません
 ribbon.none.title=%s
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ribbon.champion.description=昔 どこかの リーグで 勝ち抜き 殿堂入りした 記念リボン
+ribbon.champion.name=チャンプリボン
+ribbon.champion.title=チャンピオン %s
+ribbon.kanto_champion.description=カントーで チャンピオンに 勝利し 殿堂入りした 記念リボン
+ribbon.kanto_champion.name=カントー チャンプリボン
+ribbon.kanto_champion.title=カントー チャンピオン %s
+ribbon.orange_champion.description=オレンジ諸島で チャンピオンに 勝利し 殿堂入りした 記念リボン
+ribbon.orange_champion.name=オレンジ諸島 チャンプリボン
+ribbon.orange_champion.title=オレンジ諸島 チャンピオン %s
+ribbon.johto_champion.description=ジョウトで チャンピオンに 勝利し 殿堂入りした 記念リボン
+ribbon.johto_champion.name=ジョウト チャンプリボン
+ribbon.johto_champion.title=ジョウト チャンピオン %s
+ribbon.hoenn_champion.description=ホウエンで チャンピオンに 勝利し 殿堂入りした 記念リボン
+ribbon.hoenn_champion.name=ホウエン チャンプリボン
+ribbon.hoenn_champion.title=ホウエン チャンピオン %s
+ribbon.sinnoh_champion.description=シンオウで チャンピオンに 勝利し 殿堂入りした 記念リボン
+ribbon.sinnoh_champion.name=シンオウ チャンプリボン
+ribbon.sinnoh_champion.title=シンオウ チャンピオン %s
+ribbon.unova_champion.description=イッシュで チャンピオンに 勝利し 殿堂入りした 記念リボン
+ribbon.unova_champion.name=イッシュ チャンプリボン
+ribbon.unova_champion.title=イッシュ チャンピオン %s
+ribbon.kalos_champion.description=カロスで チャンピオンに 勝利し 殿堂入りした 記念リボン
+ribbon.kalos_champion.name=カロス チャンプリボン
+ribbon.kalos_champion.title=カロス チャンピオン %s
+ribbon.alola_champion.description=アローラで チャンピオンに なって 殿堂入りした 記念リボン
+ribbon.alola_champion.name=アローラ チャンプリボン
+ribbon.alola_champion.title=アローラ チャンピオン %s
+ribbon.galar_champion.description=ガラルで チャンピオンに なって 殿堂入りした 記念リボン
+ribbon.galar_champion.name=ガラル チャンプリボン
+ribbon.galar_champion.title=ガラルチャンピオン %s
+
+ribbon.skillful_battler.description=厳しい戦いを勝ち抜いたポケモンに贈られるリボン
+ribbon.skillful_battler.name=グレートバトルリボン
+ribbon.skillful_battler.title=ベテランの %s
+ribbon.expert_battler.description=戦いを 極めた つわものの ポケモンに 贈られる リボン
+ribbon.expert_battler.name=マスターバトルリボン
+ribbon.expert_battler.title=たつじんの %s
+ribbon.battle_tree_great.description=バトルツリーの バトルレジェンドに 勝利した 記念リボン
+ribbon.battle_tree_great.name=グレートツリーリボン
+ribbon.battle_tree_great.title=ツリーウィナー %s
+ribbon.battle_tree_master.description=バトルツリーの バトルレジェンドに スーパーで 勝利した 記念リボン
+ribbon.battle_tree_master.name=マスターツリーリボン
+ribbon.battle_tree_master.title=ツリーマスター %s
+ribbon.tower_master.description=バトルタワーの 頂点を 極めた ものに 贈られる 記念リボン
+ribbon.tower_master.name=マスタータワーリボン
+ribbon.tower_master.title=タワーマスター %s
+
+ribbon.artist.description=ホウエンで豪華な似顔絵のモデルになった記念のリボン
+ribbon.artist.name=ブロマイドリボン
+ribbon.artist.title=えのモデルになった %s
+ribbon.effort.description=たくさん努力しているポケモンに贈られるリボン
+ribbon.effort.name=がんばリボン
+ribbon.effort.title=あのころがんばった %s
+ribbon.alert.description=しゃっきりするできごとを思い出して人生のエネルギーとなるリボン
+ribbon.alert.name=しゃっきリボン
+ribbon.alert.title=あのひしゃきっとした %s
+ribbon.shock.description=どきどきした事柄を思い出して人生をわくわくさせてくれるリボン
+ribbon.shock.name=どっきリボン
+ribbon.shock.title=むかしビビリだった %s
+ribbon.downcast.description=しょんぼりした気持ちを思い出して人生のスパイスとなるリボン
+ribbon.downcast.name=しょんぼリボン
+ribbon.downcast.title=かなしいことがあった %s
+ribbon.careless.description=うっかりした失敗を思い出して人生のエッセンスとなるリボン
+ribbon.careless.name=うっかリボン
+ribbon.careless.title=ミスるひもあった %s
+ribbon.relax.description=すっきりした経験を思い出して人生をリフレッシュさせるリボン
+ribbon.relax.name=すっきリボン
+ribbon.relax.title=あのひスッキリした %s
+ribbon.snooze.description=ぐっすり眠ったことを思い出して人生の安らぎとなるリボン
+ribbon.snooze.name=ぐっすリボン
+ribbon.snooze.title=ねてばかりだった %s
+ribbon.smile.description=にっこりほほえむことを思い出して人生をゆたかにしてくれるリボン
+ribbon.smile.name=にっこリボン
+ribbon.smile.title=よくわらっていた %s
+ribbon.gorgeous.description=このうえなくゴージャスできらびやかな感じのリボン
+ribbon.gorgeous.name=ゴージャスリボン
+ribbon.gorgeous.title=ゴージャス %s
+ribbon.royal.description=とてつもなくロイヤルで気高い感じのするリボン
+ribbon.royal.name=ロイヤルリボン
+ribbon.royal.title=ロイヤル %s
+ribbon.gorgeous_royal.description=これ以上素晴らしいものはないゴージャスでロイヤルなリボン
+ribbon.gorgeous_royal.name=ゴージャスロイヤルリボン
+ribbon.gorgeous_royal.title=ゴージャス＆ロイヤル %s
+ribbon.footprint.description=最高のあしあとを持つポケモンがもらえるリボン
+ribbon.footprint.name=あしあとリボン
+ribbon.footprint.title=あしあとがじまんの %s
+ribbon.record.description=ものすごい 記録を 残した 記念の リボン
+ribbon.record.name=レコードリボン
+ribbon.record.title=きろくをもつ %s
+ribbon.legend.description=伝説的記録を残した記念のリボン
+ribbon.legend.name=レジェンドリボン
+ribbon.legend.title=すごいきろくをもつ %s
+ribbon.best_friends.description=深い絆で結ばれたポケモンに贈られるリボン
+ribbon.best_friends.name=なかよしリボン
+ribbon.best_friends.title=しんゆうの %s
+ribbon.training.description=過酷な試練を乗り越えたポケモンに贈られるリボン
+ribbon.training.name=しゅぎょうリボン
+ribbon.training.title=しれんをともにした %s
+ribbon.battle_royal_master.description=バトルロイヤルで 勝ち抜いた ポケモンに 贈られる 記念リボン
+ribbon.battle_royal_master.name=ロイヤルマスターリボン
+ribbon.battle_royal_master.title=ロイヤルマスター %s
+ribbon.master_rank.description=ランクバトルの　マスターボール級で　トレーナーに　勝利した　記念リボン
+ribbon.master_rank.name=マスターランクリボン
+ribbon.master_rank.title=ランクマスター %s
+ribbon.country.description=ポケモンリーグ優勝記念リボン
+ribbon.country.name=カントリーリボン
+ribbon.country.title=ゆうしょうしゃの %s
+ribbon.national.description=すべての困難を乗り越えた記念リボン
+ribbon.national.name=ナショナルリボン
+ribbon.national.title=こんなんをのりこえた %s
+ribbon.earth.description=100人抜き達成記念リボン
+ribbon.earth.name=アースリボン
+ribbon.earth.title=100にんぬきの %s
+ribbon.world.description=ポケモンリーグ優勝記念リボン
+ribbon.world.name=ワールドリボン
+ribbon.world.title=せかいせいはの %s
+ribbon.battle_champion.description=バトル大会優勝記念リボン
+ribbon.battle_champion.name=バトルチャンプリボン
+ribbon.battle_champion.title=バトルチャンピオン %s
+ribbon.regional_champion.description=ポケモンワールドチャンピオンシップス エリア大会 優勝記念リボン
+ribbon.regional_champion.name=エリアチャンプリボン
+ribbon.regional_champion.title=エリアチャンピオン %s
+ribbon.national_champion.description=ポケモンワールドチャンピオンシップス 国内大会 優勝記念リボン
+ribbon.national_champion.name=ナショナルチャンプリボン
+ribbon.national_champion.title=ナショナルチャンピオン %s
+ribbon.world_champion.description=ポケモンワールドチャンピオンシップス 世界大会 優勝記念リボン
+ribbon.world_champion.name=ワールドチャンプリボン
+ribbon.world_champion.title=ワールドチャンピオン %s
+ribbon.classic.description=ポケモンが大好きなことを証明する記念リボン
+ribbon.classic.name=クラシックリボン
+ribbon.classic.title=ポケモンずきの %s
+ribbon.premier.description=記念日記念リボン
+ribbon.premier.name=プレミアリボン
+ribbon.premier.title=きねんびをすごした %s
+ribbon.event.description=ポケモンのイベントに参加した記念リボン
+ribbon.event.name=イベントリボン
+ribbon.event.title=イベントにさんかした %s
+ribbon.birthday.description=お誕生日記念リボン
+ribbon.birthday.name=バースデーリボン
+ribbon.birthday.title=いつもいっしょの %s
+ribbon.special.description=特別な 日の 特別な リボン
+ribbon.special.name=スペシャルリボン
+ribbon.special.title=プレミアムなひの %s
+ribbon.souvenir.description=特別な思い出を記念するリボン
+ribbon.souvenir.name=メモリアルリボン
+ribbon.souvenir.title=さいこうのおもいでの %s
+ribbon.wishing.description=願いがかなうといわれているリボン
+ribbon.wishing.name=ウィッシュリボン
+ribbon.wishing.title=ゆめかなえし %s
+
+ribbon.absent_minded.description=なにもかんがえてない ポケモンである あかし
+ribbon.absent_minded.name=のうてんきなあかし
+ribbon.absent_minded.title=なにもかんがえてない %s
+ribbon.angry.description=プンプンおこる ポケモンである あかし
+ribbon.angry.name=ふんぬのあかし
+ribbon.angry.title=プンプンおこる %s
+ribbon.blizzard.description=こごえふるえる ポケモンである あかし
+ribbon.blizzard.name=ごうせつのあかし
+ribbon.blizzard.title=こごえふるえる %s
+ribbon.calmness.description=クールな ポケモンである あかし
+ribbon.calmness.name=れいせいのあかし
+ribbon.calmness.title=クールな %s
+ribbon.charismatic.description=オーラをかんじる ポケモンである あかし
+ribbon.charismatic.name=カリスマのあかし
+ribbon.charismatic.title=オーラをかんじる %s
+ribbon.cloudy.description=くもをみつめる ポケモンである あかし
+ribbon.cloudy.name=どんてんのあかし
+ribbon.cloudy.title=くもをみつめる %s
+ribbon.crafty.description=スキをねらう ポケモンである あかし
+ribbon.crafty.name=こうかつのあかし
+ribbon.crafty.title=スキをねらう %s
+ribbon.curry.description=カレーずきな ポケモンである あかし
+ribbon.curry.name=カレーのあかし
+ribbon.curry.title=カレーずきな %s
+ribbon.dawn.description=はやくにめざめた ポケモンである あかし
+ribbon.dawn.name=あかつきのあかし
+ribbon.dawn.title=はやくにめざめた %s
+ribbon.destiny.description=うんめいかんじる ポケモンである あかし
+ribbon.destiny.name=うんめいのあかし
+ribbon.destiny.title=うんめいかんじる %s
+ribbon.dry.description=のどカラカラの ポケモンである あかし
+ribbon.dry.name=かんそうのあかし
+ribbon.dry.title=のどカラカラの %s
+ribbon.dusk.description=そろそろねむい ポケモンである あかし
+ribbon.dusk.name=たそがれのあかし
+ribbon.dusk.title=そろそろねむい %s
+ribbon.excited.description=ワクワクしてる ポケモンである あかし
+ribbon.excited.name=きたいのあかし
+ribbon.excited.title=ワクワクしてる %s
+ribbon.ferocious.description=あれくるう ポケモンである あかし
+ribbon.ferocious.name=ほんのうのあかし
+ribbon.ferocious.title=あれくるう %s
+ribbon.fishing.description=つりたてピチピチの ポケモンである あかし
+ribbon.fishing.name=つりあげられたあかし
+ribbon.fishing.title=つりたてピチピチの %s
+ribbon.flustered.description=あわてんぼうの ポケモンである あかし
+ribbon.flustered.name=どうようのあかし
+ribbon.flustered.title=あわてんぼうの %s
+ribbon.humble.description=そぼくな ポケモンである あかし
+ribbon.humble.name=ぼくとつのあかし
+ribbon.humble.title=そぼくな %s
+ribbon.intellectual.description=ちてきな ポケモンである あかし
+ribbon.intellectual.name=りせいのあかし
+ribbon.intellectual.title=ちてきな %s
+ribbon.intense.description=アグレッシブな ポケモンである あかし
+ribbon.intense.name=じょうねつのあかし
+ribbon.intense.title=アグレッシブな %s
+ribbon.jittery.description=ドキドキしてる ポケモンである あかし
+ribbon.jittery.name=きんちょうのあかし
+ribbon.jittery.title=ドキドキしてる %s
+ribbon.joyful.description=しあわせそうな ポケモンである あかし
+ribbon.joyful.name=たこうのあかし
+ribbon.joyful.title=しあわせそうな %s
+ribbon.kindly.description=やさしげな ポケモンである あかし
+ribbon.kindly.name=やさがたのあかし
+ribbon.kindly.title=やさしげな %s
+ribbon.lunchtime.description=はらペコの ポケモンである あかし
+ribbon.lunchtime.name=しょうごのあかし
+ribbon.lunchtime.title=はらペコの %s
+ribbon.misty.description=きりにとまどう ポケモンである あかし
+ribbon.misty.name=のうむのあかし
+ribbon.misty.title=きりにとまどう %s
+ribbon.peeved.description=ふきげんな ポケモンである あかし
+ribbon.peeved.name=げきはつのあかし
+ribbon.peeved.title=ふきげんな %s
+ribbon.prideful.description=ふんぞりかえった ポケモンである あかし
+ribbon.prideful.name=じしんのあかし
+ribbon.prideful.title=ふんぞりかえった %s
+ribbon.pumped_up.description=やるきまんまんの ポケモンである あかし
+ribbon.pumped_up.name=こうようのあかし
+ribbon.pumped_up.title=やるきまんまんの %s
+ribbon.rainy.description=あめにむせぶ ポケモンである あかし
+ribbon.rainy.name=あめふりのあかし
+ribbon.rainy.title=あめにむせぶ %s
+ribbon.rare.description=ひとをしらない ポケモンである あかし
+ribbon.rare.name=みたことのないあかし
+ribbon.rare.title=ひとをしらない %s
+ribbon.rowdy.description=あばれんぼうの ポケモンである あかし
+ribbon.rowdy.name=わんぱくなあかし
+ribbon.rowdy.title=あばれんぼうの %s
+ribbon.sandstorm.description=すなにまみれる ポケモンである あかし
+ribbon.sandstorm.name=さじんのあかし
+ribbon.sandstorm.title=すなにまみれる %s
+ribbon.scowling.description=いかつい ポケモンである あかし
+ribbon.scowling.name=こわもてのあかし
+ribbon.scowling.title=いかつい %s
+ribbon.sleepy_time.description=おねむな ポケモンである あかし
+ribbon.sleepy_time.name=しょうしのあかし
+ribbon.sleepy_time.title=おねむな %s
+ribbon.slump.description=どこかくたびれた ポケモンである あかし
+ribbon.slump.name=ふちょうのあかし
+ribbon.slump.title=どこかくたびれた %s
+ribbon.smiley.description=ニコニコわらう ポケモンである あかし
+ribbon.smiley.name=びしょうのあかし
+ribbon.smiley.title=ニコニコわらう %s
+ribbon.snowy.description=ゆきにころがる ポケモンである あかし
+ribbon.snowy.name=こうせつのあかし
+ribbon.snowy.title=ゆきにころがる %s
+ribbon.stormy.description=かみなりにさわぐ ポケモンである あかし
+ribbon.stormy.name=いかづちのあかし
+ribbon.stormy.title=かみなりにさわぐ %s
+ribbon.teary.description=メソメソなく ポケモンである あかし
+ribbon.teary.name=ひそうのあかし
+ribbon.teary.title=メソメソなく %s
+ribbon.thorny.description=きどっている ポケモンである あかし
+ribbon.thorny.name=ふじゅんのあかし
+ribbon.thorny.title=きどっている %s
+ribbon.uncommon.description=ひとになれてる ポケモンである あかし
+ribbon.uncommon.name=ときどきみるあかし
+ribbon.uncommon.title=ひとになれてる %s
+ribbon.unsure.description=じしんのない ポケモンである あかし
+ribbon.unsure.name=ふしんのあかし
+ribbon.unsure.title=じしんのない %s
+ribbon.upbeat.description=ごきげんな ポケモンである あかし
+ribbon.upbeat.name=かいちょうのあかし
+ribbon.upbeat.title=ごきげんな %s
+ribbon.vigor.description=げんきいっぱいの ポケモンである あかし
+ribbon.vigor.name=げんきのあかし
+ribbon.vigor.title=げんきいっぱいの %s
+ribbon.zero_energy.description=やるきゼロの ポケモンである あかし
+ribbon.zero_energy.name=けんたいのあかし
+ribbon.zero_energy.title=やるきゼロの %s
+ribbon.zoned_out.description= ポケモンである あかし
+ribbon.zoned_out.name=ゆだんのあかし
+ribbon.zoned_out.title=ボーっとしてる %s
+
+ribbon.waterdude.description=Waterdudeに会ったあかし
+ribbon.waterdude.name=すいせいのあかし
+ribbon.waterdude.title=すいせいの %s
+ribbon.oa10712.description=Oa10712に会ったあかし
+ribbon.oa10712.name=ちらばったあかし
+ribbon.oa10712.title=ばらばらな %s
+ribbon.jay113355.description=Jay113355に会ったあかし
+ribbon.jay113355.name=ぼうけんしゃのあかし
+ribbon.jay113355.title=ぼうけんしゃ %s
+ribbon.ras.description=Rasgnarokに会ったあかし
+ribbon.ras.name=Rasのあかし
+ribbon.ras.title=Pixelmonのはは %s
+ribbon.isi.description=Isiに会ったあかし
+ribbon.isi.name=Isiのあかし
+ribbon.isi.title=でんせつの %s
+ribbon.ribchop.description=Ribchopに会ったあかし
+ribbon.ribchop.name=Ribchopのあかし
+ribbon.ribchop.title=シバの %s
+
+advancements.ball_capture.title=まあ、 1 つはお金で
+advancements.ball_capture.description=モンスターボールでポケモンを捕まえる
+advancements.premier_ball_capture.title=2 つはショーのため
+advancements.premier_ball_capture.description=プレミアボールでポケモンを捕まえる
+advancements.great_ball_capture.title=３で準備完了
+advancements.great_ball_capture.description=スーパーボールでポケモンを捕まえる
+advancements.ultra_ball_capture.title=さあ行こう、捕まえに行こう!
+advancements.ultra_ball_capture.description=ハイパーボールでポケモンを捕まえる
+advancements.master_ball_capture.title=今回は逃げない！
+advancements.master_ball_capture.description=マスターボールでポケモンを捕まえる
+advancements.cherish_ball_capture.title=愛するもののために
+advancements.cherish_ball_capture.description=プレジャスボールでポケモンを捕まえる
+advancements.dive_ball_capture.title=深海へ
+advancements.dive_ball_capture.description=ダイブボールでポケモンを捕まえる
+advancements.dusk_ball_capture.title=夜を迎える
+advancements.dusk_ball_capture.description=ダークボールでポケモンを捕まえる
+advancements.fast_ball_capture.title=三振
+advancements.fast_ball_capture.description=スピードボールでポケモンを捕まえる
+advancements.friend_ball_capture.title=友達の輪
+advancements.friend_ball_capture.description=フレンドボールでポケモンを捕まえる
+advancements.gs_ball_capture.title=偉大な鍛冶師
+advancements.gs_ball_capture.description=GS ボールでポケモンを捕まえる
+advancements.heal_ball_capture.title=ジョーイさん公認
+advancements.heal_ball_capture.description=ヒールボールでポケモンを捕まえる
+advancements.heavy_ball_capture.title=重量挙げ選手
+advancements.heavy_ball_capture.description=ヘビーボールでポケモンを捕まえる
+advancements.level_ball_capture.title=ちびっ子ボールに入れ！
+advancements.level_ball_capture.description=レベルボールでポケモンを捕まえる
+advancements.love_ball_capture.title=仲人
+advancements.love_ball_capture.description=ラブラブボールでポケモンを捕まえる
+advancements.lure_ball_capture.title=餌を取った
+advancements.lure_ball_capture.description=ルアーボールでポケモンを捕まえる
+advancements.luxury_ball_capture.title=通常のポケボールではうまくいかない場合
+advancements.luxury_ball_capture.description=ゴージャスボールでポケモンを捕まえる
+advancements.moon_ball_capture.title=月のアリスへ!
+advancements.moon_ball_capture.description=ムーンボールでポケモンを捕まえる
+advancements.nest_ball_capture.title=良い家を与える
+advancements.nest_ball_capture.description=ネストボールでポケモンを捕まえる
+advancements.net_ball_capture.title=今日の漁獲
+advancements.net_ball_capture.description=ネットボールでポケモンを捕まえる
+advancements.park_ball_capture.title=チーター!
+advancements.park_ball_capture.description=パークボールでポケモンを捕まえる
+advancements.quick_ball_capture.title=ラウンド 1 ノックアウト
+advancements.quick_ball_capture.description=クイックボールでポケモンを捕まえる
+advancements.repeat_ball_capture.title=やった!やった!やった!
+advancements.repeat_ball_capture.description=リピートボールでポケモンを捕まえる
+advancements.safari_ball_capture.title=ポケモン保護活動
+advancements.safari_ball_capture.description=サファリボールでポケモンを捕まえる
+advancements.sport_ball_capture.title=虫捕り大会!
+advancements.sport_ball_capture.description=コンペボールでポケモンを捕まえる
+advancements.timer_ball_capture.title=10ターンに設定
+advancements.timer_ball_capture.description=タイマーボールでポケモンを捕まえる
+
+advancements.pokedex.title=初めての相棒!
+advancements.pokedex.description=スターターを選ぶ
+advancements.pokedex_10.title=10 分の1は悪くないですよね?
+advancements.pokedex_10.description=ポケモン図鑑を10%%埋める
+advancements.pokedex_25.title=ランクを上げる
+advancements.pokedex_25.description=ポケモン図鑑を25%%埋める
+advancements.pokedex_50.title=半分まで来ました!
+advancements.pokedex_50.description=ポケモン図鑑を50%%埋める
+advancements.pokedex_75.title=並外れたコレクター
+advancements.pokedex_75.description=ポケモン図鑑を75%%埋める
+advancements.pokedex_100.title=ポケモンマスター
+advancements.pokedex_100.description=ポケモン図鑑を100%%埋める
+
+advancements.legendary_capture.title=ちょっと待って…伝説!!
+advancements.legendary_capture.description=伝説のポケモンを捕まえる
+advancements.articuno_capture.title=冷凍チキンディナー
+advancements.articuno_capture.description=フリーザーを捕まえる
+advancements.zapdos_capture.title=電気チキン? それってダンス?
+advancements.zapdos_capture.description=サンダーを捕まえる
+advancements.moltres_capture.title=とっても辛いチキン
+advancements.moltres_capture.description=ファイヤーを捕まえる
+advancements.mewtwo_capture.title=見よ、我が力を!
+advancements.mewtwo_capture.description=ミュウツーを捕まえる
+advancements.mew_capture.title=全ての遺伝子
+advancements.mew_capture.description=ミュウを捕まえる
+advancements.raikou_capture.title=雷!雷!雷… いや待てよ
+advancements.raikou_capture.description=ライコウを捕まえる
+advancements.entei_capture.title=火獣
+advancements.entei_capture.description=エンテイを捕まえる
+advancements.suicune_capture.title=水獣
+advancements.suicune_capture.description=スイクンを捕まえる
+advancements.lugia_capture.title=ああ、XD001 じゃない
+advancements.lugia_capture.description=ルギアを捕まえる
+advancements.ho-oh_capture.title=蘇る虹
+advancements.ho-oh_capture.description=ホウオウを捕まえる
+advancements.celebi_capture.title=時をかける
+advancements.celebi_capture.description=セレビィを捕まえる
+advancements.regirock_capture.title=ロック!
+advancements.regirock_capture.description=レジロックを捕まえる
+advancements.regice_capture.title=アイス!
+advancements.regice_capture.description=レジアイスを捕まえる
+advancements.registeel_capture.title=鋼鉄!
+advancements.registeel_capture.description=レジスチルを捕まえる
+advancements.latias_capture.title=ぶっ飛ばせ!
+advancements.latias_capture.description=ラティアスを捕まえる
+advancements.latios_capture.title=光の速さで!
+advancements.latios_capture.description=ラティオスを捕まえる
+advancements.kyogre_capture.title=ウェイブクラッシャー!
+advancements.kyogre_capture.description=カイオーガを捕まえる
+advancements.groudon_capture.title=グラウンドスマッシャー!
+advancements.groudon_capture.description=グラードンを捕まえる
+advancements.rayquaza_capture.title=ウィンド ライダー!
+advancements.rayquaza_capture.description=レックウザを捕まえる
+advancements.jirachi_capture.title=星に願いを
+advancements.jirachi_capture.description=ジラーチを捕まえる
+advancements.deoxys_capture.title=チューブマン
+advancements.deoxys_capture.description=デオキシスを捕まえる
+
+advancements.shiny_spec.title=おお、色違い!
+advancements.shiny_spec.description=色違いのポケモンを捕まえる
+advancements.feebas_karp.title=ちょっと待って、それは違う…
+advancements.feebas_karp.description=変装したヒンバスを捕まえる
+advancements.spec.title=不思議な模様
+advancements.spec.description=普通でないパレットのポケモンを捕まえる
+advancements.strike.title=嵐の夜でした...
+advancements.strike.description=ストライクパレットのポケモンを捕まえる
+advancements.alter.title=汚れた聖杯
+advancements.alter.description=オルターパレットのポケモンを捕まえる
+advancements.summer.title=日焼け止めをお忘れなく
+advancements.summer.description=夏のパレットのポケモンを捕まえる
+advancements.pink.title=ピンクでかわいい
+advancements.pink.description=ピンクパレットのポケモンを捕まえる
+advancements.valencian.title=オレンジ諸島から
+advancements.valencian.description=バレンシアのパレットのポケモンを捕まえる
+advancements.drowned.title=水中はちょっと長すぎました...
+advancements.drowned.description=ドラウンドパレットのポケモンを捕まえる
+advancements.rainbow.title=すべての色!
+advancements.rainbow.description=レインボー パレットのポケモンを捕まえる
+advancements.valentine.title=私のものになってくれませんか?
+advancements.valentine.description=バレンタインデーパレットのポケモンを捕まえる
+advancements.zombie.title=トリック オア トリート!
+advancements.zombie.description=ハロウィンパレットのポケモンを捕まえる
+advancements.magikarp_jump.title=跳ねろコイキング!
+advancements.magikarp_jump.description=特別なコイキングを捕まえる
+advancements.magikarp_jump_all.title=究極の完成主義者
+advancements.magikarp_jump_all.description=すべての特別なコイキングを捕まえる
+advancements.shellos_jump.title=跳ねろカラナクシ!
+advancements.shellos_jump.description=特別なカラナクシを捕まえる
+advancements.shellos_jump_all.title=海岸から海岸へ
+advancements.shellos_jump_all.description=すべての特別なカラナクシを捕まえる
+advancements.clobbopus_jump.title=跳ねろタタッコ!
+advancements.clobbopus_jump.description=特別なタタッコを捕まえる
+advancements.clobbopus_jump_all.title=叩きつけタタッコ
+advancements.clobbopus_jump_all.description=すべての特別なタタッコを捕まえる
+advancements.spheal_jump.title=跳ねろタマザラシ!
+advancements.spheal_jump.description=特別なタマザラシを捕まえる
+advancements.spheal_jump_all.title=あらゆる状況に対応する球体
+advancements.spheal_jump_all.description=すべての特別なタマザラシを捕まえる
+advancements.spiky_pichu.title=友情しか勝たん
+advancements.spiky_pichu.description=ギザ耳のピチューを捕まえる
+advancements.crystal_onix.title=ああ、輝いている
+advancements.crystal_onix.description=クリスタルイワークを捕まえる
+advancements.sir_doofus.title=適切な紳士
+advancements.sir_doofus.description=ドゥーファス卿 3 世を捕まえる
+
+advancements.capture_type.title=とても不思議!
+advancements.capture_type.description=初めて捕まえる
+advancements.capture_normal_10.title=平凡な日
+advancements.capture_normal_10.description=ノーマルタイプのポケモンを10匹捕まえる
+advancements.capture_normal_25.title=ノーマルとは?
+advancements.capture_normal_25.description=ノーマルタイプのポケモンを25匹捕まえる
+advancements.capture_normal_total.title=たくさんのノーマル
+advancements.capture_normal_total.description=ノーマルタイプのポケモンを114匹捕まえる
+advancements.capture_fighting_10.title=ファイト クラブの最初のルール
+advancements.capture_fighting_10.description=かくとうタイプのポケモンを10匹捕まえる
+advancements.capture_fighting_25.title=ファイトクラブの第二のルール
+advancements.capture_fighting_25.description=かくとうタイプのポケモンを25匹捕まえる
+advancements.capture_fighting_total.title=からておう！
+advancements.capture_fighting_total.description=かくとうタイプのポケモンを57匹捕まえる
+advancements.capture_flying_10.title=上へ上へ、遠くへ！
+advancements.capture_flying_10.description=ひこうタイプのポケモンを10匹捕まえる
+advancements.capture_flying_25.title=鳥です!
+advancements.capture_flying_25.description=ひこうタイプのポケモンを25匹捕まえる
+advancements.capture_flying_total.title=それは飛行機です....いいえ、まだ鳥です
+advancements.capture_flying_total.description=ひこうタイプのポケモンを104匹捕まえる
+advancements.capture_poison_10.title=一口どうぞ
+advancements.capture_poison_10.description=どくタイプのポケモンを10匹捕まえる
+advancements.capture_poison_25.title=あのコは毒
+advancements.capture_poison_25.description=どくタイプのポケモンを25匹捕まえる
+advancements.capture_poison_total.title=おいで、苦い毒
+advancements.capture_poison_total.description=どくタイプのポケモンを68匹捕まえる
+advancements.capture_ground_10.title=新天地への踏み出し
+advancements.capture_ground_10.description=地面タイプのポケモンを10匹捕まえる
+advancements.capture_ground_25.title=古い土地の再生
+advancements.capture_ground_25.description=地面タイプのポケモンを25匹捕まえる
+advancements.capture_ground_total.title=地面をドンドン
+advancements.capture_ground_total.description=地面タイプのポケモンを68匹捕まえる
+advancements.capture_rock_10.title=どん底
+advancements.capture_rock_10.description=いわタイプのポケモンを10匹捕まえる
+advancements.capture_rock_25.title=ロックンロール
+advancements.capture_rock_25.description=いわタイプのポケモンを25匹捕まえる
+advancements.capture_rock_total.title=いわくだき
+advancements.capture_rock_total.description=いわタイプのポケモンを63匹捕まえる
+advancements.capture_bug_10.title=虫捕り!
+advancements.capture_bug_10.description=むしタイプのポケモンを10匹捕まえる。
+advancements.capture_bug_25.title=気味が悪い
+advancements.capture_bug_25.description=むしタイプのポケモンを25匹捕まえる
+advancements.capture_bug_total.title=昆虫学者
+advancements.capture_bug_total.description=むしタイプのポケモンを80匹捕まえる
+advancements.capture_ghost_10.title=何かおかしくなったら…
+advancements.capture_ghost_10.description=ゴーストタイプのポケモンを10匹捕まえる
+advancements.capture_ghost_25.title=近所で…
+advancements.capture_ghost_25.description=ゴーストタイプのポケモンを25匹捕まえる
+advancements.capture_ghost_total.title=誰に電話する?
+advancements.capture_ghost_total.description=ゴーストタイプのポケモンを46匹捕まえる
+advancements.capture_steel_10.title=鋳鉄
+advancements.capture_steel_10.description=はがねタイプのポケモンを10匹捕まえる
+advancements.capture_steel_25.title=ステンレス
+advancements.capture_steel_25.description=はがねタイプのポケモンを25匹捕まえる
+advancements.capture_steel_total.title=焼き戻し
+advancements.capture_steel_total.description=はがねタイプのポケモンを54匹捕まえる
+advancements.capture_fire_10.title=フライパンから
+advancements.capture_fire_10.description=ほのおタイプのポケモンを10匹捕まえる
+advancements.capture_fire_25.title=火の中へ
+advancements.capture_fire_25.description=ほのおタイプのポケモンを25匹捕まえる
+advancements.capture_fire_total.title=地獄には怒りがない
+advancements.capture_fire_total.description=ほのおタイプのポケモンを70匹捕まえる
+advancements.capture_water_10.title=水の流れ
+advancements.capture_water_10.description=みずタイプのポケモンを10匹捕まえる
+advancements.capture_water_25.title=転がる潮
+advancements.capture_water_25.description=みずタイプのポケモンを25匹捕まえる
+advancements.capture_water_total.title=荒れ狂う急流
+advancements.capture_water_total.description=みずタイプのポケモンを134匹捕まえる
+advancements.capture_grass_10.title=雑草を刈る
+advancements.capture_grass_10.description=くさタイプのポケモンを10匹捕まえる
+advancements.capture_grass_25.title=種をまく
+advancements.capture_grass_25.description=くさタイプのポケモンを25匹捕まえる
+advancements.capture_grass_total.title=大樹に育て
+advancements.capture_grass_total.description=くさタイプのポケモンを101匹捕まえる
+advancements.capture_electric_10.title=電気会社
+advancements.capture_electric_10.description=でんきタイプのポケモンを10匹捕まえる
+advancements.capture_electric_25.title=電気グルーヴ
+advancements.capture_electric_25.description=でんきタイプのポケモンを25匹捕まえる
+advancements.capture_electric_total.title=眠らない街
+advancements.capture_electric_total.description=でんきタイプのポケモンを95匹捕まえる
+advancements.capture_psychic_10.title=これがあなたのカードですか?
+advancements.capture_psychic_10.description=エスパータイプのポケモンを10匹捕まえる
+advancements.capture_psychic_25.title=タネも仕掛けもありません
+advancements.capture_psychic_25.description=エスパータイプのポケモンを25匹捕まえる
+advancements.capture_psychic_total.title=スプーンはありません
+advancements.capture_psychic_total.description=エスパータイプのポケモンを90匹捕まえる
+advancements.capture_ice_10.title=お出迎えのアイス
+advancements.capture_ice_10.description=こおりタイプのポケモンを10匹捕まえる
+advancements.capture_ice_25.title=アイスアイスベイビー
+advancements.capture_ice_25.description=こおりタイプのポケモンを25匹捕まえる
+advancements.capture_ice_total.title=あなたは氷のように冷たい
+advancements.capture_ice_total.description=こおりタイプのポケモンを40匹捕まえる
+advancements.capture_dragon_10.title=眠れるドラゴンを寝かせて
+advancements.capture_dragon_10.description=ドラゴンタイプのポケモンを10匹捕まえる
+advancements.capture_dragon_25.title=竜殺し
+advancements.capture_dragon_25.description=ドラゴンタイプのポケモンを25匹捕まえる
+advancements.capture_dragon_total.title=ターガリエン家
+advancements.capture_dragon_total.description=ドラゴンタイプのポケモンを51匹捕まえる
+advancements.capture_dark_10.title=暗闇で撃て
+advancements.capture_dark_10.description=あくタイプのポケモンを10匹捕まえる
+advancements.capture_dark_25.title=暗黒の約束
+advancements.capture_dark_25.description=あくタイプのポケモンを25匹捕まえる
+advancements.capture_dark_total.title=闇の呪い
+advancements.capture_dark_total.description=あくタイプのポケモンを51匹捕まえる
+advancements.capture_fairy_10.title=昔々…
+advancements.capture_fairy_10.description=フェアリータイプのポケモンを10匹捕まえる
+advancements.capture_fairy_25.title=彼らは皆生きていた…
+advancements.capture_fairy_25.description=フェアリータイプのポケモンを25匹捕まえる
+advancements.capture_fairy_total.title=末永くお幸せに
+advancements.capture_fairy_total.description=フェアリータイプのポケモンを49匹捕まえる
+
+advancements.wild_battle_victory.title=たった4回の挑戦でした*ガッツポーズ*
+advancements.wild_battle_victory.description=バトルで最初のポケモンを倒す
+advancements.wild_battle_victory_50.title=コツコツやる
+advancements.wild_battle_victory_50.description=ポケモンを50匹倒す
+advancements.wild_battle_victory_1000.title=頑張ってください!
+advancements.wild_battle_victory_1000.description=ポケモンを1000匹倒す
+advancements.wild_battle_victory_5000.title=時が経つのは早い!
+advancements.wild_battle_victory_5000.description=ポケモンを5000匹倒す
+advancements.wild_battle_victory_50000.title=まだ数えていますか?
+advancements.wild_battle_victory_50000.description=ポケモンを50000匹倒す
+advancements.wild_battle_victory_100000.title=ああ、そうだったね
+advancements.wild_battle_victory_100000.description=ポケモンを100000匹倒す
 
 pixelmon.time.dawn=夜明け
 pixelmon.time.morning=朝
