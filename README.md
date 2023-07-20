@@ -26,6 +26,11 @@ Pixelmon Reforged v8.4.3まで対応しています。
 
 ## Minecraft v1.16.5 Pixelmon Reforged v9.x.x
 
+※v9はリソースパック化していますので、以下から利用ください。
+
+https://github.com/thord-game/PixelmonReforged_ja_ResourcePack
+
+
 PixelmonReforged_ja_JP.lang/Minecraft-v1.16.5_PixelmonReforged-v9/ をダウンロードし、
 Pixelmon-1.16.5-9.x.x-universal.jarを7zipで開き、assetsフォルダ,dataフォルダをコピーします。
 
