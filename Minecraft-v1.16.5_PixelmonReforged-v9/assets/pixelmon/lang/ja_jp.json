@@ -2524,11 +2524,11 @@
     "item.pixelmon.dusk_stone_pickaxe": "闇の石のツルハシ",
     "item.pixelmon.dusk_stone_shovel": "闇の石のシャベル",
     "item.pixelmon.dusk_stone_sword": "闇の石の剣",
-    "item.pixelmon.ruby_helmetet": "マグマ団のヘルメット",
+    "item.pixelmon.ruby_helmet": "マグマ団のヘルメット",
     "item.pixelmon.ruby_chestplate": "マグマ団のチェストプレート",
     "item.pixelmon.ruby_leggings": "マグマ団のレギンズ",
     "item.pixelmon.ruby_boots": "マグマ団のブーツ",
-    "item.pixelmon.sapphire_helmetet": "アクア団のヘルメット",
+    "item.pixelmon.sapphire_helmet": "アクア団のヘルメット",
     "item.pixelmon.sapphire_chestplate": "アクア団のチェストプレート",
     "item.pixelmon.sapphire_leggings": "アクア団のレギンズ",
     "item.pixelmon.sapphire_boots": "アクア団のブーツ",
@@ -15339,7 +15339,7 @@
      "pixelmon.tutorial.send.out": "ポケモンを出す",
      "pixelmon.tutorial.send.out.desc": "%s を押してボールを投げてください",
 
-  "painting.pixelmon.quag.title": "泥沼",
+  "painting.pixelmon.quag.title": "ヌオー",
   "painting.pixelmon.quag.author": "Mezzbeans",
 
   "painting.pixelmon.evil_oak.title": "にせオーキドはかせ",
