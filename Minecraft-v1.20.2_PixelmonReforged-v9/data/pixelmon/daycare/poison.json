@@ -1,0 +1,42 @@
+{
+  "spec": "type1:POISON",
+  "durations": [
+    {
+      "type": "add",
+      "amount": 1.5,
+      "unit": "HOURS"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "itemstack",
+      "error_message": "1x 醸造台",
+      "items": [
+        {
+          "item": "minecraft:brewing_stand",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "3x 菌糸",
+      "items": [
+        {
+          "item": "minecraft:mycelium",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "3x スライムブロック",
+      "items": [
+        {
+          "item": "minecraft:slime_block",
+          "amount": 3
+        }
+      ]
+    }
+  ]
+}
