@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "shock",
+  "prefix": "ribbon.shock.title",
+  "translation_key": "ribbon.shock",
+  "description": "ribbon.shock.description",
+  "icon": "pixelmon:textures/gui/ribbons/shock.png"
+}

@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "tower_master",
+  "prefix": "ribbon.tower_master.title",
+  "translation_key": "ribbon.tower_master",
+  "description": "ribbon.tower_master.description",
+  "icon": "pixelmon:textures/gui/ribbons/tower_master.png"
+}

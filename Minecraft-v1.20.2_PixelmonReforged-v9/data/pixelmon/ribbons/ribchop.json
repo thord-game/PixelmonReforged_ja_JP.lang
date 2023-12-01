@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "ribchop",
+  "prefix": "ribbon.ribchop.title",
+  "translation_key": "ribbon.ribchop",
+  "description": "ribbon.ribchop.description",
+  "icon": "pixelmon:textures/gui/ribbons/ribchop.png"
+}

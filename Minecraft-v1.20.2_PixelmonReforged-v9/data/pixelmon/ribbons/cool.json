@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "cool",
+  "prefix": "ribbon.cool.title",
+  "translation_key": "ribbon.cool",
+  "description": "ribbon.cool.description",
+  "icon": "pixelmon:textures/gui/ribbons/cool.png"
+}

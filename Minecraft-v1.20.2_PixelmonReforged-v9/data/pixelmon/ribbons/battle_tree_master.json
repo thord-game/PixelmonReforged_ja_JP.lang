@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "battle_tree_master",
+  "prefix": "ribbon.battle_tree_master.title",
+  "translation_key": "ribbon.battle_tree_master",
+  "description": "ribbon.battle_tree_master.description",
+  "icon": "pixelmon:textures/gui/ribbons/battle_tree_master.png"
+}

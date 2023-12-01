@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "great_ability",
+  "prefix": "ribbon.great_ability.title",
+  "translation_key": "ribbon.great_ability",
+  "description": "ribbon.great_ability.description",
+  "icon": "pixelmon:textures/gui/ribbons/great_ability.png"
+}

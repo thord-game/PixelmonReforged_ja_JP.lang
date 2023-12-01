@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "master_rank",
+  "prefix": "ribbon.master_rank.title",
+  "translation_key": "ribbon.master_rank",
+  "description": "ribbon.master_rank.description",
+  "icon": "pixelmon:textures/gui/ribbons/master_rank.png"
+}

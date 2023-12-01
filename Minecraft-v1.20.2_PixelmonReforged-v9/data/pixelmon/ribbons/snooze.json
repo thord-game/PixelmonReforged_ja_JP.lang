@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "snooze",
+  "prefix": "ribbon.snooze.title",
+  "translation_key": "ribbon.snooze",
+  "description": "ribbon.snooze.description",
+  "icon": "pixelmon:textures/gui/ribbons/snooze.png"
+}

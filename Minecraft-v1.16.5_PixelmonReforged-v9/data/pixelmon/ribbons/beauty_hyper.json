@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "beauty_hyper",
+  "prefix": "ribbon.beauty_hyper.title",
+  "translation_key": "ribbon.beauty_hyper",
+  "description": "ribbon.beauty_hyper.description",
+  "icon": "pixelmon:textures/gui/ribbons/beauty_hyper.png"
+}

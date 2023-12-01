@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "rowdy",
+  "prefix": "ribbon.rowdy.title",
+  "translation_key": "ribbon.rowdy",
+  "description": "ribbon.rowdy.description",
+  "icon": "pixelmon:textures/gui/ribbons/rowdy.png"
+}

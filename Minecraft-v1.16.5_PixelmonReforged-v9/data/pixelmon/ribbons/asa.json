@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "asa",
+  "prefix": "ribbon.asa.title",
+  "translation_key": "ribbon.asa",
+  "description": "ribbon.asa.description",
+  "icon": "pixelmon:textures/gui/ribbons/asa.png"
+}

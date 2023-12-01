@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "national",
+  "prefix": "ribbon.national.title",
+  "translation_key": "ribbon.national",
+  "description": "ribbon.national.description",
+  "icon": "pixelmon:textures/gui/ribbons/national.png"
+}

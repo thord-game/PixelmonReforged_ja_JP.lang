@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "prideful",
+  "prefix": "ribbon.prideful.title",
+  "translation_key": "ribbon.prideful",
+  "description": "ribbon.prideful.description",
+  "icon": "pixelmon:textures/gui/ribbons/prideful.png"
+}

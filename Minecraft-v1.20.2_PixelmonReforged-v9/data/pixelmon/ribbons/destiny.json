@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "destiny",
+  "prefix": "ribbon.destiny.title",
+  "translation_key": "ribbon.destiny",
+  "description": "ribbon.destiny.description",
+  "icon": "pixelmon:textures/gui/ribbons/destiny.png"
+}

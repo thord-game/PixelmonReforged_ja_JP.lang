@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "intellectual",
+  "prefix": "ribbon.intellectual.title",
+  "translation_key": "ribbon.intellectual",
+  "description": "ribbon.intellectual.description",
+  "icon": "pixelmon:textures/gui/ribbons/intellectual.png"
+}

@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "upbeat",
+  "prefix": "ribbon.upbeat.title",
+  "translation_key": "ribbon.upbeat",
+  "description": "ribbon.upbeat.description",
+  "icon": "pixelmon:textures/gui/ribbons/upbeat.png"
+}

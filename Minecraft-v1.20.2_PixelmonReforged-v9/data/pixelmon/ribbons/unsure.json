@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "unsure",
+  "prefix": "ribbon.unsure.title",
+  "translation_key": "ribbon.unsure",
+  "description": "ribbon.unsure.description",
+  "icon": "pixelmon:textures/gui/ribbons/unsure.png"
+}

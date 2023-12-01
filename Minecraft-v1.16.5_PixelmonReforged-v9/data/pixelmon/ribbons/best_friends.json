@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "best_friends",
+  "prefix": "ribbon.best_friends.title",
+  "translation_key": "ribbon.best_friends",
+  "description": "ribbon.best_friends.description",
+  "icon": "pixelmon:textures/gui/ribbons/best_friends.png"
+}

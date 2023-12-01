@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "blizzard",
+  "prefix": "ribbon.blizzard.title",
+  "translation_key": "ribbon.blizzard",
+  "description": "ribbon.blizzard.description",
+  "icon": "pixelmon:textures/gui/ribbons/blizzard.png"
+}

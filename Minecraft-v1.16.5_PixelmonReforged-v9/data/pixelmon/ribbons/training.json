@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "training",
+  "prefix": "ribbon.training.title",
+  "translation_key": "ribbon.training",
+  "description": "ribbon.training.description",
+  "icon": "pixelmon:textures/gui/ribbons/training.png"
+}

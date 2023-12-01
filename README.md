@@ -53,3 +53,7 @@ Pixelmon Reforged v9.2.5 まで対応しています。
 
 https://www.youtube.com/watch?v=wQoTkWixY_c
 
+謝辞：リボンを日本向けに修正するデータはつっちーさんに共有いただきました。
+
+http://tt0.link/pixelmon/
+

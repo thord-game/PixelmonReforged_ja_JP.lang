@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "slump",
+  "prefix": "ribbon.slump.title",
+  "translation_key": "ribbon.slump",
+  "description": "ribbon.slump.description",
+  "icon": "pixelmon:textures/gui/ribbons/slump.png"
+}

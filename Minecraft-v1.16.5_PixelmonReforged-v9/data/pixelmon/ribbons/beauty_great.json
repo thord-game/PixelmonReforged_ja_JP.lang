@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "beauty_great",
+  "prefix": "ribbon.beauty_great.title",
+  "translation_key": "ribbon.beauty_great",
+  "description": "ribbon.beauty_great.description",
+  "icon": "pixelmon:textures/gui/ribbons/beauty_great.png"
+}

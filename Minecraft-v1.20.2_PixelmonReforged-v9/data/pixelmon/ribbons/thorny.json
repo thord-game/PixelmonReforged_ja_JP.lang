@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "thorny",
+  "prefix": "ribbon.thorny.title",
+  "translation_key": "ribbon.thorny",
+  "description": "ribbon.thorny.description",
+  "icon": "pixelmon:textures/gui/ribbons/thorny.png"
+}

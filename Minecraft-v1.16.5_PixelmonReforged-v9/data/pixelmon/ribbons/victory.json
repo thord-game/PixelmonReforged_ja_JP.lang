@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "victory",
+  "prefix": "ribbon.victory.title",
+  "translation_key": "ribbon.victory",
+  "description": "ribbon.victory.description",
+  "icon": "pixelmon:textures/gui/ribbons/victory.png"
+}

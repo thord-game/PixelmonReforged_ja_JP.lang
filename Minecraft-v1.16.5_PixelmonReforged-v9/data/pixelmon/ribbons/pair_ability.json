@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "pair_ability",
+  "prefix": "ribbon.pair_ability.title",
+  "translation_key": "ribbon.pair_ability",
+  "description": "ribbon.pair_ability.description",
+  "icon": "pixelmon:textures/gui/ribbons/pair_ability.png"
+}

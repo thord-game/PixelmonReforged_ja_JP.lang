@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "gorgeous_royal",
+  "prefix": "ribbon.gorgeous_royal.title",
+  "translation_key": "ribbon.gorgeous_royal",
+  "description": "ribbon.gorgeous_royal.description",
+  "icon": "pixelmon:textures/gui/ribbons/gorgeous_royal.png"
+}

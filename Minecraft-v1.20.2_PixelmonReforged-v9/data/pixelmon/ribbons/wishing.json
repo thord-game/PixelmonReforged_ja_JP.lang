@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "wishing",
+  "prefix": "ribbon.wishing.title",
+  "translation_key": "ribbon.wishing",
+  "description": "ribbon.wishing.description",
+  "icon": "pixelmon:textures/gui/ribbons/wishing.png"
+}

@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "alola_champion",
+  "prefix": "ribbon.alola_champion.title",
+  "translation_key": "ribbon.alola_champion",
+  "description": "ribbon.alola_champion.description",
+  "icon":"pixelmon:textures/gui/ribbons/alola_champion.png"
+}

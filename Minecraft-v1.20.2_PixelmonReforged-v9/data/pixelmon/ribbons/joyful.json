@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "joyful",
+  "prefix": "ribbon.joyful.title",
+  "translation_key": "ribbon.joyful",
+  "description": "ribbon.joyful.description",
+  "icon": "pixelmon:textures/gui/ribbons/joyful.png"
+}

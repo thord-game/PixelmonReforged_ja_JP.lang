@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "fishing",
+  "prefix": "ribbon.fishing.title",
+  "translation_key": "ribbon.fishing",
+  "description": "ribbon.fishing.description",
+  "icon": "pixelmon:textures/gui/ribbons/fishing.png"
+}

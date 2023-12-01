@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "relax",
+  "prefix": "ribbon.relax.title",
+  "translation_key": "ribbon.relax",
+  "description": "ribbon.relax.description",
+  "icon": "pixelmon:textures/gui/ribbons/relax.png"
+}

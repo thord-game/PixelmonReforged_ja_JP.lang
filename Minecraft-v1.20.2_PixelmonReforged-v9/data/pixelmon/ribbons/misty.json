@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "misty",
+  "prefix": "ribbon.misty.title",
+  "translation_key": "ribbon.misty",
+  "description": "ribbon.misty.description",
+  "icon": "pixelmon:textures/gui/ribbons/misty.png"
+}

@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "birthday",
+  "prefix": "ribbon.birthday.title",
+  "translation_key": "ribbon.birthday",
+  "description": "ribbon.birthday.description",
+  "icon": "pixelmon:textures/gui/ribbons/birthday.png"
+}

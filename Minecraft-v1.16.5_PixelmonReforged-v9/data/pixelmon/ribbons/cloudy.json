@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "cloudy",
+  "prefix": "ribbon.cloudy.title",
+  "translation_key": "ribbon.cloudy",
+  "description": "ribbon.cloudy.description",
+  "icon": "pixelmon:textures/gui/ribbons/cloudy.png"
+}

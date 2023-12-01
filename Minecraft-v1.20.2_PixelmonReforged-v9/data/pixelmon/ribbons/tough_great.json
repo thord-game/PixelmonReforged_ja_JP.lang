@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "tough_great",
+  "prefix": "ribbon.tough_great.title",
+  "translation_key": "ribbon.tough_great",
+  "description": "ribbon.tough_great.description",
+  "icon": "pixelmon:textures/gui/ribbons/tough_great.png"
+}

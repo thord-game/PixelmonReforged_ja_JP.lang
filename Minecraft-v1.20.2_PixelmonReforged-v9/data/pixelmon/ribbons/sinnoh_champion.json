@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "sinnoh_champion",
+  "prefix": "ribbon.sinnoh_champion.title",
+  "translation_key": "ribbon.sinnoh_champion",
+  "description": "ribbon.sinnoh_champion.description",
+  "icon": "pixelmon:textures/gui/ribbons/sinnoh_champion.png"
+}

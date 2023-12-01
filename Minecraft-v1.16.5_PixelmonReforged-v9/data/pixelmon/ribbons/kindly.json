@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "kindly",
+  "prefix": "ribbon.kindly.title",
+  "translation_key": "ribbon.kindly",
+  "description": "ribbon.kindly.description",
+  "icon": "pixelmon:textures/gui/ribbons/kindly.png"
+}

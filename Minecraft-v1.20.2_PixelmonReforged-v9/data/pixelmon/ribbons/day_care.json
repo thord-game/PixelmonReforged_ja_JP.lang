@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "day_care",
+  "prefix": "ribbon.day_care.title",
+  "translation_key": "ribbon.day_care",
+  "description": "ribbon.day_care.description",
+  "icon": "pixelmon:textures/gui/ribbons/day_care.png"
+}

@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "charismatic",
+  "prefix": "ribbon.charismatic.title",
+  "translation_key": "ribbon.charismatic",
+  "description": "ribbon.charismatic.description",
+  "icon": "pixelmon:textures/gui/ribbons/charismatic.png"
+}

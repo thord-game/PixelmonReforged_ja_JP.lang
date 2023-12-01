@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "humble",
+  "prefix": "ribbon.humble.title",
+  "translation_key": "ribbon.humble",
+  "description": "ribbon.humble.description",
+  "icon": "pixelmon:textures/gui/ribbons/humble.png"
+}

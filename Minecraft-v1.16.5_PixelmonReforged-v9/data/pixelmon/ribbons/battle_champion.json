@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "battle_champion",
+  "prefix": "ribbon.battle_champion.title",
+  "translation_key": "ribbon.battle_champion",
+  "description": "ribbon.battle_champion.description",
+  "icon": "pixelmon:textures/gui/ribbons/battle_champion.png"
+}

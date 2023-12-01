@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "dawn",
+  "prefix": "ribbon.dawn.title",
+  "translation_key": "ribbon.dawn",
+  "description": "ribbon.dawn.description",
+  "icon": "pixelmon:textures/gui/ribbons/dawn.png"
+}

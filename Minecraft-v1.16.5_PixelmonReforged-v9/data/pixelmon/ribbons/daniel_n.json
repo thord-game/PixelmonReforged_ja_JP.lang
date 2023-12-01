@@ -1,0 +1,26 @@
+{
+  "type_id": "simple",
+  "id": "daniel_n",
+  "prefix": "ribbon.daniel_n.title",
+  "translation_key": "ribbon.daniel_n",
+  "description": "ribbon.daniel_n.description",
+  "icon": "pixelmon:textures/gui/ribbons/daniel_n.png",
+  "override_palette": {
+    "name": "daniel_n",
+    "translationKey": "ribbon.daniel_n",
+    "texture": "pixelmon:pokemon/025_pikachu/all/base/none/texture.png",
+    "sprite": "pixelmon:pokemon/025_pikachu/all/base/none/sprite.png",
+    "particle": "",
+    "modelLocator": {
+      "factoryType": "NORMAL",
+      "pqc": [
+        "pixelmon:pokemon/025_pikachu/all/base/none/model.pqc"
+      ]
+    },
+    "sounds": [
+      "pixelmon.mob.pikachu",
+      "pixelmon.mob.pikachu",
+      "pixelmon.mob.pikachu"
+    ]
+  }
+}

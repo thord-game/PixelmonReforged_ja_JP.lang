@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "smart_hyper",
+  "prefix": "ribbon.smart_hyper.title",
+  "translation_key": "ribbon.smart_hyper",
+  "description": "ribbon.smart_hyper.description",
+  "icon": "pixelmon:textures/gui/ribbons/smart_hyper.png"
+}

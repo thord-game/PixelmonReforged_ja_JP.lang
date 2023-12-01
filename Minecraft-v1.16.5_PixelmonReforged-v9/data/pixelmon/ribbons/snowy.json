@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "snowy",
+  "prefix": "ribbon.snowy.title",
+  "translation_key": "ribbon.snowy",
+  "description": "ribbon.snowy.description",
+  "icon": "pixelmon:textures/gui/ribbons/snowy.png"
+}

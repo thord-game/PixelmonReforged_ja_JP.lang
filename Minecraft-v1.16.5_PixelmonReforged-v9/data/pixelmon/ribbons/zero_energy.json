@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "zero_energy",
+  "prefix": "ribbon.zero_energy.title",
+  "translation_key": "ribbon.zero_energy",
+  "description": "ribbon.zero_energy.description",
+  "icon": "pixelmon:textures/gui/ribbons/zero_energy.png"
+}

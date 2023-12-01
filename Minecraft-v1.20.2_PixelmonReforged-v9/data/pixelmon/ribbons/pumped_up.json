@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "pumped_up",
+  "prefix": "ribbon.pumped_up.title",
+  "translation_key": "ribbon.pumped_up",
+  "description": "ribbon.pumped_up.description",
+  "icon": "pixelmon:textures/gui/ribbons/pumped_up.png"
+}

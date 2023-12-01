@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "world",
+  "prefix": "ribbon.world.title",
+  "translation_key": "ribbon.world",
+  "description": "ribbon.world.description",
+  "icon": "pixelmon:textures/gui/ribbons/world.png"
+}

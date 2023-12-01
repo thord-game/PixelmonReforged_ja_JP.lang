@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "cute_great",
+  "prefix": "ribbon.cute_great.title",
+  "translation_key": "ribbon.cute_great",
+  "description": "ribbon.cute_great.description",
+  "icon": "pixelmon:textures/gui/ribbons/cute_great.png"
+}

@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "sandstorm",
+  "prefix": "ribbon.sandstorm.title",
+  "translation_key": "ribbon.sandstorm",
+  "description": "ribbon.sandstorm.description",
+  "icon": "pixelmon:textures/gui/ribbons/sandstorm.png"
+}

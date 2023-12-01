@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "isi",
+  "prefix": "ribbon.isi.title",
+  "translation_key": "ribbon.isi",
+  "description": "ribbon.isi.description",
+  "icon": "pixelmon:textures/gui/ribbons/isi.png"
+}

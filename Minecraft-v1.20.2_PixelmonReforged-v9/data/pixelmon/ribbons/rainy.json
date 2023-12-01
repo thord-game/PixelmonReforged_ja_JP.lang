@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "rainy",
+  "prefix": "ribbon.rainy.title",
+  "translation_key": "ribbon.rainy",
+  "description": "ribbon.rainy.description",
+  "icon": "pixelmon:textures/gui/ribbons/rainy.png"
+}

@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "winning",
+  "prefix": "ribbon.winning.title",
+  "translation_key": "ribbon.winning",
+  "description": "ribbon.winning.description",
+  "icon": "pixelmon:textures/gui/ribbons/winning.png"
+}

@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "skillful_battler",
+  "prefix": "ribbon.skillful_battler.title",
+  "translation_key": "ribbon.skillful_battler",
+  "description": "ribbon.skillful_battler.description",
+  "icon": "pixelmon:textures/gui/ribbons/skillful_battler.png"
+}
