@@ -15706,7 +15706,7 @@
     "pixelmon.interaction.abilityitem": "%s のとくせいが %s になった!",
     "gamerule.partyFaintRespawn": "ポケモンが全滅するとリスポーン",
     "faintScreen.title": "めのまえがまっくらになった!",
-    "debug.bone.help": "F3 + ' = ボーンモードを切り替え",
+    "debug.bone.help": "F3 + : = ボーンモードを切り替え",
     "pixelmon.keybind.debug.bone.on": "ボーンモードを有効化",
     "pixelmon.keybind.debug.bone.off": "ボーンモードを無効化",
 "_comment": "オリジナル追加終了"
