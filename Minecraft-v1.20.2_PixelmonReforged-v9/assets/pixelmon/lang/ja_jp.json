@@ -15551,7 +15551,7 @@
 
   "item.pixelmon.npceditor.tooltip.one": "NPC を§a右クリック§fして編集",
   "item.pixelmon.npceditor.tooltip.two": "ブロックを§b右クリック§fしてNPCを作成",
-  "item.pixelmon.npceditor.tooltip.three": "ブロックを§d左クリック§してNPCを管理",
+  "item.pixelmon.npceditor.tooltip.three": "ブロックを§d左クリック§fしてNPCを管理",
   "item.pixelmon.npceditor.tooltip.four": "NPC を§c左クリック§fして削除",
   "npc.editor.utilities": "ユーティリティ",
   "npc.editor.appearance": "姿",
