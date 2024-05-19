@@ -15863,6 +15863,6 @@
 "_comment": "v9.2.8 added",
   "key.pcmode": "PCいれかえモード切り替え",
   "key.pcsort": "PC並び替え",
-  "key.pcswpscreen": "PCボックスモード切り替え",
+  "key.pcswapscreen": "PCボックスモード切り替え",
 "_comment": "オリジナル追加終了"
 }
