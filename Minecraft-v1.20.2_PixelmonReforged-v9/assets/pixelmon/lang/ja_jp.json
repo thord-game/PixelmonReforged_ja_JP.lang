@@ -1,7 +1,7 @@
 {
   "item.pixelmon.mochi.reset": "基礎ポイントをリセット",
   "item.pixelmon.mochi.maxed": "基礎ポイントはこれ以上増えない!",
-  "item.pixelmon.mochi.increase": "%s の基礎ポイントが %s で上がった",
+  "item.pixelmon.mochi.increase": "%s の基礎ポイントが %s 上がった",
   "pixelmon.keybind.debug.wireframe.on": "ワイヤーフレームモードを有効化",
   "pixelmon.keybind.debug.wireframe.off": "ワイヤーフレームモードを無効化",
   "pixelmon.keybind.debug.animation.on": "アニメーションを有効化",
