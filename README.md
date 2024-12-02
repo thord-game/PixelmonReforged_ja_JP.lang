@@ -34,7 +34,7 @@ https://github.com/thord-game/PixelmonReforged_ja_ResourcePack
 PixelmonReforged_ja_JP.lang/Minecraft-v1.16.5_PixelmonReforged-v9/ をダウンロードし、
 Pixelmon-1.16.5-9.1.x-universal.jarを7zipで開き、assetsフォルダ,dataフォルダをコピーします。
 
-Pixelmon Reforged v9.1.12 まで対応しています。
+Pixelmon Reforged v9.1.13 まで対応しています。
 
 
 ## Minecraft v1.20.2 Pixelmon Reforged v9.2.x
