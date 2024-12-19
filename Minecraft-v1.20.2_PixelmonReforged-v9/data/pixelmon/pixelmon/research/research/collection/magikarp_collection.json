@@ -1,0 +1,184 @@
+{
+  "stages": [
+    {
+      "objectives": [
+        {
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "magikarp palette:none"
+          },
+          "result": [],
+          "required_amount": 1,
+          "name": {
+            "translate": "research.collection.magikarp.normal",
+            "fallback": "Capture a Magikarp"
+          },
+          "sprite": "pixelmon:textures/pokemon/129_magikarp/male/base/none/sprite.png",
+          "event": "pixelmon:capture_pokemon"
+        },
+        {
+          "event": "pixelmon:capture_pokemon",
+          "required_amount": 1,
+          "sprite": "pixelmon:textures/pokemon/129_magikarp/male/base/valencian/sprite.png",
+          "name": {
+            "translate": "research.collection.magikarp.valencian",
+            "fallback": "Capture a Valencian Magikarp"
+          },
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "magikarp palette:valencian"
+          },
+          "result": []
+        },
+        {
+          "event": "pixelmon:capture_pokemon",
+          "required_amount": 1,
+          "sprite": "pixelmon:textures/pokemon/129_magikarp/male/base/brown_tiger/sprite.png",
+          "name": {
+            "translate": "research.collection.magikarp.brown_tiger",
+            "fallback": "Capture a Brown Tiger Magikarp"
+          },
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "magikarp palette:brown_tiger"
+          },
+          "result": []
+        },
+        {
+          "event": "pixelmon:capture_pokemon",
+          "required_amount": 1,
+          "sprite": "pixelmon:textures/pokemon/129_magikarp/male/base/calico_orange_white_black/sprite.png",
+          "name": {
+            "translate": "research.collection.magikarp.calico_orange_white_black",
+            "fallback": "Capture a Calico Orange White Black Magikarp"
+          },
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "magikarp palette:calico_orange_white_black"
+          },
+          "result": []
+        },
+        {
+          "event": "pixelmon:capture_pokemon",
+          "required_amount": 1,
+          "sprite": "pixelmon:textures/pokemon/129_magikarp/male/base/skelly/sprite.png",
+          "name": {
+            "translate": "research.collection.magikarp.skelly",
+            "fallback": "Capture a Skelly Magikarp"
+          },
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "magikarp palette:skelly"
+          },
+          "result": []
+        },
+        {
+          "event": "pixelmon:capture_pokemon",
+          "required_amount": 1,
+          "sprite": "pixelmon:textures/pokemon/129_magikarp/male/base/roasted/sprite.png",
+          "name": {
+            "translate": "research.collection.magikarp.roasted",
+            "fallback": "Capture a Roasted Magikarp"
+          },
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "magikarp palette:roasted"
+          },
+          "result": []
+        },
+        {
+          "event": "pixelmon:capture_pokemon",
+          "required_amount": 1,
+          "sprite": "pixelmon:textures/pokemon/129_magikarp/male/base/shiny/sprite.png",
+          "name": {
+            "translate": "research.collection.magikarp.shiny",
+            "fallback": "Capture a Shiny Magikarp"
+          },
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "magikarp palette:shiny"
+          },
+          "result": []
+        },
+        {
+          "event": "pixelmon:evolve_pokemon",
+          "required_amount": 1,
+          "sprite": "pixelmon:textures/pokemon/130_gyarados/all/base/none/sprite.png",
+          "name": {
+            "translate": "research.collection.magikarp.evolve",
+            "fallback": "Evolve a Magikarp"
+          },
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "gyarados"
+          },
+          "result": []
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:give_money",
+          "money": 1000.0
+        },
+        {
+          "type": "pixelmon:give_item",
+          "items": [
+            {
+              "id": "pixelmon:super_rod",
+              "Count": 1
+            }
+          ]
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/quests/money_pouch.png",
+          "description": "₽1000"
+        },
+        {
+          "resource": "pixelmon:textures/item/superrod.png",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "abandonable": false,
+  "repeatable": true,
+  "unique": true,
+  "name": {
+    "translate": "research.collection.magikarp",
+    "fallback": "Fish Out of Water"
+  }
+}

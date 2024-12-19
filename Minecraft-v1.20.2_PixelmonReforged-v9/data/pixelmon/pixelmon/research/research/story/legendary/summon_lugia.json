@@ -1,0 +1,799 @@
+{
+  "stages": [
+    {
+      "objectives": [],
+      "result": [
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "ウィステリア博士",
+                "text": "トレーナーさん こんにちは！ オーブを見つけたみたいね。 これはね 伝説のポケモンを呼び出すための とっても特別なアイテムなの。 私はずっと 研究してきたのよ。"
+              },
+              {
+                "title": "ウィステリア博士",
+                "text": "もしあなたが 氷のオーブを完成させて　フリーザーの祠まで たどり着いてくれたら 伝説のポケモン フリーザーを呼び出すことが できるかもしれないわ！"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/item/npceditor.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "recipe": "pixelmon:summon/uno_orb",
+            "type": "pixelmon:recipe_matches"
+          },
+          "result": [
+            {
+              "spec": "random type1:ice !leg !ub lvl:20",
+              "type": "pixelmon:spawn_and_enter_battle"
+            }
+          ],
+          "required_amount": 10,
+          "name": {
+            "translate": "research.legendary.lugia.craft_uno_orb",
+            "fallback": "Craft an Orb of Frozen Souls"
+          },
+          "sprite": "pixelmon:textures/quests/encounter_grass.png",
+          "event": "pixelmon:craft_item"
+        },
+        {
+          "condition": {
+            "items": "pixelmon:uno_orb",
+            "item": {
+              "type": "pixelmon:context_item"
+            },
+            "type": "pixelmon:item_is_one_of"
+          },
+          "result": [
+            {
+              "exp": 20,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "required_amount": 1,
+          "name": {
+            "translate": "research.legendary.lugia.fill_uno_orb",
+            "fallback": "Fill the Orb of Frozen Souls"
+          },
+          "sprite": {
+            "resource": "minecraft:textures/item/experience_bottle.png",
+            "description": "20 XP"
+          },
+          "event": "pixelmon:fill_shrine_orb"
+        },
+        {
+          "condition": {
+            "structures": [
+              "pixelmon:shrines/articuno"
+            ],
+            "type": "pixelmon:structure_is_one_of"
+          },
+          "result": [
+            {
+              "items": [
+                {
+                  "id": "pixelmon:poke_ball",
+                  "Count": 10,
+                  "tag": {
+                    "PokeBallID": "ultra_ball"
+                  }
+                }
+              ],
+              "type": "pixelmon:give_item"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.find_uno_structure",
+            "fallback": "Find an Articuno Shrine"
+          },
+          "sprite": "pixelmon:textures/item/pokeballs/ultra_ball.png",
+          "event": "pixelmon:find_structure"
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 50
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "ウィステリア博士",
+                "text": "フリーザーの祠を見つけたなんて すごい！ 氷のオーブを持って 祠を起動させれば フリーザーが現れるはずよ。"
+              },
+              {
+                "title": "ウィステリア博士",
+                "text": "フリーザーを捕まえるのは 簡単じゃないかもしれないけど あなたなら きっとできると思うわ。 頑張ってね トレーナーさん！"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/quests/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "spec": {
+              "value": "articuno",
+              "type": "pixelmon:constant_string"
+            },
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "type": "pixelmon:spec_matches"
+          },
+          "result": [
+            {
+              "money": 500.0,
+              "type": "pixelmon:give_money"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.activate_uno_shrine",
+            "fallback": "Activate the Articuno Shrine"
+          },
+          "sprite": "pixelmon:textures/quests/money_pouch.png",
+          "event": "pixelmon:activate_shrine"
+        },
+        {
+          "condition": {
+            "spec": {
+              "value": "articuno",
+              "type": "pixelmon:constant_string"
+            },
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "type": "pixelmon:spec_matches"
+          },
+          "result": [
+            {
+              "money": 500.0,
+              "type": "pixelmon:give_money"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.battle_uno",
+            "fallback": "Battle Articuno"
+          },
+          "sprite": "pixelmon:textures/quests/money_pouch.png",
+          "event": "pixelmon:enter_wild_battle"
+        },
+        {
+          "condition": {
+            "spec": {
+              "value": "articuno",
+              "type": "pixelmon:constant_string"
+            },
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "type": "pixelmon:spec_matches"
+          },
+          "result": [
+            {
+              "money": 500.0,
+              "type": "pixelmon:give_money"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.capture_uno",
+            "fallback": "Capture Articuno"
+          },
+          "sprite": "pixelmon:textures/quests/money_pouch.png",
+          "event": "pixelmon:capture_pokemon"
+        }
+      ],
+      "result": [
+        {
+          "money": 500.0,
+          "type": "pixelmon:give_money"
+        },
+        {
+          "exp": 50,
+          "type": "pixelmon:give_experience"
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "ウィステリア博士",
+                "text": "フリーザーを捕まえたなんて すごいわ！"
+              },
+              {
+                "title": "ウィステリア博士",
+                "text": "次は 電気のオーブを作って サンダーの祠を探してね。 頑張ってね トレーナーさん！"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/quests/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "recipe": "pixelmon:summon/dos_orb",
+            "type": "pixelmon:recipe_matches"
+          },
+          "result": [
+            {
+              "spec": "random type1:electric !leg !ub lvl:20",
+              "type": "pixelmon:spawn_and_enter_battle"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.craft_dos_orb",
+            "fallback": "Craft an Orb of Static Souls"
+          },
+          "sprite": "pixelmon:textures/quests/encounter_grass.png",
+          "event": "pixelmon:craft_item"
+        },
+        {
+          "condition": {
+            "items": "pixelmon:dos_orb",
+            "item": {
+              "type": "pixelmon:context_item"
+            },
+            "type": "pixelmon:item_is_one_of"
+          },
+          "result": [
+            {
+              "exp": 20,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.fill_dos_orb",
+            "fallback": "Fill the Orb of Static Souls"
+          },
+          "sprite": {
+            "resource": "minecraft:textures/item/experience_bottle.png",
+            "description": "20 XP"
+          },
+          "event": "pixelmon:fill_shrine_orb"
+        },
+        {
+          "condition": {
+            "structures": [
+              "pixelmon:shrines/zapdos"
+            ],
+            "type": "pixelmon:structure_is_one_of"
+          },
+          "result": [
+            {
+              "items": [
+                {
+                  "id": "pixelmon:poke_ball",
+                  "Count": 10,
+                  "tag": {
+                    "PokeBallID": "ultra_ball"
+                  }
+                }
+              ],
+              "type": "pixelmon:give_item"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.find_dos_structure",
+            "fallback": "Find a Zapdos Shrine"
+          },
+          "sprite": "pixelmon:textures/item/pokeballs/ultra_ball.png",
+          "event": "pixelmon:find_structure"
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 50
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "ウィステリア博士",
+                "text": "サンダーの祠を見つけたなんて すごいわ！ 電気のオーブを持って 祠を起動させれば 伝説のポケモン サンダーが現れるはずよ。"
+              },
+              {
+                "title": "ウィステリア博士",
+                "text": "サンダーを捕まえるのも フリーザーと同じくらい 大変だと思うけど あなたなら きっとできるわ。 頑張ってね トレーナーさん！"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/quests/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "spec": {
+              "value": "zapdos",
+              "type": "pixelmon:constant_string"
+            },
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "type": "pixelmon:spec_matches"
+          },
+          "result": [
+            {
+              "money": 500.0,
+              "type": "pixelmon:give_money"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.activate_dos_shrine",
+            "fallback": "Activate the Zapdos Shrine"
+          },
+          "sprite": "pixelmon:textures/quests/money_pouch.png",
+          "event": "pixelmon:activate_shrine"
+        },
+        {
+          "condition": {
+            "spec": {
+              "value": "zapdos",
+              "type": "pixelmon:constant_string"
+            },
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "type": "pixelmon:spec_matches"
+          },
+          "result": [
+            {
+              "money": 500.0,
+              "type": "pixelmon:give_money"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.battle_dos",
+            "fallback": "Battle Zapdos"
+          },
+          "sprite": "pixelmon:textures/quests/money_pouch.png",
+          "event": "pixelmon:enter_wild_battle"
+        },
+        {
+          "condition": {
+            "spec": {
+              "value": "zapdos",
+              "type": "pixelmon:constant_string"
+            },
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "type": "pixelmon:spec_matches"
+          },
+          "result": [
+            {
+              "money": 500.0,
+              "type": "pixelmon:give_money"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.capture_zapdos",
+            "fallback": "Capture Zapdos"
+          },
+          "sprite": "pixelmon:textures/quests/money_pouch.png",
+          "event": "pixelmon:capture_pokemon"
+        }
+      ],
+      "result": [
+        {
+          "money": 500.0,
+          "type": "pixelmon:give_money"
+        },
+        {
+          "exp": 50,
+          "type": "pixelmon:give_experience"
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "ウィステリア博士",
+                "text": "サンダーを捕まえたなんて すごいわ トレーナーさん！ 本当に良くやってるわ！"
+              },
+              {
+                "title": "ウィステリア博士",
+                "text": "次は 炎のオーブを作って ファイヤーの祠を 探してね。 頑張ってね トレーナーさん！"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/quests/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "recipe": "pixelmon:summon/tres_orb",
+            "type": "pixelmon:recipe_matches"
+          },
+          "result": [
+            {
+              "spec": "random type1:fire !leg !ub lvl:20",
+              "type": "pixelmon:spawn_and_enter_battle"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.craft_tres_orb",
+            "fallback": "Craft an Orb of Fiery Souls"
+          },
+          "sprite": "pixelmon:textures/quests/encounter_grass.png",
+          "event": "pixelmon:craft_item"
+        },
+        {
+          "condition": {
+            "items": "pixelmon:tres_orb",
+            "item": {
+              "type": "pixelmon:context_item"
+            },
+            "type": "pixelmon:item_is_one_of"
+          },
+          "result": [
+            {
+              "exp": 20,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "required_amount": 1,
+          "name": {
+            "translate": "research.legendary.lugia.fill_tres_orb",
+            "fallback": "Fill the Shrine Orb"
+          },
+          "sprite": {
+            "resource": "minecraft:textures/item/experience_bottle.png",
+            "description": "20 XP"
+          },
+          "event": "pixelmon:fill_shrine_orb"
+        },
+        {
+          "condition": {
+            "structures": [
+              "pixelmon:shrines/moltres"
+            ],
+            "type": "pixelmon:structure_is_one_of"
+          },
+          "result": [
+            {
+              "items": [
+                {
+                  "id": "pixelmon:poke_ball",
+                  "Count": 10,
+                  "tag": {
+                    "PokeBallID": "ultra_ball"
+                  }
+                }
+              ],
+              "type": "pixelmon:give_item"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.find_tres_structure",
+            "fallback": "Find a Moltres Shrine"
+          },
+          "sprite": "pixelmon:textures/item/pokeballs/ultra_ball.png",
+          "event": "pixelmon:find_structure"
+        }
+      ],
+      "result": [
+        {
+          "money": 500.0,
+          "type": "pixelmon:give_money"
+        },
+        {
+          "exp": 50,
+          "type": "pixelmon:give_experience"
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "ウィステリア博士",
+                "text": "やったわね トレーナーさん！ ファイヤーの祠を 見つけたのね！ 炎のオーブを持って 祠を起動させれば 伝説のポケモン ファイヤーが現れるはずよ。"
+              },
+              {
+                "title": "ウィステリア博士",
+                "text": "最後は ファイヤーを捕まえることね。 これが一番 難しいかもしれないけど あなたなら きっとできると思うわ。"
+              },
+              {
+                "title": "ウィステリア博士",
+                "text": "伝説の鳥ポケモン3体を すべて捕まえたトレーナーは 今まで誰もいないのよ。 あなたは 歴史を作るかもしれないわ！"
+              },
+              {
+                "title": "ウィステリア博士",
+                "text": "私の研究によると 3体の伝説の鳥ポケモンを集めると とても強力なポケモンが 現れるらしいの。 何が起こるのか 本当に楽しみだわ！"
+              },
+              {
+                "title": "ウィステリア博士",
+                "text": "頑張ってね トレーナーさん！"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/quests/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "spec": {
+              "value": "moltres",
+              "type": "pixelmon:constant_string"
+            },
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "type": "pixelmon:spec_matches"
+          },
+          "result": [
+            {
+              "money": 500.0,
+              "type": "pixelmon:give_money"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.activate_tres_shrine",
+            "fallback": "Activate the Moltres Shrine"
+          },
+          "sprite": "pixelmon:textures/quests/money_pouch.png",
+          "event": "pixelmon:activate_shrine"
+        },
+        {
+          "condition": {
+            "spec": {
+              "value": "moltres",
+              "type": "pixelmon:constant_string"
+            },
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "type": "pixelmon:spec_matches"
+          },
+          "result": [
+            {
+              "money": 500.0,
+              "type": "pixelmon:give_money"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.battle_tres",
+            "fallback": "Battle Moltres"
+          },
+          "sprite": "pixelmon:textures/quests/money_pouch.png",
+          "event": "pixelmon:enter_wild_battle"
+        },
+        {
+          "condition": {
+            "spec": {
+              "value": "moltres",
+              "type": "pixelmon:constant_string"
+            },
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "type": "pixelmon:spec_matches"
+          },
+          "result": [
+            {
+              "money": 500.0,
+              "type": "pixelmon:give_money"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.capture_moltres",
+            "fallback": "Capture Moltres"
+          },
+          "sprite": "pixelmon:textures/quests/money_pouch.png",
+          "event": "pixelmon:capture_pokemon"
+        }
+      ],
+      "result": [
+        {
+          "money": 2000.0,
+          "type": "pixelmon:give_money"
+        },
+        {
+          "exp": 50,
+          "type": "pixelmon:give_experience"
+        },
+        {
+          "spec": "lugia",
+          "type": "pixelmon:spawn_and_enter_battle"
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/quests/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "pixelmon:textures/quests/encounter_grass.png",
+          "description": "???"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [],
+      "result": [
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "ウィステリア博士",
+                "text": "わあ トレーナーさん すごいことをしたわね！ 伝説の鳥ポケモン3体を すべて捕まえて ルギアを呼び出したなんて！"
+              },
+              {
+                "title": "ウィステリア博士",
+                "text": "信じられない！ 歴史を作ったわね！ 私の研究を手伝ってくれて 本当にありがとう。 またね トレーナーさん！"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/quests/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        }
+      ]
+    }
+  ],
+  "abandonable": false,
+  "repeatable": true,
+  "unique": true,
+  "name": {
+    "translate": "research.legendary.lugia",
+    "fallback": "Psychic Storm"
+  }
+}
