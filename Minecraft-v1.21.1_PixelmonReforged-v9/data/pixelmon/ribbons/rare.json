@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "rare",
+  "prefix": "ribbon.rare.title",
+  "translation_key": "ribbon.rare",
+  "description": "ribbon.rare.description",
+  "icon": "pixelmon:textures/gui/ribbons/rare.png"
+}

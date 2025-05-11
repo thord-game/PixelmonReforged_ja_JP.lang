@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "souvenir",
+  "prefix": "ribbon.souvenir.title",
+  "translation_key": "ribbon.souvenir",
+  "description": "ribbon.souvenir.description",
+  "icon": "pixelmon:textures/gui/ribbons/souvenir.png"
+}

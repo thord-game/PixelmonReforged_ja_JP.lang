@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "scowling",
+  "prefix": "ribbon.scowling.title",
+  "translation_key": "ribbon.scowling",
+  "description": "ribbon.scowling.description",
+  "icon": "pixelmon:textures/gui/ribbons/scowling.png"
+}

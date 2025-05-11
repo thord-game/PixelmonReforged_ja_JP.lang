@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "smart_ultra",
+  "prefix": "ribbon.smart_ultra.title",
+  "translation_key": "ribbon.smart_ultra",
+  "description": "ribbon.smart_ultra.description",
+  "icon": "pixelmon:textures/gui/ribbons/smart_ultra.png"
+}

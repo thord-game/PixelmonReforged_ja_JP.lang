@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "artist",
+  "prefix": "ribbon.artist.title",
+  "translation_key": "ribbon.artist",
+  "description": "ribbon.artist.description",
+  "icon": "pixelmon:textures/gui/ribbons/artist.png"
+}

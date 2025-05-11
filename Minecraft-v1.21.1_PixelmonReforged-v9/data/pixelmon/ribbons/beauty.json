@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "beauty",
+  "prefix": "ribbon.beauty.title",
+  "translation_key": "ribbon.beauty",
+  "description": "ribbon.beauty.description",
+  "icon": "pixelmon:textures/gui/ribbons/beauty.png"
+}

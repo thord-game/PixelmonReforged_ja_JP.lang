@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "smile",
+  "prefix": "ribbon.smile.title",
+  "translation_key": "ribbon.smile",
+  "description": "ribbon.smile.description",
+  "icon": "pixelmon:textures/gui/ribbons/smile.png"
+}

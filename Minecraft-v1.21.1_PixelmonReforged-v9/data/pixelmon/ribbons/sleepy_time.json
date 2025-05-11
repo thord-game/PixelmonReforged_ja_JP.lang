@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "sleepy_time",
+  "prefix": "ribbon.sleepy_time.title",
+  "translation_key": "ribbon.sleepy_time",
+  "description": "ribbon.sleepy_time.description",
+  "icon": "pixelmon:textures/gui/ribbons/sleepy_time.png"
+}

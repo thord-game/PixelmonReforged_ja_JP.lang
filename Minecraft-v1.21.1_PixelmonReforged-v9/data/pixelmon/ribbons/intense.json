@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "intense",
+  "prefix": "ribbon.intense.title",
+  "translation_key": "ribbon.intense",
+  "description": "ribbon.intense.description",
+  "icon": "pixelmon:textures/gui/ribbons/intense.png"
+}

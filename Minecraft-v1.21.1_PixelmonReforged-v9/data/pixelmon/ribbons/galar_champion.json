@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "galar_champion",
+  "prefix": "ribbon.galar_champion.title",
+  "translation_key": "ribbon.galar_champion",
+  "description": "ribbon.galar_champion.description",
+  "icon": "pixelmon:textures/gui/ribbons/galar_champion.png"
+}

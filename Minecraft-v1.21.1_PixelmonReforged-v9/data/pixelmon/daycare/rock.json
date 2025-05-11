@@ -1,0 +1,42 @@
+{
+  "spec": "type1:ROCK",
+  "durations": [
+    {
+      "type": "add",
+      "amount": 1.5,
+      "unit": "HOURS"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "itemstack",
+      "error_message": "5x 大石",
+      "items": [
+        {
+          "item": "pixelmon:boulder",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "5x 花崗岩",
+      "items": [
+        {
+          "item": "minecraft:granite",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "10x 石",
+      "items": [
+        {
+          "item": "minecraft:stone",
+          "amount": 10
+        }
+      ]
+    }
+  ]
+}

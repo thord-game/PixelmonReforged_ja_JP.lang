@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "teary",
+  "prefix": "ribbon.teary.title",
+  "translation_key": "ribbon.teary",
+  "description": "ribbon.teary.description",
+  "icon": "pixelmon:textures/gui/ribbons/teary.png"
+}

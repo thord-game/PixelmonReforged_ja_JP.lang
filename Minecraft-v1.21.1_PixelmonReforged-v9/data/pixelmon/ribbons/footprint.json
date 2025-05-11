@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "footprint",
+  "prefix": "ribbon.footprint.title",
+  "translation_key": "ribbon.footprint",
+  "description": "ribbon.footprint.description",
+  "icon": "pixelmon:textures/gui/ribbons/footprint.png"
+}

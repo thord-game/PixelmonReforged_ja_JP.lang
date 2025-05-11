@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "alert",
+  "prefix": "ribbon.alert.title",
+  "translation_key": "ribbon.alert",
+  "description": "ribbon.alert.description",
+  "icon": "pixelmon:textures/gui/ribbons/alert.png"
+}

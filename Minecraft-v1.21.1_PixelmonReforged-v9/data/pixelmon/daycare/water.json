@@ -1,0 +1,42 @@
+{
+  "spec": "type1:WATER",
+  "durations": [
+    {
+      "type": "add",
+      "amount": 1.5,
+      "unit": "HOURS"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "itemstack",
+      "error_message": "3x カメのウロコ",
+      "items": [
+        {
+          "item": "minecraft:scute",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "2x 水入りバケツ",
+      "items": [
+        {
+          "item": "minecraft:water_bucket",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "5x おいしいみず",
+      "items": [
+        {
+          "item": "pixelmon:fresh_water",
+          "amount": 5
+        }
+      ]
+    }
+  ]
+}

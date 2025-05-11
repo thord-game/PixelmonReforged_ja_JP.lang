@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "curry",
+  "prefix": "ribbon.curry.title",
+  "translation_key": "ribbon.curry",
+  "description": "ribbon.curry.description",
+  "icon": "pixelmon:textures/gui/ribbons/curry.png"
+}

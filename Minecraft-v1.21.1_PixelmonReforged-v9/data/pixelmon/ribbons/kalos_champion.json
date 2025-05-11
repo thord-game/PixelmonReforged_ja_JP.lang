@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "kalos_champion",
+  "prefix": "ribbon.kalos_champion.title",
+  "translation_key": "ribbon.kalos_champion",
+  "description": "ribbon.kalos_champion.description",
+  "icon": "pixelmon:textures/gui/ribbons/kalos_champion.png"
+}

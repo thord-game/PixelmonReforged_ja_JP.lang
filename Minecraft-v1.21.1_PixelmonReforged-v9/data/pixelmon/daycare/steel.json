@@ -1,0 +1,42 @@
+{
+  "spec": "type1:STEEL",
+  "durations": [
+    {
+      "type": "add",
+      "amount": 1.5,
+      "unit": "HOURS"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "itemstack",
+      "error_message": "3x 鉄ブロック",
+      "items": [
+        {
+          "item": "minecraft:iron_block",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "3x 鉄格子",
+      "items": [
+        {
+          "item": "minecraft:iron_bars",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "2x 銀ブロック",
+      "items": [
+        {
+          "item": "pixelmon:silver_block",
+          "amount": 2
+        }
+      ]
+    }
+  ]
+}

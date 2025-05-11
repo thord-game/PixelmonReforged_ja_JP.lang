@@ -1,0 +1,42 @@
+{
+  "spec": "type1:ICE",
+  "durations": [
+    {
+      "type": "add",
+      "amount": 1.5,
+      "unit": "HOURS"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "itemstack",
+      "error_message": "10x 氷",
+      "items": [
+        {
+          "item": "minecraft:ice",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "1x 青氷",
+      "items": [
+        {
+          "item": "minecraft:blue_ice",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "5x 雪ブロック",
+      "items": [
+        {
+          "item": "minecraft:snow_block",
+          "amount": 5
+        }
+      ]
+    }
+  ]
+}

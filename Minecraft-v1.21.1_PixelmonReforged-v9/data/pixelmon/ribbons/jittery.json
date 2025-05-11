@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "jittery",
+  "prefix": "ribbon.jittery.title",
+  "translation_key": "ribbon.jittery",
+  "description": "ribbon.jittery.description",
+  "icon": "pixelmon:textures/gui/ribbons/jittery.png"
+}

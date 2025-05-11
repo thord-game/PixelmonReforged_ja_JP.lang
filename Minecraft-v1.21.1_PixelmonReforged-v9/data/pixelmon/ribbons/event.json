@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "event",
+  "prefix": "ribbon.event.title",
+  "translation_key": "ribbon.event",
+  "description": "ribbon.event.description",
+  "icon": "pixelmon:textures/gui/ribbons/event.png"
+}

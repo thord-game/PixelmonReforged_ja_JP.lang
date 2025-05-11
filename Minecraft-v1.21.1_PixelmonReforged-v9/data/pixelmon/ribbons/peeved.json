@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "peeved",
+  "prefix": "ribbon.peeved.title",
+  "translation_key": "ribbon.peeved",
+  "description": "ribbon.peeved.description",
+  "icon": "pixelmon:textures/gui/ribbons/peeved.png"
+}

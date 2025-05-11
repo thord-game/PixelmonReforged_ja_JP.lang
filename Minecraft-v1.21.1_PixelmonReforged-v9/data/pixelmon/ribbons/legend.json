@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "legend",
+  "prefix": "ribbon.legend.title",
+  "translation_key": "ribbon.legend",
+  "description": "ribbon.legend.description",
+  "icon": "pixelmon:textures/gui/ribbons/legend.png"
+}

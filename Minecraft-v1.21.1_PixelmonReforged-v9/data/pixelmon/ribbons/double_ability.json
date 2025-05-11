@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "double_ability",
+  "prefix": "ribbon.double_ability.title",
+  "translation_key": "ribbon.double_ability",
+  "description": "ribbon.double_ability.description",
+  "icon": "pixelmon:textures/gui/ribbons/double_ability.png"
+}

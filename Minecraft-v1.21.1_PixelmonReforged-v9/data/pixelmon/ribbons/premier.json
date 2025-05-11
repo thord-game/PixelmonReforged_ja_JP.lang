@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "premier",
+  "prefix": "ribbon.premier.title",
+  "translation_key": "ribbon.premier",
+  "description": "ribbon.premier.description",
+  "icon": "pixelmon:textures/gui/ribbons/premier.png"
+}

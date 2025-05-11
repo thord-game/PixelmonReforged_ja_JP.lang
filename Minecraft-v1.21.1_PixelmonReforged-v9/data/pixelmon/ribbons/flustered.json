@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "flustered",
+  "prefix": "ribbon.flustered.title",
+  "translation_key": "ribbon.flustered",
+  "description": "ribbon.flustered.description",
+  "icon": "pixelmon:textures/gui/ribbons/flustered.png"
+}

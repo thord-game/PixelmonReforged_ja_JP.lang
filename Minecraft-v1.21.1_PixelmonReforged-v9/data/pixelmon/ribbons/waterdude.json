@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "waterdude",
+  "prefix": "ribbon.waterdude.title",
+  "translation_key": "ribbon.waterdude",
+  "description": "ribbon.waterdude.description",
+  "icon": "pixelmon:textures/gui/ribbons/waterdude.png"
+}

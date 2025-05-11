@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "stormy",
+  "prefix": "ribbon.stormy.title",
+  "translation_key": "ribbon.stormy",
+  "description": "ribbon.stormy.description",
+  "icon": "pixelmon:textures/gui/ribbons/stormy.png"
+}

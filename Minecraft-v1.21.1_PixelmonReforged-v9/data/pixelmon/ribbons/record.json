@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "record",
+  "prefix": "ribbon.record.title",
+  "translation_key": "ribbon.record",
+  "description": "ribbon.record.description",
+  "icon": "pixelmon:textures/gui/ribbons/record.png"
+}

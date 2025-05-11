@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "ferocious",
+  "prefix": "ribbon.ferocious.title",
+  "translation_key": "ribbon.ferocious",
+  "description": "ribbon.ferocious.description",
+  "icon": "pixelmon:textures/gui/ribbons/ferocious.png"
+}

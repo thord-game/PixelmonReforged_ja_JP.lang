@@ -1,0 +1,8 @@
+{
+  "type_id": "simple",
+  "id": "dry",
+  "prefix": "ribbon.dry.title",
+  "translation_key": "ribbon.dry",
+  "description": "ribbon.dry.description",
+  "icon": "pixelmon:textures/gui/ribbons/dry.png"
+}
