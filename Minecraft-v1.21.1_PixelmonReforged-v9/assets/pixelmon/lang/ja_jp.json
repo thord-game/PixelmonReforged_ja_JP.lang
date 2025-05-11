@@ -16486,7 +16486,7 @@
   "stat.minecraft.evs_removed": "失った努力値",
   "stat.minecraft.flew_or_teleported_to_a_pokemon_center": "ポケモンセンターへ空を飛ぶかテレポートした回数",
   "stat.minecraft.fossils_cleaned": "化石をきれいにした回数",
-  "stat.minecraft.frendship_lost": "失ったなつき度",
+  "stat.minecraft.friendship_lost": "失ったなつき度",
   "stat.minecraft.friendship_earned": "なつき度が上がった回数",
   "stat.minecraft.healers_used": "回復装置を使った回数",
   "stat.minecraft.highest_catch_combo": "最大のほかくコンボ数",
