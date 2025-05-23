@@ -46,7 +46,7 @@
               "type": "pixelmon:spawn_and_enter_battle"
             }
           ],
-          "required_amount": 10,
+          "required_amount": 1,
           "name": {
             "translate": "research.legendary.lugia.craft_uno_orb",
             "fallback": "Craft an Orb of Frozen Souls"
