@@ -18,7 +18,7 @@ https://github.com/thord-game/PixelmonReforged_ja_ResourcePack
 
 ※全てが日本語化されるわけではありません。未翻訳が残ります。
 
-未翻訳:設定,NPC,TCG
+未翻訳:NPC,TCG
 
 
 ## Minecraft v1.12.2 Pixelmon Reforged v8.x.x
@@ -50,7 +50,7 @@ Pixelmon Reforged v9.2.10 まで対応しています。
 PixelmonReforged_ja_JP.lang/Minecraft-v1.21.1_PixelmonReforged-v9/ をダウンロードし、
 Pixelmon-1.21.1-9.3.x-universal.jarを7zipで開き、assetsフォルダ,dataフォルダをコピーします。
 
-Pixelmon Reforged v9.3.1 まで対応しています。
+Pixelmon Reforged v9.3.2 まで対応しています。
 
 ## 日本語化ファイル導入方法
 
