@@ -1,0 +1,55 @@
+{
+  "stages": [
+    {
+      "objectives": [
+        {
+          "condition": {
+            "type": "pixelmon:string_compare",
+            "first" : {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokeball"
+            },
+            "second": {
+              "type": "pixelmon:constant_string",
+              "value": "premier_ball"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 20,
+          "name": {
+            "translate": "research.standard.capture.premier.20",
+            "fallback": "Capture 20 Pokémon in Premier Balls"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png",
+          "event": "pixelmon:capture_pokemon"
+        }
+      ]
+    }
+  ],
+  "abandonable": true,
+  "repeatable": true,
+  "unique": false,
+  "tier": {
+    "name": {
+      "translate": "gui.research.tier.event",
+      "fallback": "EVENT"
+    },
+    "main_color": {
+      "red": 255,
+      "green": 157,
+      "blue": 0,
+      "alpha": 255
+    },
+    "accent_color": {
+      "red": 144,
+      "green": 223,
+      "blue": 151,
+      "alpha": 255
+    }
+  }
+}

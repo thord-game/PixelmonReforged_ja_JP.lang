@@ -1,0 +1,327 @@
+{
+  "properties": {
+    "type": "pixelmon:constant",
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.9,
+      "dimensions": {
+        "width": 0.65,
+        "height": 2.0
+      },
+      "title": {
+        "translate": "pixelmon.npc.dialogue.battle.trainer.gym.plate.trainer",
+        "color": "#FFA940",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": false,
+      "immovable": false,
+      "nameplate": true
+    }
+  },
+  "names": {
+    "values": [
+      "セアラ"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "party": {
+    "value": {
+      "specs": [
+        "Coalossal lvl:55 ability:flashfire helditem:passho_berry nature:impish ivhp:31 ivatk:0 ivdef:31 ivspatk:0 ivspdef:31 ivspd:0 evhp:252 evdef:148 evspdef:108 move1:heat_crash move2:stealth_rock move3:stone_edge move4:rapid_spin",
+        "Talonflame lvl:55 ability:galewings helditem:sharp_beak nature:jolly ivhp:31 ivatk:31 ivdef:0 ivspatk:0 ivspdef:0 ivspd:31 evatk:252 evspd:252 evhp:4 move1:flare_blitz move2:brave_bird move3:roost move4:swords_dance",
+        "Centiskorch lvl:55 ability:flashfire helditem:leftovers nature:careful ivhp:31 ivatk:0 ivdef:31 ivspatk:0 ivspdef:31 ivspd:0 evhp:248 evdef:8 evspdef:252 move1:fire_lash move2:leech_life move3:coil move4:knock_off",
+        "Flareon lvl:52 ability:guts helditem:toxic_orb nature:adamant ivhp:31 ivatk:31 ivdef:31 ivspatk:0 ivspdef:31 ivspd:31 evatk:252 evspd:252 evhp:4 move1:flare_blitz move2:facade move3:quick_attack move4:superpower"
+      ],
+      "type": "pixelmon:spec"
+    },
+    "type": "pixelmon:constant"
+  },
+  "models": {
+    "value": {
+      "slim": true,
+      "texture": "pixelmon:textures/npc/battle/trainer_gym_fire_3.png",
+      "type": "pixelmon:player"
+    },
+    "type": "pixelmon:constant"
+  },
+  "goals": {
+    "type": "pixelmon:constant",
+    "value": {
+      "goals": [
+        {
+          "provider": {
+            "type": "pixelmon:look_at_nearby",
+            "look_distance": 4,
+            "probability": 0.9
+          },
+          "priority": 1
+        }
+      ]
+    }
+  },
+  "interactions": {
+    "type": "pixelmon:constant",
+    "value": {
+      "interactions": [
+        {
+          "event": "pixelmon:right_click",
+          "conditions": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:string_compare",
+                "first": {
+                  "value": "MAIN_HAND",
+                  "type": "pixelmon:constant_string"
+                },
+                "second": {
+                  "type": "pixelmon:hand_used"
+                }
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:on_cooldown",
+                "player": {
+                  "key": "pixelmon:player",
+                  "type": "pixelmon:context_player"
+                },
+                "cooldown_key": "pixelmon:trainer_gym_fire_3",
+                "cooldown": 1,
+                "unit": "DAYS"
+              }
+            }
+          ],
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:message_player",
+                "messages": [
+                  {
+                    "translate": "pixelmon.npc.dialogue.battle.trainer.gym.fire.3.cooldown"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:right_click",
+          "conditions": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:string_compare",
+                "first": {
+                  "value": "MAIN_HAND",
+                  "type": "pixelmon:constant_string"
+                },
+                "second": {
+                  "type": "pixelmon:hand_used"
+                }
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:on_cooldown",
+                "player": {
+                  "key": "pixelmon:player",
+                  "type": "pixelmon:context_player"
+                },
+                "cooldown_key": "pixelmon:leader_gym_fire_1",
+                "cooldown": 1,
+                "unit": "DAYS"
+              }
+            }
+          ],
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:message_player",
+                "messages": [
+                  {
+                    "translate": "pixelmon.npc.dialogue.battle.trainer.gym.fire.cooldown_leader"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:right_click",
+          "conditions": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:string_compare",
+                "first": {
+                  "value": "MAIN_HAND",
+                  "type": "pixelmon:constant_string"
+                },
+                "second": {
+                  "type": "pixelmon:hand_used"
+                }
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:can_battle",
+                "player": {
+                  "key": "pixelmon:player",
+                  "type": "pixelmon:context_player"
+                }
+              }
+            }
+          ],
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:open_dialogue",
+                "title": "pixelmon.npc.dialogue.battle.trainer.gym.fire.3.title",
+                "message": "pixelmon.npc.dialogue.battle.trainer.gym.fire.3.initiate"
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:right_click",
+          "conditions": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:string_compare",
+                "first": {
+                  "value": "MAIN_HAND",
+                  "type": "pixelmon:constant_string"
+                },
+                "second": {
+                  "type": "pixelmon:hand_used"
+                }
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:logical_not",
+                "condition": {
+                  "type": "pixelmon:interaction_condition",
+                  "condition": {
+                    "type": "pixelmon:can_battle",
+                    "player": {
+                      "key": "pixelmon:player",
+                      "type": "pixelmon:context_player"
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:message_player",
+                "messages": [
+                  {
+                    "translate": "pixelmon.npc.dialogue.battle.trainer.gym.fire.3.unable_to_battle"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:close_dialogue",
+          "conditions": [
+            {
+              "type": "pixelmon:constant_boolean",
+              "value": true
+            }
+          ],
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:player_start_npc_battle"
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:lose_battle",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:open_dialogue",
+                "title": "pixelmon.npc.dialogue.battle.trainer.gym.fire.3.title",
+                "message": "pixelmon.npc.dialogue.battle.trainer.gym.fire.3.lose",
+                "fire_close_event": false
+              },
+              {
+                "type": "pixelmon:set_string_context",
+                "key": "pixelmon:trainer",
+                "value": "trainer_gym_fire_3"
+              },
+              {
+                "type": "pixelmon:trigger_interaction_event",
+                "event": "pixelmon:lose_to_trainer"
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:win_battle",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:open_dialogue",
+                "title": "pixelmon.npc.dialogue.battle.trainer.gym.fire.3.title",
+                "message": "pixelmon.npc.dialogue.battle.trainer.gym.fire.3.win",
+                "fire_close_event": false
+              },
+              {
+                "type": "pixelmon:give_money",
+                "money": 140.0
+              },
+              {
+                "type": "pixelmon:set_cooldown",
+                "player": {
+                  "key": "pixelmon:player",
+                  "type": "pixelmon:context_player"
+                },
+                "key": "pixelmon:trainer_gym_fire_3"
+              },
+              {
+                "type": "pixelmon:set_string_context",
+                "key": "pixelmon:trainer",
+                "value": "trainer_gym_fire_3"
+              },
+              {
+                "type": "pixelmon:trigger_interaction_event",
+                "event": "pixelmon:defeat_trainer"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

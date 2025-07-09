@@ -131,7 +131,18 @@
         {
           "event": "pixelmon:evolve_pokemon",
           "required_amount": 1,
-          "sprite": "pixelmon:textures/pokemon/130_gyarados/all/base/none/sprite.png",
+          "sprite": {
+            "resource": [
+              {
+                "resource": "pixelmon:textures/pokemon/130_gyarados/all/base/none/sprite.png"
+              },
+              {
+                "resource": "pixelmon:textures/item/healingitems/rarecandy.png",
+                "offset": [8.25, 8.5, 0],
+                "scale": [0.5, 0.5]
+              }
+            ]
+          },
           "name": {
             "translate": "research.collection.magikarp.evolve",
             "fallback": "Evolve a Magikarp"
@@ -164,7 +175,7 @@
       ],
       "result_sprites": [
         {
-          "resource": "pixelmon:textures/quests/money_pouch.png",
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
           "description": "₽1000"
         },
         {

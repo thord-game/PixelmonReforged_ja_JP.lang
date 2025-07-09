@@ -1,0 +1,34 @@
+{
+  "stages": [
+    {
+      "objectives": [
+        {
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon" : {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "type:ghost"
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 20,
+          "name": {
+            "translate": "research.standard.capture.ghost.20",
+            "fallback": "Capture 20 Ghost Type Pokémon"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png",
+          "event": "pixelmon:capture_pokemon"
+        }
+      ]
+    }
+  ],
+  "abandonable": true,
+  "repeatable": true,
+  "unique": false
+}

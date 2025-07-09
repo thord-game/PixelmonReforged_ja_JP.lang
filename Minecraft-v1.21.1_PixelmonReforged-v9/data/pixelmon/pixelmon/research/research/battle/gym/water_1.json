@@ -1,0 +1,392 @@
+{
+  "stages": [
+    {
+      "objectives": [],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": { "translate": "pixelmon.research.objective.battle.gym.water.1.stage.0.dialogue.1" }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/wisteria.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "type": "pixelmon:string_compare_case_insensitive",
+            "first": {
+              "type": "pixelmon:string_context",
+              "key": "pixelmon:trainer"
+            },
+            "second": {
+              "type": "pixelmon:constant_string",
+              "value": "trainer_gym_water_1"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50.0
+            }
+          ],
+          "required_amount": 1,
+          "name": {
+            "translate": "pixelmon.research.objective.battle.gym.water.1.stage.1.objective.1",
+            "fallback": "Defeat Gym Novice Eule"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:defeat_trainer"
+        },
+        {
+          "condition": {
+            "type": "pixelmon:string_compare_case_insensitive",
+            "first": {
+              "type": "pixelmon:string_context",
+              "key": "pixelmon:trainer"
+            },
+            "second": {
+              "type": "pixelmon:constant_string",
+              "value": "trainer_gym_water_2"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50.0
+            }
+          ],
+          "required_amount": 1,
+          "name": {
+            "translate": "pixelmon.research.objective.battle.gym.water.1.stage.1.objective.2",
+            "fallback": "Defeat Gym Novice Mezzbeans"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:defeat_trainer"
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": { "translate": "pixelmon.research.objective.battle.gym.water.1.stage.1.dialogue.1" }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        },
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 200.0
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "200 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "type": "pixelmon:string_compare_case_insensitive",
+            "first": {
+              "type": "pixelmon:string_context",
+              "key": "pixelmon:trainer"
+            },
+            "second": {
+              "type": "pixelmon:constant_string",
+              "value": "trainer_gym_water_3"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50.0
+            }
+          ],
+          "required_amount": 1,
+          "name": {
+            "translate": "pixelmon.research.objective.battle.gym.water.1.stage.2.objective.1",
+            "fallback": "Defeat Gym Trainer Seraphina"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:defeat_trainer"
+        },
+        {
+          "condition": {
+            "type": "pixelmon:string_compare_case_insensitive",
+            "first": {
+              "type": "pixelmon:string_context",
+              "key": "pixelmon:trainer"
+            },
+            "second": {
+              "type": "pixelmon:constant_string",
+              "value": "trainer_gym_water_4"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50.0
+            }
+          ],
+          "required_amount": 1,
+          "name": {
+            "translate": "pixelmon.research.objective.battle.gym.water.1.stage.2.objective.2",
+            "fallback": "Defeat Gym Trainer Vesper"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:defeat_trainer"
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": { "translate": "pixelmon.research.objective.battle.gym.water.1.stage.2.dialogue.1" }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        },
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 200.0
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "200 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "type": "pixelmon:string_compare_case_insensitive",
+            "first": {
+              "type": "pixelmon:string_context",
+              "key": "pixelmon:trainer"
+            },
+            "second": {
+              "type": "pixelmon:constant_string",
+              "value": "trainer_gym_water_5"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50.0
+            }
+          ],
+          "required_amount": 1,
+          "name": {
+            "translate": "pixelmon.research.objective.battle.gym.water.1.stage.3.objective.1",
+            "fallback": "Defeat Gym Veteran Sam"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:defeat_trainer"
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": { "translate": "pixelmon.research.objective.battle.gym.water.1.stage.3.dialogue.1" }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        },
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 200.0
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "200 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "type": "pixelmon:string_compare_case_insensitive",
+            "first": {
+              "type": "pixelmon:string_context",
+              "key": "pixelmon:leader"
+            },
+            "second": {
+              "type": "pixelmon:constant_string",
+              "value": "leader_gym_water_1"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50.0
+            }
+          ],
+          "required_amount": 1,
+          "name": {
+            "translate": "pixelmon.research.objective.battle.gym.water.1.stage.4.objective.1",
+            "fallback": "Defeat Marisol, the water Gym Leader"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:defeat_leader"
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": { "translate": "pixelmon.research.objective.battle.gym.water.1.stage.4.dialogue.1" }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        },
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_item",
+          "items": [
+            {
+              "id": "pixelmon:tm_gen9",
+              "components": {
+                "minecraft:custom_data": {
+                  "tm": 187
+                }
+              },
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "pixelmon:set_cooldown",
+          "player": {
+            "type": "pixelmon:context_player",
+            "key": "pixelmon:player"
+          },
+          "key": "pixelmon:cooldown_trigger_torrent_trial",
+          "cooldown": 30,
+          "unit": "DAYS"
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        },
+        {
+          "resource": "pixelmon:textures/item/badges/wavebadge.png",
+          "description": "Wave Badge"
+        },
+        {
+          "resource": "pixelmon:textures/item/tms/tmwater.png",
+          "description": "TM:188"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        }
+      ]
+    }
+  ],
+  "abandonable": false,
+  "repeatable": true,
+  "unique": true,
+  "name": {
+    "translate": "pixelmon.research.unlock.battle.gym.water.1",
+    "fallback": "Torrent Trial"
+  }
+}

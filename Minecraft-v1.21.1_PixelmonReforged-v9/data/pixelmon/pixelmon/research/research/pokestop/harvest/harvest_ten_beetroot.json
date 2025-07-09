@@ -1,0 +1,35 @@
+{
+  "stages": [
+    {
+      "objectives": [
+        {
+          "event": "pixelmon:harvest_crop",
+          "condition": {
+            "type": "pixelmon:block_is_one_of",
+            "blocks": [
+              "minecraft:beetroots"
+            ],
+            "block": {
+              "type": "pixelmon:context_block_state"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 10,
+          "name": {
+            "translate": "research.standard.harvest.beetroot.10",
+            "fallback": "Harvest 10 Beetroot"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        }
+      ]
+    }
+  ],
+  "abandonable": true,
+  "repeatable": true,
+  "unique": false
+}

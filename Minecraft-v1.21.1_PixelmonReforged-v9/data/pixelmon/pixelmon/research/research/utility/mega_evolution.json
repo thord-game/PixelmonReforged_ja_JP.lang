@@ -1,0 +1,376 @@
+{
+  "stages": [
+    {
+      "objectives": [],
+      "result": [
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": "トレーナーさん こんにちは！ メガシンカした 強いボスポケモンと 戦ったようね。"
+              },
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": "私はメガシンカについて ずっと研究してきたんだけど、 あなたなら メガシンカの力を 使いこなすことが できると思うわ。"
+              },
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": "メガシンカの力を解き放つために いくつか お願いしたいことがあるの。 すべて完了すれば メガシンカを理解できると思うわ。"
+              },
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": "まずは いくつか材料を集めて ほしいの。 集めたら 次を教えるわね。"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/item/npceditor.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "event": "pixelmon:break_block",
+          "condition": {
+            "type": "pixelmon:block_is_one_of",
+            "blocks": [
+              "minecraft:iron_ore"
+            ],
+            "block": {
+              "type": "pixelmon:context_block_state"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 64,
+          "name": {
+            "translate": "research.unlock.mega.iron_ore",
+            "fallback": "Mine 64 Iron Ore"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        },
+        {
+          "event": "pixelmon:break_block",
+          "condition": {
+            "type": "pixelmon:block_is_one_of",
+            "blocks": [
+              "pixelmon:crystal_ore"
+            ],
+            "block": {
+              "type": "pixelmon:context_block_state"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 16,
+          "name": {
+            "translate": "research.unlock.mega.crystal_ore",
+            "fallback": "Mine 16 Crystal Ore"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        },
+        {
+          "event": "pixelmon:break_block",
+          "condition": {
+            "type": "pixelmon:block_is_one_of",
+            "blocks": [
+              "pixelmon:sapphire_ore"
+            ],
+            "block": {
+              "type": "pixelmon:context_block_state"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 8,
+          "name": {
+            "translate": "research.unlock.mega.sapphire_ore",
+            "fallback": "Mine 8 Sapphire Ore"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 250.0
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": "ありがとう トレーナーさん！ メガリングを作るのに 必要な素材を 集めてくれたのね。これで 準備万端ね。"
+              },
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": "次は メガシンカの秘密を解き明かすために いくつかお願いがあるわ。"
+              },
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": "それができれば メガシンカの力を 理解できると思うわ。"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": {
+            "text": "₽500"
+          }
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": {
+            "text": "250 XP"
+          }
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "event": "pixelmon:evolve_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 15,
+          "name": {
+            "translate": "research.unlock.mega.evolve.15",
+            "fallback": "Evolve 15 Pokémon"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        },
+        {
+          "event": "pixelmon:knockout_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 30,
+          "name": {
+            "translate": "research.unlock.mega.defeat.30",
+            "fallback": "Defeat 30 Pokémon"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        },
+        {
+          "event": "pixelmon:knockout_pokemon",
+          "condition": {
+            "type": "pixelmon:spec_matches_entity",
+            "pokemon" : {
+              "type": "pixelmon:context_pokemon_entity",
+              "key": "pixelmon:pokemon_entity"
+            },
+            "spec": "isboss"
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 20,
+          "name": {
+            "translate": "research.unlock.mega.defeat.boss.20",
+            "fallback": "Defeat 20 Boss Pokémon"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 250.0
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": "やったわね トレーナーさん！ お願いを すべて完了してくれたのね。 これでメガシンカがどんなものか 感じてもらえたと思うわ。"
+              },
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": "あとは 世界最強のポケモンたちと 戦いましょう。 それに勝てれば メガシンカの力を 扱うことができる証拠よ。"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": {
+            "text": "₽500"
+          }
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": {
+            "text": "250 XP"
+          }
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "event": "pixelmon:knockout_pokemon",
+          "condition": {
+            "type": "pixelmon:spec_matches_entity",
+            "pokemon" : {
+              "type": "pixelmon:context_pokemon_entity",
+              "key": "pixelmon:pokemon_entity"
+            },
+            "spec": "boss:epic OR boss:legendary OR boss:ultimate"
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 10,
+          "name": {
+            "translate": "research.unlock.mega.defeat.boss.10",
+            "fallback": "Defeat 10 Mega Boss Pokémon"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 250.0
+        },
+        {
+          "type": "pixelmon:unlock_mega_evolution"
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": "おめでとう トレーナーさん！ お願いを すべて 成し遂げてくれたわね。"
+              },
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": "ポケモンをメガシンカさせる特別なアイテムをあげるわ。 うまく使ってね。 そして 大きな力には 大きな責任が伴うことを 忘れないで。"
+              },
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": "メガリングは インベントリの ポケモンの横にある 折りたたまれている部分を開くと 装備したり外したりできるわ。 頑張ってね トレーナーさん！"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": {
+            "text": "₽500"
+          }
+        },
+        {
+          "resource": "pixelmon:textures/gui/inventory/keystone.png",
+          "description": {
+            "text": "Mega Ring"
+          }
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": {
+            "text": "250 XP"
+          }
+        }
+      ]
+    }
+  ],
+  "abandonable": false,
+  "repeatable": false,
+  "unique": true,
+  "name": {
+    "translate": "research.unlock.mega",
+    "fallback": "A Mega Discovery"
+  }
+}

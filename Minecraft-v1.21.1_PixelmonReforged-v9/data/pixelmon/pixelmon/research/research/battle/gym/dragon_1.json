@@ -1,0 +1,392 @@
+{
+  "stages": [
+    {
+      "objectives": [],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": { "translate": "pixelmon.research.objective.battle.gym.dragon.1.stage.0.dialogue.1" }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/wisteria.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "type": "pixelmon:string_compare_case_insensitive",
+            "first": {
+              "type": "pixelmon:string_context",
+              "key": "pixelmon:trainer"
+            },
+            "second": {
+              "type": "pixelmon:constant_string",
+              "value": "trainer_gym_dragon_1"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50.0
+            }
+          ],
+          "required_amount": 1,
+          "name": {
+            "translate": "pixelmon.research.objective.battle.gym.dragon.1.stage.1.objective.1",
+            "fallback": "Defeat Gym Novice Aliene"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:defeat_trainer"
+        },
+        {
+          "condition": {
+            "type": "pixelmon:string_compare_case_insensitive",
+            "first": {
+              "type": "pixelmon:string_context",
+              "key": "pixelmon:trainer"
+            },
+            "second": {
+              "type": "pixelmon:constant_string",
+              "value": "trainer_gym_dragon_2"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50.0
+            }
+          ],
+          "required_amount": 1,
+          "name": {
+            "translate": "pixelmon.research.objective.battle.gym.dragon.1.stage.1.objective.2",
+            "fallback": "Defeat Gym Novice Bryce"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:defeat_trainer"
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": { "translate": "pixelmon.research.objective.battle.gym.dragon.1.stage.1.dialogue.1" }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        },
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 200.0
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "200 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "type": "pixelmon:string_compare_case_insensitive",
+            "first": {
+              "type": "pixelmon:string_context",
+              "key": "pixelmon:trainer"
+            },
+            "second": {
+              "type": "pixelmon:constant_string",
+              "value": "trainer_gym_dragon_3"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50.0
+            }
+          ],
+          "required_amount": 1,
+          "name": {
+            "translate": "pixelmon.research.objective.battle.gym.dragon.1.stage.2.objective.1",
+            "fallback": "Defeat Gym Trainer Valeria"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:defeat_trainer"
+        },
+        {
+          "condition": {
+            "type": "pixelmon:string_compare_case_insensitive",
+            "first": {
+              "type": "pixelmon:string_context",
+              "key": "pixelmon:trainer"
+            },
+            "second": {
+              "type": "pixelmon:constant_string",
+              "value": "trainer_gym_dragon_4"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50.0
+            }
+          ],
+          "required_amount": 1,
+          "name": {
+            "translate": "pixelmon.research.objective.battle.gym.dragon.1.stage.2.objective.2",
+            "fallback": "Defeat Gym Trainer Daelin"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:defeat_trainer"
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": { "translate": "pixelmon.research.objective.battle.gym.dragon.1.stage.2.dialogue.1" }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        },
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 200.0
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "200 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "type": "pixelmon:string_compare_case_insensitive",
+            "first": {
+              "type": "pixelmon:string_context",
+              "key": "pixelmon:trainer"
+            },
+            "second": {
+              "type": "pixelmon:constant_string",
+              "value": "trainer_gym_dragon_5"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50.0
+            }
+          ],
+          "required_amount": 1,
+          "name": {
+            "translate": "pixelmon.research.objective.battle.gym.dragon.1.stage.3.objective.1",
+            "fallback": "Defeat Gym Veteran Celina"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:defeat_trainer"
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": { "translate": "pixelmon.research.objective.battle.gym.dragon.1.stage.3.dialogue.1" }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        },
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 200.0
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "200 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "type": "pixelmon:string_compare_case_insensitive",
+            "first": {
+              "type": "pixelmon:string_context",
+              "key": "pixelmon:leader"
+            },
+            "second": {
+              "type": "pixelmon:constant_string",
+              "value": "leader_gym_dragon_1"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50.0
+            }
+          ],
+          "required_amount": 1,
+          "name": {
+            "translate": "pixelmon.research.objective.battle.gym.dragon.1.stage.4.objective.1",
+            "fallback": "Defeat Pulao, the Dragon Gym Leader"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:defeat_leader"
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": { "translate": "pixelmon.research.objective.battle.gym.dragon.1.stage.4.dialogue.1" }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        },
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_item",
+          "items": [
+            {
+              "id": "pixelmon:tm_gen9",
+              "components": {
+                "minecraft:custom_data": {
+                  "tm": 114
+                }
+              },
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "pixelmon:set_cooldown",
+          "player": {
+            "type": "pixelmon:context_player",
+            "key": "pixelmon:player"
+          },
+          "key": "pixelmon:cooldown_trigger_trial_by_dragonfire",
+          "cooldown": 30,
+          "unit": "DAYS"
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        },
+        {
+          "resource": "pixelmon:textures/item/badges/legendbadge.png",
+          "description": "Legend Badge"
+        },
+        {
+          "resource": "pixelmon:textures/item/tms/tmdragon.png",
+          "description": "TM:115"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        }
+      ]
+    }
+  ],
+  "abandonable": false,
+  "repeatable": true,
+  "unique": true,
+  "name": {
+    "translate": "pixelmon.research.unlock.battle.gym.dragon.1",
+    "fallback": "Trial by Dragonfire"
+  }
+}

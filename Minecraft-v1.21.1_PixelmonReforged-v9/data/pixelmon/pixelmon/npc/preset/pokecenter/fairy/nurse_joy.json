@@ -1,0 +1,126 @@
+{
+  "names": {
+    "values": [
+      "ジョーイ"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "value": {
+      "slim": true,
+      "texture": {
+        "resource": {
+          "resource": "pixelmon:textures/steve/nursejoy.png",
+          "fallback": "pixelmon:textures/steve/nursejoy.png"
+        },
+        "type": "pixelmon:fallback"
+      },
+      "type": "pixelmon:player"
+    },
+    "type": "pixelmon:constant"
+  },
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelmon.npc.dialogue.pokecenter.nurse.title",
+                  "message": "pixelmon.npc.dialogue.pokecenter.fairy.nurse.greeting.1",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "require_healer_block": {
+                    "value": true,
+                    "type": "pixelmon:constant_boolean"
+                  },
+                  "type": "pixelmon:heal_player"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:finish_healing",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelmon.npc.dialogue.pokecenter.nurse.title",
+                  "message": "pixelmon.npc.dialogue.pokecenter.fairy.nurse.goodbye.1",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "nameplate": true,
+      "health": 20.0,
+      "eyeHeight": 1.62,
+      "dimensions": {
+        "width": 0.9,
+        "height": 1.9
+      },
+      "title": {
+        "translate": "pixelmon.npc.dialogue.pokecenter.nurse.plate",
+        "color": "#751515",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": false,
+      "immovable": false
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "goals": {
+    "type": "pixelmon:constant",
+    "value": {
+      "goals": [
+        {
+          "provider": {
+            "type": "pixelmon:look_at_nearby",
+            "look_distance": 5.0,
+            "probability": 0.9
+          },
+          "priority": 1
+        }
+      ]
+    }
+  }
+}

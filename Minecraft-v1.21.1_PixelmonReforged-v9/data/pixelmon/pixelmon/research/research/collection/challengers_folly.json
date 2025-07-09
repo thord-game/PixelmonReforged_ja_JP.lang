@@ -1,0 +1,433 @@
+{
+  "stages": [
+    {
+      "objectives": [
+        {
+          "event": "pixelmon:defeat_leader",
+          "sprite": "pixelmon:textures/item/badges/legendbadge.png",
+          "name": {
+            "translate": "pixelmon.research.unlock.collection.challengers_folly.dragon.1",
+            "fallback": "Win the Legend Badge"
+          },
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "type": "pixelmon:interaction_condition",
+                "condition": {
+                  "type": "pixelmon:string_compare_case_insensitive",
+                  "first": {
+                    "type": "pixelmon:string_context",
+                    "key": "pixelmon:leader"
+                  },
+                  "second": {
+                    "type": "pixelmon:constant_string",
+                    "value": "leader_gym_dragon_1"
+                  }
+                }
+              },
+              {
+                "type": "pixelmon:interaction_condition",
+                "condition": {
+                  "type": "pixelmon:has_research",
+                  "research": "pixelmon:battle/gym/dragon_1",
+                  "player": {
+                    "type": "pixelmon:context_player",
+                    "key": "pixelmon:player"
+                  }
+                }
+              }
+            ]
+          },
+          "result": []
+        },
+        {
+          "event": "pixelmon:defeat_leader",
+          "sprite": "pixelmon:textures/item/badges/boltbadge.png",
+          "name": {
+            "translate": "pixelmon.research.unlock.collection.challengers_folly.electric.1",
+            "fallback": "Win the Bolt Badge"
+          },
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "type": "pixelmon:interaction_condition",
+                "condition": {
+                  "type": "pixelmon:string_compare_case_insensitive",
+                  "first": {
+                    "type": "pixelmon:string_context",
+                    "key": "pixelmon:leader"
+                  },
+                  "second": {
+                    "type": "pixelmon:constant_string",
+                    "value": "leader_gym_electric_1"
+                  }
+                }
+              },
+              {
+                "type": "pixelmon:interaction_condition",
+                "condition": {
+                  "type": "pixelmon:has_research",
+                  "research": "pixelmon:battle/gym/electric_1",
+                  "player": {
+                    "type": "pixelmon:context_player",
+                    "key": "pixelmon:player"
+                  }
+                }
+              }
+            ]
+          },
+          "result": []
+        },
+        {
+          "event": "pixelmon:defeat_leader",
+          "sprite": "pixelmon:textures/item/badges/fairybadge.png",
+          "name": {
+            "translate": "pixelmon.research.unlock.collection.challengers_folly.fairy.1",
+            "fallback": "Win the Fairy Badge"
+          },
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "type": "pixelmon:interaction_condition",
+                "condition": {
+                  "type": "pixelmon:string_compare_case_insensitive",
+                  "first": {
+                    "type": "pixelmon:string_context",
+                    "key": "pixelmon:leader"
+                  },
+                  "second": {
+                    "type": "pixelmon:constant_string",
+                    "value": "leader_gym_fairy_1"
+                  }
+                }
+              },
+              {
+                "type": "pixelmon:interaction_condition",
+                "condition": {
+                  "type": "pixelmon:has_research",
+                  "research": "pixelmon:battle/gym/fairy_1",
+                  "player": {
+                    "type": "pixelmon:context_player",
+                    "key": "pixelmon:player"
+                  }
+                }
+              }
+            ]
+          },
+          "result": []
+        },
+        {
+          "event": "pixelmon:defeat_leader",
+          "sprite": "pixelmon:textures/item/badges/volcanobadge.png",
+          "name": {
+            "translate": "pixelmon.research.unlock.collection.challengers_folly.fire.1",
+            "fallback": "Win the Volcano Badge"
+          },
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "type": "pixelmon:interaction_condition",
+                "condition": {
+                  "type": "pixelmon:string_compare_case_insensitive",
+                  "first": {
+                    "type": "pixelmon:string_context",
+                    "key": "pixelmon:leader"
+                  },
+                  "second": {
+                    "type": "pixelmon:constant_string",
+                    "value": "leader_gym_fire_1"
+                  }
+                }
+              },
+              {
+                "type": "pixelmon:interaction_condition",
+                "condition": {
+                  "type": "pixelmon:has_research",
+                  "research": "pixelmon:battle/gym/fire_1",
+                  "player": {
+                    "type": "pixelmon:context_player",
+                    "key": "pixelmon:player"
+                  }
+                }
+              }
+            ]
+          },
+          "result": []
+        },
+        {
+          "event": "pixelmon:defeat_leader",
+          "sprite": "pixelmon:textures/item/badges/fogbadge.png",
+          "name": {
+            "translate": "pixelmon.research.unlock.collection.challengers_folly.ghost.1",
+            "fallback": "Win the Fog Badge"
+          },
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "type": "pixelmon:interaction_condition",
+                "condition": {
+                  "type": "pixelmon:string_compare_case_insensitive",
+                  "first": {
+                    "type": "pixelmon:string_context",
+                    "key": "pixelmon:leader"
+                  },
+                  "second": {
+                    "type": "pixelmon:constant_string",
+                    "value": "leader_gym_ghost_1"
+                  }
+                }
+              },
+              {
+                "type": "pixelmon:interaction_condition",
+                "condition": {
+                  "type": "pixelmon:has_research",
+                  "research": "pixelmon:battle/gym/ghost_1",
+                  "player": {
+                    "type": "pixelmon:context_player",
+                    "key": "pixelmon:player"
+                  }
+                }
+              }
+            ]
+          },
+          "result": []
+        },
+        {
+          "event": "pixelmon:defeat_leader",
+          "sprite": "pixelmon:textures/item/badges/plantbadge.png",
+          "name": {
+            "translate": "pixelmon.research.unlock.collection.challengers_folly.grass.1",
+            "fallback": "Win the Plant Badge"
+          },
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "type": "pixelmon:interaction_condition",
+                "condition": {
+                  "type": "pixelmon:string_compare_case_insensitive",
+                  "first": {
+                    "type": "pixelmon:string_context",
+                    "key": "pixelmon:leader"
+                  },
+                  "second": {
+                    "type": "pixelmon:constant_string",
+                    "value": "leader_gym_grass_1"
+                  }
+                }
+              },
+              {
+                "type": "pixelmon:interaction_condition",
+                "condition": {
+                  "type": "pixelmon:has_research",
+                  "research": "pixelmon:battle/gym/grass_1",
+                  "player": {
+                    "type": "pixelmon:context_player",
+                    "key": "pixelmon:player"
+                  }
+                }
+              }
+            ]
+          },
+          "result": []
+        },
+        {
+          "event": "pixelmon:defeat_leader",
+          "sprite": "pixelmon:textures/item/badges/quakebadge.png",
+          "name": {
+            "translate": "pixelmon.research.unlock.collection.challengers_folly.ground.1",
+            "fallback": "Win the Quake Badge"
+          },
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "type": "pixelmon:interaction_condition",
+                "condition": {
+                  "type": "pixelmon:string_compare_case_insensitive",
+                  "first": {
+                    "type": "pixelmon:string_context",
+                    "key": "pixelmon:leader"
+                  },
+                  "second": {
+                    "type": "pixelmon:constant_string",
+                    "value": "leader_gym_ground_1"
+                  }
+                }
+              },
+              {
+                "type": "pixelmon:interaction_condition",
+                "condition": {
+                  "type": "pixelmon:has_research",
+                  "research": "pixelmon:battle/gym/ground_1",
+                  "player": {
+                    "type": "pixelmon:context_player",
+                    "key": "pixelmon:player"
+                  }
+                }
+              }
+            ]
+          },
+          "result": []
+        },
+        {
+          "event": "pixelmon:defeat_leader",
+          "sprite": "pixelmon:textures/item/badges/iciclebadge.png",
+          "name": {
+            "translate": "pixelmon.research.unlock.collection.challengers_folly.ice.1",
+            "fallback": "Win the Ice Badge"
+          },
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "type": "pixelmon:interaction_condition",
+                "condition": {
+                  "type": "pixelmon:string_compare_case_insensitive",
+                  "first": {
+                    "type": "pixelmon:string_context",
+                    "key": "pixelmon:leader"
+                  },
+                  "second": {
+                    "type": "pixelmon:constant_string",
+                    "value": "leader_gym_ice_1"
+                  }
+                }
+              },
+              {
+                "type": "pixelmon:interaction_condition",
+                "condition": {
+                  "type": "pixelmon:has_research",
+                  "research": "pixelmon:battle/gym/ice_1",
+                  "player": {
+                    "type": "pixelmon:context_player",
+                    "key": "pixelmon:player"
+                  }
+                }
+              }
+            ]
+          },
+          "result": []
+        },
+        {
+          "event": "pixelmon:defeat_leader",
+          "sprite": "pixelmon:textures/item/badges/coalbadge.png",
+          "name": {
+            "translate": "pixelmon.research.unlock.collection.challengers_folly.steel.1",
+            "fallback": "Win the Coal Badge"
+          },
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "type": "pixelmon:interaction_condition",
+                "condition": {
+                  "type": "pixelmon:string_compare_case_insensitive",
+                  "first": {
+                    "type": "pixelmon:string_context",
+                    "key": "pixelmon:leader"
+                  },
+                  "second": {
+                    "type": "pixelmon:constant_string",
+                    "value": "leader_gym_steel_1"
+                  }
+                }
+              },
+              {
+                "type": "pixelmon:interaction_condition",
+                "condition": {
+                  "type": "pixelmon:has_research",
+                  "research": "pixelmon:battle/gym/steel_1",
+                  "player": {
+                    "type": "pixelmon:context_player",
+                    "key": "pixelmon:player"
+                  }
+                }
+              }
+            ]
+          },
+          "result": []
+        },
+        {
+          "event": "pixelmon:defeat_leader",
+          "sprite": "pixelmon:textures/item/badges/wavebadge.png",
+          "name": {
+            "translate": "pixelmon.research.unlock.collection.challengers_folly.water.1",
+            "fallback": "Win the Wave Badge"
+          },
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "type": "pixelmon:interaction_condition",
+                "condition": {
+                  "type": "pixelmon:string_compare_case_insensitive",
+                  "first": {
+                    "type": "pixelmon:string_context",
+                    "key": "pixelmon:leader"
+                  },
+                  "second": {
+                    "type": "pixelmon:constant_string",
+                    "value": "leader_gym_water_1"
+                  }
+                }
+              },
+              {
+                "type": "pixelmon:interaction_condition",
+                "condition": {
+                  "type": "pixelmon:has_research",
+                  "research": "pixelmon:battle/gym/water_1",
+                  "player": {
+                    "type": "pixelmon:context_player",
+                    "key": "pixelmon:player"
+                  }
+                }
+              }
+            ]
+          },
+          "result": []
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:give_money",
+          "money": 5000.0
+        },
+        {
+          "type": "pixelmon:give_item",
+          "items": [
+            {
+              "id": "pixelmon:poke_ball",
+              "components": {
+                "pixelmon:poke_ball": "master_ball"
+              },
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽5000"
+        },
+        {
+          "resource": "pixelmon:textures/item/pokeballs/master_ball.png",
+          "description": "Master Ball"
+        }
+      ]
+    }
+  ],
+  "abandonable": false,
+  "repeatable": true,
+  "unique": true,
+  "name": {
+    "translate": "pixelmon.research.unlock.collection.challengers_folly",
+    "fallback": "A Challenger's Folly"
+  }
+}
