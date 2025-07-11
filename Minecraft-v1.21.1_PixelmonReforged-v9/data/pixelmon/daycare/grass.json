@@ -10,10 +10,10 @@
   "requirements": [
     {
       "type": "itemstack",
-      "error_message": "5x 草",
+      "error_message": "5x 背の高い草",
       "items": [
         {
-          "item": "minecraft:grass",
+          "item": "minecraft:tall_grass",
           "amount": 5
         }
       ]

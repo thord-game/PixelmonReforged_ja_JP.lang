@@ -319,7 +319,7 @@
           ],
           "required_amount": 1,
           "name": {
-            "translate": "research.unlock.dynamax.piece",
+            "translate": "research.unlock.dynamax.raid",
             "fallback": "Find a Wishing Piece"
           },
           "sprite": "pixelmon:textures/gui/research/money_pouch.png"
