@@ -1,0 +1,325 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelmon.npc.dialogue.shopkeeper.pokemart.curry.1.title",
+                  "message": "pixelmon.npc.dialogue.shopkeeper.pokemart.generic.curry.1.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "pixelmon:dish_curry_toast",
+                        "count": 1
+                      },
+                      "buyPrice": 150.0,
+                      "sellPrice": 50.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dish_curry_pasta",
+                        "count": 1
+                      },
+                      "buyPrice": 150.0,
+                      "sellPrice": 50.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dish_curry_fried_food",
+                        "count": 1
+                      },
+                      "buyPrice": 150.0,
+                      "sellPrice": 50.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dish_curry_instant_noodle",
+                        "count": 1
+                      },
+                      "buyPrice": 150.0,
+                      "sellPrice": 50.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dish_curry_burger",
+                        "count": 1
+                      },
+                      "buyPrice": 150.0,
+                      "sellPrice": 50.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dish_curry_sausage",
+                        "count": 1
+                      },
+                      "buyPrice": 400.0,
+                      "sellPrice": 130.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dish_curry_beans",
+                        "count": 1
+                      },
+                      "buyPrice": 400.0,
+                      "sellPrice": 130.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dish_curry_mushroom",
+                        "count": 1
+                      },
+                      "buyPrice": 400.0,
+                      "sellPrice": 130.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dish_curry_potato",
+                        "count": 1
+                      },
+                      "buyPrice": 400.0,
+                      "sellPrice": 130.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dish_curry_salad",
+                        "count": 1
+                      },
+                      "buyPrice": 400.0,
+                      "sellPrice": 130.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dish_curry_seasoned",
+                        "count": 1
+                      },
+                      "buyPrice": 400.0,
+                      "sellPrice": 130.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dish_curry_juicy",
+                        "count": 1
+                      },
+                      "buyPrice": 950.0,
+                      "sellPrice": 315.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dish_curry_rich",
+                        "count": 1
+                      },
+                      "buyPrice": 950.0,
+                      "sellPrice": 315.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dish_curry_bone",
+                        "count": 1
+                      },
+                      "buyPrice": 950.0,
+                      "sellPrice": 315.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dish_curry_cream",
+                        "count": 1
+                      },
+                      "buyPrice": 950.0,
+                      "sellPrice": 315.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dish_curry_decorative",
+                        "count": 1
+                      },
+                      "buyPrice": 950.0,
+                      "sellPrice": 315.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dish_curry_coconut",
+                        "count": 1
+                      },
+                      "buyPrice": 950.0,
+                      "sellPrice": 315.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dish_curry_smoke_poke",
+                        "count": 1
+                      },
+                      "buyPrice": 2200.0,
+                      "sellPrice": 730.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dish_curry_boiled_egg",
+                        "count": 1
+                      },
+                      "buyPrice": 2200.0,
+                      "sellPrice": 730.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dish_curry_tropical",
+                        "count": 1
+                      },
+                      "buyPrice": 2200.0,
+                      "sellPrice": 730.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dish_curry_cheese",
+                        "count": 1
+                      },
+                      "buyPrice": 2200.0,
+                      "sellPrice": 730.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dish_curry_gigantamix",
+                        "count": 1
+                      },
+                      "buyPrice": 15000.0,
+                      "sellPrice": 250.0
+                    }
+                  ],
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelmon.npc.dialogue.shopkeeper.pokemart.curry.1.title",
+                  "message": "pixelmon.npc.dialogue.shopkeeper.pokemart.generic.curry.1.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.0,
+      "dimensions": {
+        "width": 1.0,
+        "height": 2.0
+      },
+      "title": {
+        "translate": "pixelmon.npc.dialogue.shopkeeper.pokemart.curry.1.plate",
+        "color": "#2176FF",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": false,
+      "immovable": false,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Mrs. Culligan",
+      "Ms. Vernia"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": true,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": true,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/youngstergirl.png",
+            "fallback": "pixelmon:textures/steve/youngstergirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": true,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/madame.png",
+            "fallback": "pixelmon:textures/steve/madame.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "goals": {
+    "type": "pixelmon:constant",
+    "value": {
+      "goals": [
+        {
+          "provider": {
+            "type": "pixelmon:look_at_nearby",
+            "look_distance": 5.0,
+            "probability": 0.9
+          },
+          "priority": 1
+        }
+      ]
+    }
+  }
+}

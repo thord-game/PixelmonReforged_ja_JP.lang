@@ -57,7 +57,7 @@
         {
           "provider": {
             "type": "pixelmon:look_at_nearby",
-            "look_distance": 4,
+            "look_distance": 10,
             "probability": 0.9
           },
           "priority": 1

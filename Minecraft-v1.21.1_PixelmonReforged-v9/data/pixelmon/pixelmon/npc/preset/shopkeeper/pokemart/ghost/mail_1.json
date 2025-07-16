@@ -1,0 +1,390 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelmon.npc.dialogue.shopkeeper.pokemart.mail.1.title",
+                  "message": "pixelmon.npc.dialogue.shopkeeper.pokemart.ghost.mail.1.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_air",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_bloom",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_brick",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_bridged",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_bridgem",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_bridges",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_bridgev",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_bubble",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_dream",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_fab",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_favored",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_flame",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_glitter",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_grass",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_greet",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_heart",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_inquiry",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_like",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_mech",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_mosaic",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_orange",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_reply",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_retro",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_rsvp",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_snow",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_space",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_steel",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_thanks",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_wave",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pokemail_wood",
+                        "count": 1
+                      },
+                      "buyPrice": 50.0,
+                      "sellPrice": 15.0
+                    }
+                  ],
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelmon.npc.dialogue.shopkeeper.pokemart.mail.1.title",
+                  "message": "pixelmon.npc.dialogue.shopkeeper.pokemart.ghost.mail.1.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.0,
+      "dimensions": {
+        "width": 1.0,
+        "height": 2.0
+      },
+      "title": {
+        "translate": "pixelmon.npc.dialogue.shopkeeper.pokemart.mail.1.plate",
+        "color": "#2176FF",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": false,
+      "immovable": false,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Mrs. Hammersmith",
+      "Mrs. Finnegan",
+      "Mrs. Prendergast"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": true,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/madame.png",
+            "fallback": "pixelmon:textures/steve/madame.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": true,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/lass2.png",
+            "fallback": "pixelmon:textures/steve/lass2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": true,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "goals": {
+    "type": "pixelmon:constant",
+    "value": {
+      "goals": [
+        {
+          "provider": {
+            "type": "pixelmon:look_at_nearby",
+            "look_distance": 5.0,
+            "probability": 0.9
+          },
+          "priority": 1
+        }
+      ]
+    }
+  }
+}

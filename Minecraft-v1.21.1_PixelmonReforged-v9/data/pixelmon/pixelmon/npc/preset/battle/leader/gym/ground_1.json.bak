@@ -1,0 +1,313 @@
+{
+  "properties": {
+    "type": "pixelmon:constant",
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.9,
+      "dimensions": {
+        "width": 0.65,
+        "height": 2.0
+      },
+      "title": {
+        "translate": "pixelmon.npc.dialogue.battle.leader.gym.plate.leader",
+        "color": "#8E44AD",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": false,
+      "immovable": false,
+      "nameplate": true
+    }
+  },
+  "names": {
+    "values": [
+      "クレイトン"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "party": {
+    "value": {
+      "specs": [
+        "Excadrill lvl:70 ability:sandrush helditem:air_balloon nature:jolly ivhp:31 ivatk:31 ivdef:31 ivspatk:0 ivspdef:31 ivspd:31 evatk:252 evspd:252 evhp:4 move1:earthquake move2:iron_head move3:rock_slide move4:swords_dance",
+        "Garchomp lvl:70 ability:roughskin helditem:yache_berry nature:adamant ivhp:31 ivatk:31 ivdef:31 ivspatk:0 ivspdef:31 ivspd:31 evhp:12 evatk:236 evdef:4 evspdef:4 evspd:252 move1:earthquake move2:dragon_claw move3:stone_edge move4:swords_dance",
+        "Gastrodon lvl:70 ability:stormdrain helditem:leftovers nature:bold ivhp:31 ivatk:0 ivdef:31 ivspatk:31 ivspdef:31 ivspd:31 evhp:252 evdef:196 evspdef:60 move1:scald move2:earth_power move3:recover move4:toxic",
+        "Mamoswine lvl:70 ability:thickfat helditem:life_orb nature:jolly ivhp:31 ivatk:31 ivdef:31 ivspatk:0 ivspdef:31 ivspd:31 evatk:252 evspd:252 evhp:4 move1:earthquake move2:icicle_crash move3:stone_edge move4:ice_shard",
+        "Hippowdon lvl:70 ability:sandstream helditem:sitrus_berry nature:impish ivhp:31 ivatk:0 ivdef:31 ivspatk:0 ivspdef:31 ivspd:31 evhp:252 evdef:124 evspdef:132 move1:earthquake move2:stealth_rock move3:slack_off move4:whirlwind",
+        "Camerupt lvl:70 ability:solidrock helditem:cameruptite nature:quiet ivhp:31 ivatk:0 ivdef:31 ivspatk:31 ivspdef:31 ivspd:0 evhp:252 evdef:0 evspatk:252 move1:earth_power move2:fire_blast move3:ancient_power move4:protect"
+      ],
+      "type": "pixelmon:spec"
+    },
+    "type": "pixelmon:constant"
+  },
+  "models": {
+    "value": {
+      "slim": true,
+      "texture": "pixelmon:textures/npc/battle/leader_gym_ground_1.png",
+      "type": "pixelmon:player"
+    },
+    "type": "pixelmon:constant"
+  },
+  "goals": {
+    "type": "pixelmon:constant",
+    "value": {
+      "goals": [
+        {
+          "provider": {
+            "type": "pixelmon:look_at_nearby",
+            "look_distance": 4,
+            "probability": 0.9
+          },
+          "priority": 1
+        }
+      ]
+    }
+  },
+  "interactions": {
+    "type": "pixelmon:constant",
+    "value": {
+      "interactions": [
+        {
+          "event": "pixelmon:right_click",
+          "conditions": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:string_compare",
+                "first": {
+                  "value": "MAIN_HAND",
+                  "type": "pixelmon:constant_string"
+                },
+                "second": {
+                  "type": "pixelmon:hand_used"
+                }
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:can_battle",
+                "player": {
+                  "key": "pixelmon:player",
+                  "type": "pixelmon:context_player"
+                }
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:logical_not",
+                "condition": {
+                  "type": "pixelmon:interaction_condition",
+                  "condition": {
+                    "type": "pixelmon:on_cooldown",
+                    "player": {
+                      "key": "pixelmon:player",
+                      "type": "pixelmon:context_player"
+                    },
+                    "cooldown_key": "pixelmon:leader_gym_ground_1",
+                    "cooldown": 1,
+                    "unit": "DAYS"
+                  }
+                }
+              }
+            }
+          ],
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:open_dialogue",
+                "title": "pixelmon.npc.dialogue.battle.leader.gym.ground.1.title",
+                "message": "pixelmon.npc.dialogue.battle.leader.gym.ground.1.initiate"
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:right_click",
+          "conditions": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:string_compare",
+                "first": {
+                  "value": "MAIN_HAND",
+                  "type": "pixelmon:constant_string"
+                },
+                "second": {
+                  "type": "pixelmon:hand_used"
+                }
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:on_cooldown",
+                "player": {
+                  "key": "pixelmon:player",
+                  "type": "pixelmon:context_player"
+                },
+                "cooldown_key": "pixelmon:leader_gym_ground_1",
+                "cooldown": 1,
+                "unit": "DAYS"
+              }
+            }
+          ],
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:message_player",
+                "messages": [
+                  {
+                    "translate": "pixelmon.npc.dialogue.battle.leader.gym.ground.1.cooldown"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:right_click",
+          "conditions": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:string_compare",
+                "first": {
+                  "value": "MAIN_HAND",
+                  "type": "pixelmon:constant_string"
+                },
+                "second": {
+                  "type": "pixelmon:hand_used"
+                }
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:logical_not",
+                "condition": {
+                  "type": "pixelmon:interaction_condition",
+                  "condition": {
+                    "type": "pixelmon:can_battle",
+                    "player": {
+                      "key": "pixelmon:player",
+                      "type": "pixelmon:context_player"
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:message_player",
+                "messages": [
+                  {
+                    "translate": "pixelmon.npc.dialogue.battle.leader.gym.ground.1.unable_to_battle"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:close_dialogue",
+          "conditions": [
+            {
+              "type": "pixelmon:constant_boolean",
+              "value": true
+            }
+          ],
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:player_start_npc_battle"
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:lose_battle",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:open_dialogue",
+                "title": "pixelmon.npc.dialogue.battle.leader.gym.ground.1.title",
+                "message": "pixelmon.npc.dialogue.battle.leader.gym.ground.1.lose",
+                "fire_close_event": false
+              },
+              {
+                "type": "pixelmon:set_string_context",
+                "key": "pixelmon:leader",
+                "value": "leader_gym_ground_1"
+              },
+              {
+                "type": "pixelmon:trigger_interaction_event",
+                "event": "pixelmon:lose_to_leader"
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:win_battle",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:open_dialogue",
+                "title": "pixelmon.npc.dialogue.battle.leader.gym.ground.1.title",
+                "message": "pixelmon.npc.dialogue.battle.leader.gym.ground.1.win",
+                "fire_close_event": false
+              },
+              {
+                "type": "pixelmon:give_money",
+                "money": 500.0
+              },
+              {
+                "type": "pixelmon:give_item",
+                "items": [
+                  {
+                    "id": "pixelmon:quake_badge",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "type": "pixelmon:set_cooldown",
+                "player": {
+                  "key": "pixelmon:player",
+                  "type": "pixelmon:context_player"
+                },
+                "key": "pixelmon:leader_gym_ground_1"
+              },
+              {
+                "type": "pixelmon:set_string_context",
+                "key": "pixelmon:leader",
+                "value": "leader_gym_ground_1"
+              },
+              {
+                "type": "pixelmon:trigger_interaction_event",
+                "event": "pixelmon:defeat_leader"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
