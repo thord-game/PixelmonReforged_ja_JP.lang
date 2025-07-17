@@ -72,7 +72,8 @@
           "condition": {
             "type": "pixelmon:block_is_one_of",
             "blocks": [
-              "pixelmon:crystal_ore"
+              "pixelmon:crystal_ore",
+              "pixelmon:deepslate_crystal_ore"
             ],
             "block": {
               "type": "pixelmon:context_block_state"
@@ -96,7 +97,8 @@
           "condition": {
             "type": "pixelmon:block_is_one_of",
             "blocks": [
-              "pixelmon:sapphire_ore"
+              "pixelmon:sapphire_ore",
+              "pixelmon:deepslate_sapphire_ore"
             ],
             "block": {
               "type": "pixelmon:context_block_state"

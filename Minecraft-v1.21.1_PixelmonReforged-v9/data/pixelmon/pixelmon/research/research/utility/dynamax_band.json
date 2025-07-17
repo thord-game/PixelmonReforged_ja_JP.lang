@@ -44,7 +44,8 @@
           "condition": {
             "type": "pixelmon:block_is_one_of",
             "blocks": [
-              "pixelmon:silver_ore"
+              "pixelmon:silver_ore",
+              "pixelmon:deepslate_silver_ore"
             ],
             "block": {
               "type": "pixelmon:context_block_state"
@@ -68,7 +69,8 @@
           "condition": {
             "type": "pixelmon:block_is_one_of",
             "blocks": [
-              "pixelmon:ruby_ore"
+              "pixelmon:ruby_ore",
+              "pixelmon:deepslate_ruby_ore"
             ],
             "block": {
               "type": "pixelmon:context_block_state"
@@ -92,7 +94,8 @@
           "condition": {
             "type": "pixelmon:block_is_one_of",
             "blocks": [
-              "pixelmon:sapphire_ore"
+              "pixelmon:sapphire_ore",
+              "pixelmon:deepslate_sapphire_ore"
             ],
             "block": {
               "type": "pixelmon:context_block_state"
@@ -298,31 +301,6 @@
             "fallback": "Defeat a Raid"
           },
           "sprite": "pixelmon:textures/gui/research/money_pouch.png"
-        },
-        {
-          "event": [
-            "pixelmon:pick_up_item",
-            "pixelmon:raid_drop_item"
-          ],
-          "condition": {
-            "type": "pixelmon:item_is_one_of",
-            "items": "pixelmon:wishing_piece",
-            "item": {
-              "type": "pixelmon:context_item"
-            }
-          },
-          "result": [
-            {
-              "type": "pixelmon:give_money",
-              "money": 500.0
-            }
-          ],
-          "required_amount": 1,
-          "name": {
-            "translate": "research.unlock.dynamax.raid",
-            "fallback": "Find a Wishing Piece"
-          },
-          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
         }
       ],
       "result": [
@@ -331,8 +309,13 @@
           "money": 500.0
         },
         {
-          "type": "pixelmon:give_experience",
-          "exp": 250.0
+          "type": "pixelmon:give_item",
+          "items": [
+            {
+              "id": "pixelmon:wishing_piece",
+              "count": 1
+            }
+          ]
         },
         {
           "type": "pixelmon:unlock_dynamax"
@@ -354,7 +337,11 @@
               },
               {
                 "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
-                "text": "ダイマックスバンドは インベントリの ポケモンの横にある 折りたたまれている部分を開くと 装備したり外したりできるわ。 頑張ってね トレーナーさん！"
+                "text": "ダイマックスバンドは インベントリの ポケモンの横にある 折りたたまれている部分を開くと 装備したり外したりできるわ。"
+              },
+              {
+                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "text": "そうそう、 レイドの巣穴の近くで これを見つけたの... 使えそう？ 頑張ってね トレーナーさん！"
               }
             ],
             "rendering_handler": {
@@ -379,9 +366,9 @@
           }
         },
         {
-          "resource": "minecraft:textures/item/experience_bottle.png",
+          "resource": "pixelmon:textures/item/wishing_piece.png",
           "description": {
-            "text": "250 XP"
+            "text": ""
           }
         }
       ]

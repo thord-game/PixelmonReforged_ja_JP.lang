@@ -32,7 +32,7 @@
     "value": {
       "specs": [
         "Gengar lvl:62 ability:cursedbody helditem:focus_sash nature:timid ivhp:31 ivatk:0 ivdef:31 ivspatk:31 ivspdef:31 ivspd:31 evspatk:252 evspd:252 evhp:4 move1:shadow_ball move2:sludge_wave move3:disable move4:destiny_bond",
-        "Aegislash lvl:60 ability:stancechange helditem:weakness_policy nature:quiet ivhp:31 ivatk:31 ivdef:31 ivspatk:31 ivspdef:31 ivspd:0 evhp:252 evatk:88 evspatk:168 move1:shadow_ball move2:iron_head move3:king's_shield move4:sacred_They sword",
+        "Aegislash lvl:60 ability:stancechange helditem:weakness_policy nature:quiet ivhp:31 ivatk:31 ivdef:31 ivspatk:31 ivspdef:31 ivspd:0 evhp:252 evatk:88 evspatk:168 move1:shadow_ball move2:iron_head move3:king's_shield move4:sacred_sword",
         "Ceruledge lvl:60 ability:flashfire helditem:life_orb nature:jolly ivhp:31 ivatk:31 ivdef:31 ivspatk:0 ivspdef:31 ivspd:31 evatk:252 evspd:252 evhp:4 move1:bitter_blade move2:shadow_claw move3:swords_dance move4:close_combat",
         "Golurk lvl:62 ability:ironfist helditem:choice_band nature:adamant ivhp:31 ivatk:31 ivdef:31 ivspatk:0 ivspdef:31 ivspd:31 evatk:252 evhp:252 evdef:4 move1:earthquake move2:shadow_punch move3:ice_punch move4:drain_punch"
       ],
