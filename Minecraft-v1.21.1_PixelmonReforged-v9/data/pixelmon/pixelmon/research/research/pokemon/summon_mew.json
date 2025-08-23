@@ -95,9 +95,9 @@
           "items": [
             {
               "id": "pixelmon:poke_ball",
-              "Count": 5,
-              "tag": {
-                "PokeBallID": "great_ball"
+              "count": 5,
+              "components": {
+                "pixelmon:poke_ball": "great_ball"
               }
             }
           ],
@@ -171,7 +171,7 @@
             "first": {
               "value": {
                 "id": "pixelmon:lure_psychic_weak",
-                "Count": 1,
+                "count": 1,
                 "tag": {
                   "Damage": 0
                 }
@@ -220,9 +220,9 @@
           "items": [
             {
               "id": "pixelmon:poke_ball",
-              "Count": 10,
-              "tag": {
-                "PokeBallID": "great_ball"
+              "count": 10,
+              "components": {
+                "pixelmon:poke_ball": "great_ball"
               }
             }
           ],
@@ -333,9 +333,9 @@
           "items": [
             {
               "id": "pixelmon:poke_ball",
-              "Count": 10,
-              "tag": {
-                "PokeBallID": "great_ball"
+              "count": 10,
+              "components": {
+                "pixelmon:poke_ball": "great_ball"
               }
             }
           ],
@@ -433,7 +433,7 @@
             "first": {
               "value": {
                 "id": "pixelmon:lure_psychic_strong",
-                "Count": 1,
+                "count": 1,
                 "tag": {
                   "Damage": 0
                 }
@@ -464,9 +464,9 @@
           "items": [
             {
               "id": "pixelmon:poke_ball",
-              "Count": 10,
-              "tag": {
-                "PokeBallID": "great_ball"
+              "count": 10,
+              "components": {
+                "pixelmon:poke_ball": "great_ball"
               }
             }
           ],
@@ -592,9 +592,9 @@
           "items": [
             {
               "id": "pixelmon:poke_ball",
-              "Count": 10,
-              "tag": {
-                "PokeBallID": "great_ball"
+              "count": 10,
+              "components": {
+                "pixelmon:poke_ball": "great_ball"
               }
             }
           ],
@@ -683,7 +683,7 @@
         {
           "condition": {
             "spec": {
-              "value": "riolu",
+              "value": "lucario",
               "type": "pixelmon:constant_string"
             },
             "pokemon": {
@@ -711,9 +711,9 @@
           "items": [
             {
               "id": "pixelmon:poke_ball",
-              "Count": 10,
-              "tag": {
-                "PokeBallID": "great_ball"
+              "count": 10,
+              "components": {
+                "pixelmon:poke_ball": "great_ball"
               }
             }
           ],
@@ -838,9 +838,9 @@
           "items": [
             {
               "id": "pixelmon:poke_ball",
-              "Count": 10,
-              "tag": {
-                "PokeBallID": "great_ball"
+              "count": 10,
+              "components": {
+                "pixelmon:poke_ball": "great_ball"
               }
             }
           ],
@@ -946,9 +946,9 @@
           "items": [
             {
               "id": "pixelmon:poke_ball",
-              "Count": 10,
-              "tag": {
-                "PokeBallID": "great_ball"
+              "count": 10,
+              "components": {
+                "pixelmon:poke_ball": "great_ball"
               }
             }
           ],
@@ -993,9 +993,9 @@
           "items": [
             {
               "id": "pixelmon:poke_ball",
-              "Count": 10,
-              "tag": {
-                "PokeBallID": "great_ball"
+              "count": 10,
+              "components": {
+                "pixelmon:poke_ball": "great_ball"
               }
             }
           ],

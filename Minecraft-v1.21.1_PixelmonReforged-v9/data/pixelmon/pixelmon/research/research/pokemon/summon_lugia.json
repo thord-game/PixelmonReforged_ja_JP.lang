@@ -91,9 +91,9 @@
               "items": [
                 {
                   "id": "pixelmon:poke_ball",
-                  "Count": 10,
-                  "tag": {
-                    "PokeBallID": "ultra_ball"
+                  "count": 10,
+                  "components": {
+                    "pixelmon:poke_ball": "ultra_ball"
                   }
                 }
               ],
@@ -330,9 +330,9 @@
               "items": [
                 {
                   "id": "pixelmon:poke_ball",
-                  "Count": 10,
-                  "tag": {
-                    "PokeBallID": "ultra_ball"
+                  "count": 10,
+                  "components": {
+                    "pixelmon:poke_ball": "ultra_ball"
                   }
                 }
               ],
@@ -570,9 +570,9 @@
               "items": [
                 {
                   "id": "pixelmon:poke_ball",
-                  "Count": 10,
-                  "tag": {
-                    "PokeBallID": "ultra_ball"
+                  "count": 10,
+                  "components": {
+                    "pixelmon:poke_ball": "ultra_ball"
                   }
                 }
               ],
