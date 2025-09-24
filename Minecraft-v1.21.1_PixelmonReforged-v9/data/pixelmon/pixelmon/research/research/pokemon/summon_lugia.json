@@ -11,11 +11,11 @@
           "dialogue": {
             "pages": [
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "トレーナーさん こんにちは！ オーブを見つけたみたいね。 これはね 伝説のポケモンを呼び出すための とっても特別なアイテムなの。 私はずっと 研究してきたのよ。"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "もしあなたが 氷のオーブを完成させて　フリーザーの祠まで たどり着いてくれたら 伝説のポケモン フリーザーを呼び出すことが できるかもしれないわ！"
               }
             ],
@@ -125,11 +125,11 @@
           "dialogue": {
             "pages": [
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "フリーザーの祠を見つけたなんて すごい！ 氷のオーブを持って 祠を起動させれば フリーザーが現れるはずよ。"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "フリーザーを捕まえるのは 簡単じゃないかもしれないけど あなたなら きっとできると思うわ。 頑張ってね トレーナーさん！"
               }
             ],
@@ -247,11 +247,11 @@
           "dialogue": {
             "pages": [
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "フリーザーを捕まえたなんて すごいわ！"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "次は 電気のオーブを作って サンダーの祠を探してね。 頑張ってね トレーナーさん！"
               }
             ],
@@ -364,11 +364,11 @@
           "dialogue": {
             "pages": [
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "サンダーの祠を見つけたなんて すごいわ！ 電気のオーブを持って 祠を起動させれば 伝説のポケモン サンダーが現れるはずよ。"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "サンダーを捕まえるのも フリーザーと同じくらい 大変だと思うけど あなたなら きっとできるわ。 頑張ってね トレーナーさん！"
               }
             ],
@@ -486,11 +486,11 @@
           "dialogue": {
             "pages": [
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "サンダーを捕まえたなんて すごいわ トレーナーさん！ 本当に良くやってるわ！"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "次は 炎のオーブを作って ファイヤーの祠を 探してね。 頑張ってね トレーナーさん！"
               }
             ],
@@ -604,23 +604,23 @@
           "dialogue": {
             "pages": [
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "やったわね トレーナーさん！ ファイヤーの祠を 見つけたのね！ 炎のオーブを持って 祠を起動させれば 伝説のポケモン ファイヤーが現れるはずよ。"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "最後は ファイヤーを捕まえることね。 これが一番 難しいかもしれないけど あなたなら きっとできると思うわ。"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "伝説の鳥ポケモン3体を すべて捕まえたトレーナーは 今まで誰もいないのよ。 あなたは 歴史を作るかもしれないわ！"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "私の研究によると 3体の伝説の鳥ポケモンを集めると とても強力なポケモンが 現れるらしいの。 何が起こるのか 本当に楽しみだわ！"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "頑張ってね トレーナーさん！"
               }
             ],
@@ -761,11 +761,11 @@
           "dialogue": {
             "pages": [
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "わあ トレーナーさん すごいことをしたわね！ 伝説の鳥ポケモン3体を すべて捕まえて ルギアを呼び出したなんて！"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "信じられない！ 歴史を作ったわね！ 私の研究を手伝ってくれて 本当にありがとう。 またね トレーナーさん！"
               }
             ],

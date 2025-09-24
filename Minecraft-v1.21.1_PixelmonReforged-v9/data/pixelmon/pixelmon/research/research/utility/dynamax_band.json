@@ -11,15 +11,15 @@
           "dialogue": {
             "pages": [
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "トレーナーさん こんにちは！ 落下した隕石を 見つけたのね。 調べてみると どうやら ダイマックス現象と 関係があるみたいなの。"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "ダイマックスは ポケモンが巨大化して とんでもない力を 発揮する現象のことよ。 珍しい現象だけど あなたが発見した隕石が その力を解き放つ 鍵になるんじゃないかと思うの。"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "ダイマックスの秘密を 解き明かすために あなたの力を借りたいの。 いくつか お願いしたいことがあるわ。 それがすべてできたら 私たちは ダイマックスの力を 扱うことができると思うわ。"
               }
             ],
@@ -132,11 +132,11 @@
           "dialogue": {
             "pages": [
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "ありがとう トレーナーさん！ ダイマックスの謎を調べるのに 必要なものを集めてくれたのね。 これで準備万端だと思うわ。"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "次は ダイマックス現象の力を調べるために いくつか お願いがあるわ。 それが全部できたら ダイマックスの力について 詳しくなれると思うわ。"
               }
             ],
@@ -233,11 +233,11 @@
           "dialogue": {
             "pages": [
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "やったわね トレーナーさん！ お願いを すべて完了してくれたのね。 これでダイマックスの力が どんなものか分かったと思うわ。"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "これが最後のお願いよ。 これができたら ダイマックス現象の謎が 解き明かされ 力を扱うことが できると思うわ。"
               }
             ],
@@ -328,19 +328,19 @@
           "dialogue": {
             "pages": [
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "おめでとう トレーナーさん！ お願いをすべて こなしてくれたわね。"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "ダイマックスできるようになる 特別なアイテムをあげるわ。 うまく使ってね。 そして 大きな力には 大きな責任が伴うことを 忘れないで。"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "ダイマックスバンドは インベントリの ポケモンの横にある 折りたたまれている部分を開くと 装備したり外したりできるわ。"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "そうそう、 レイドの巣穴の近くで これを見つけたの... 使えそう？ 頑張ってね トレーナーさん！"
               }
             ],

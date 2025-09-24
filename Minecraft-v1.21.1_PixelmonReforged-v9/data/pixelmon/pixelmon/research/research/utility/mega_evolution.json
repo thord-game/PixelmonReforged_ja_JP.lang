@@ -11,19 +11,19 @@
           "dialogue": {
             "pages": [
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "トレーナーさん こんにちは！ メガシンカした 強いボスポケモンと 戦ったようね。"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "私はメガシンカについて ずっと研究してきたんだけど、 あなたなら メガシンカの力を 使いこなすことが できると思うわ。"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "メガシンカの力を解き放つために いくつか お願いしたいことがあるの。 すべて完了すれば メガシンカを理解できると思うわ。"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "まずは いくつか材料を集めて ほしいの。 集めたら 次を教えるわね。"
               }
             ],
@@ -48,7 +48,8 @@
           "condition": {
             "type": "pixelmon:block_is_one_of",
             "blocks": [
-              "minecraft:iron_ore"
+              "minecraft:iron_ore",
+              "minecraft:deepslate_iron_ore"
             ],
             "block": {
               "type": "pixelmon:context_block_state"
@@ -135,15 +136,15 @@
           "dialogue": {
             "pages": [
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "ありがとう トレーナーさん！ メガリングを作るのに 必要な素材を 集めてくれたのね。これで 準備万端ね。"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "次は メガシンカの秘密を解き明かすために いくつかお願いがあるわ。"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "それができれば メガシンカの力を 理解できると思うわ。"
               }
             ],
@@ -249,11 +250,11 @@
           "dialogue": {
             "pages": [
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "やったわね トレーナーさん！ お願いを すべて完了してくれたのね。 これでメガシンカがどんなものか 感じてもらえたと思うわ。"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "あとは 世界最強のポケモンたちと 戦いましょう。 それに勝てれば メガシンカの力を 扱うことができる証拠よ。"
               }
             ],
@@ -326,15 +327,15 @@
           "dialogue": {
             "pages": [
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "おめでとう トレーナーさん！ お願いを すべて 成し遂げてくれたわね。"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "ポケモンをメガシンカさせる特別なアイテムをあげるわ。 うまく使ってね。 そして 大きな力には 大きな責任が伴うことを 忘れないで。"
               },
               {
-                "title": { "translate": "pixelmon.npc.dialogue.professor.wisteria.title" },
+                "title": { "translate": "pixelmon.prof.wisteria" },
                 "text": "メガリングは インベントリの ポケモンの横にある 折りたたまれている部分を開くと 装備したり外したりできるわ。 頑張ってね トレーナーさん！"
               }
             ],
