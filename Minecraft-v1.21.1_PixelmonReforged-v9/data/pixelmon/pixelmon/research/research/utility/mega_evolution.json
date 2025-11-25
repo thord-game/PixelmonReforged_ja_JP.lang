@@ -291,7 +291,7 @@
               "type": "pixelmon:context_pokemon_entity",
               "key": "pixelmon:pokemon_entity"
             },
-            "spec": "boss:epic OR boss:legendary OR boss:ultimate"
+            "spec": "boss:epic OR boss:legendary OR boss:ultimate AND ismega"
           },
           "result": [
             {
