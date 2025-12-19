@@ -4124,6 +4124,7 @@
   "gui.battlerules.description.legendary": "伝説ポケモンは使えません。",
   "gui.battlerules.description.levelcap": "ポケモンの最大レベル。より高いレベルはレベル上限まで一時的に引き下げられます。",
   "gui.battlerules.description.mega": "メガ進化は使えません。",
+  "gui.battlerules.description.monotype": "パーティのポケモンはすべて、共通のタイプを1つ持っている必要があります。単一タイプ、複合タイプどちらのポケモンも使用可能です。",
   "gui.battlerules.description.moody": "むらっけのポケモンは使えません。",
   "gui.battlerules.description.numpokemon": "バトルに選ぶポケモンの数",
   "gui.battlerules.description.ohko": "じわれ、ハサミギロチン、つのドリル、ぜったいれいどのわざをおぼえたポケモンは使えません。",
@@ -8225,6 +8226,9 @@
   "options.render.mode.smooth": "スムーズ",
   "options.render.mode.sprite": "スプライト",
   "options.render.mode.tooltip": "レンダリングモード\nこの設定で、ゲーム内でのポケモンのモデル表示方法を変更できます。\nオプションは次の通り:\n - 'スムーズ'\n - ブロック状'\n - 'スプライト'\nデフォルトは'スムーズ'です。",
+  "options.render.pokeballs.mode": "モンスターボールの描画モード",
+  "options.render.pokeballs.mode.auto": "自動",
+  "options.render.pokeballs.mode.tooltip": "モンスターボールの描画モード\nこの設定で、モンスターボールの描画モードを指定します。\n選択肢は以下の通りです。\n- '自動' (描画モードを自動でコピー)\n- '滑らか'\n- 'ブロック調'\n- 'スプライト'\nデフォルトは'自動'です。",
   "painting.pixelmon.evil_oak.author": "Mezzbeans",
   "painting.pixelmon.evil_oak.title": "にせオーキドはかせ",
   "painting.pixelmon.goop_gas.author": "Mezzbeans",
@@ -16683,10 +16687,22 @@
   "pixelmon.battle.tier.ag.description": "AG（Anything Goes）は、すべてのバトルで使用される基本ルールセットです。\nどんなポケモンでも、どんな組み合わせの技や能力でもバトルに参加できます。\nタイトルが示す通り、このルールセットではバトルに一切の制限がありません。",
   "pixelmon.battle.tier.ag.double": "AGダブル",
   "pixelmon.battle.tier.ag.double.description": "AG（Anything Goes）は、すべてのバトルで使用される基本ルールセットです。\nどんなポケモンでも、どんな組み合わせの技や能力でもバトルに参加できます。\nタイトルが示す通り、このルールセットではバトルに一切の制限がありません。\nこれはダブルバトル用です。",
+  "pixelmon.battle.tier.ag.monotype": "AG単一タイプ",
+  "pixelmon.battle.tier.ag.monotype.description": "基本のAGルールと全く同じですが、チーム内の全てのポケモンが同じタイプである必要があります。単タイプ、複合タイプどちらのポケモンも使用可能です。",
+  "pixelmon.battle.tier.ag.rotation": "AGローテーション",
+  "pixelmon.battle.tier.ag.rotation.description": "基本のAGルールと全く同じですが、ローテーションバトルを使用します。\nローテーションバトルは、各プレイヤーがチームに3体から6体のポケモンを持ち、フィールドには一度に最大3体のポケモンを出すことができるという点で、トリプルバトルに似ています。\nただし、一度に攻撃したりダメージを受けたりできるポケモンは1体のみで、両プレイヤーはいつでも手持ちのポケモンと場に出ているポケモンを交代させることができます。\nプレイヤーは同じターンに交代と攻撃を行うことができ、交代には+6の優先度があります。",
+  "pixelmon.battle.tier.ag.triple": "AGトリプル",
+  "pixelmon.battle.tier.ag.triple.description": "AGの基本ルールと同じですが、トリプルバトルを使用します。\nトリプルバトルでは、各プレイヤーは3～6匹のポケモンを持ち、各チームから最大3匹のポケモンをフィールドに出すことができます。",
   "pixelmon.battle.tier.uber": "Uber",
   "pixelmon.battle.tier.uber.description": "Uberは非常に包括的なバトルルールセットです。\n \n制限事項:\n 種族条項 - プレイヤーは同じ全国図鑑番号のポケモンを2匹持つことはできません\n \n 回避条項 - ポケモンはかげぶんしんまたはちいさくなるを持つことはできません\n \n OHKO条項 - ポケモンはじわれ、ハサミギロチン、つのドリル、ぜったいれいどなどの技を持つことはできません",
   "pixelmon.battle.tier.uber.double": "Uberダブル",
   "pixelmon.battle.tier.uber.double.description": "Uberは非常に包括的なバトルルールセットです。\n \n制限事項:\n 種族条項 - プレイヤーは同じ全国図鑑番号のポケモンを2匹持つことはできません\n \n 回避条項 - ポケモンはかげぶんしんまたはちいさくなるを持つことはできません\n \n OHKO条項 - ポケモンはじわれ、ハサミギロチン、つのドリル、ぜったいれいどなどの技を持つことはできません",
+  "pixelmon.battle.tier.uber.monotype": "Uber単一タイプ",
+  "pixelmon.battle.tier.uber.monotype.description": "基本のUberルールと全く同じですが、チーム内の全てのポケモンが同じタイプである必要があります。単タイプ、複合タイプどちらのポケモンも使用可能です。",
+  "pixelmon.battle.tier.uber.rotation": "Uberローテーション",
+  "pixelmon.battle.tier.uber.rotation.description": "基本のUberルールと全く同じですが、ローテーションバトルを使用します。\nローテーションバトルは、各プレイヤーがチームに3体から6体のポケモンを持ち、フィールドには一度に最大3体のポケモンを出すことができるという点で、トリプルバトルに似ています。\nただし、一度に攻撃したりダメージを受けたりできるポケモンは1体のみで、両プレイヤーはいつでも手持ちのポケモンと場に出ているポケモンを交代させることができます。\nプレイヤーは同じターンに交代と攻撃を行うことができ、交代には+6の優先度があります。",
+  "pixelmon.battle.tier.uber.triple": "Uberトリプル",
+  "pixelmon.battle.tier.uber.triple.description": "基本のUberルールと同じですが、トリプルバトルを使用します。\nトリプルバトルでは、各プレイヤーは3～6匹のポケモンを持ち、各チームから最大3匹のポケモンをフィールドに出すことができます。",
   "block.pixelmon.raw_silver_block": "シルバーの原石ブロック",
   "block.pixelmon.raw_bauxite_block": "ボーキサイトの原石ブロック",
   "block.pixelmon.raw_platinum_block": "プラチナの原石ブロック",
@@ -16745,6 +16761,126 @@
   "pixelmon.pokedex.national_dex": "ポケモン",
   "pixelmon.pokedex.shiny_dex": "色違い",
   "pixelmon.pokedex.gigantamax": "キョダイマックス",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   "structure.minecraft.ancient_city": "古代都市",
   "structure.minecraft.bastion_remnant": "砦の遺跡",
   "structure.minecraft.buried_treasure": "埋もれた宝",
@@ -16779,6 +16915,8 @@
   "structure.minecraft.village_savanna": "サバンナの村",
   "structure.minecraft.village_snowy": "雪原の村",
   "structure.minecraft.village_taiga": "タイガの村",
+
+
   "structure.pixelmon.den/badlands": "荒野の巣穴",
   "structure.pixelmon.den/beach": "砂浜の巣穴",
   "structure.pixelmon.den/desert": "砂漠の巣穴",
@@ -16857,6 +16995,70 @@
   "structure.pixelmon.way_point/plains": "平原の目印",
   "structure.pixelmon.way_point/savanna": "サバンナの目印",
   "structure.pixelmon.way_point/swamp": "沼地の目印",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   "pixelmon.pokedex.jump": "釣り",
   "pokedex.tab.evolutions.none": "進化なし",
   "commands.npc.spawn.success": "NPCプリセット '%s' をスポーンさせました",
@@ -16908,7 +17110,7 @@
   "pixelmon.research.objective.pokemon.raging_bolt.stage.0.page.1": "あら、%player_name%！ちょうど良いところに 来たわ。 私、 とんでもなく 興味深いものに 遭遇したのよ。\n旅人たちがね、 高原の低い位置を漂う 動く雷雲の目撃情報を 報告しているの。\n空の嵐ではなく、 自ら移動する嵐、 とね。",
   "pixelmon.research.objective.pokemon.raging_bolt.stage.0.page.2": "彼らの話では、紫の稲妻がヒゲのように渦を巻き、霞の中にまたたく毛皮が見えたそうよ。\n最初はライコウかと思ったけれど、このポケモンは様子が違うわ。\nもっと重く、荒々しく、そして…古代の生き物よ。",
   "pixelmon.research.objective.pokemon.raging_bolt.stage.0.page.3": "おそらく、私たちはライコウの祖先を目の当たりにしているのかもしれないわ。\n雷そのものが大地を歩いていた時代からの、生きた名残よ。",
-  "pixelmon.research.objective.pokemon.raging_bolt.stage.1.objective.1": "野生のポケモン8種類の写真を撮る",
+  "pixelmon.research.objective.pokemon.raging_bolt.stage.1.objective.1": "野生のポケモンの写真を8つ撮る",
   "pixelmon.research.objective.pokemon.raging_bolt.stage.1.objective.2": "雷の石鉱石を16個採掘する",
   "pixelmon.research.objective.pokemon.raging_bolt.stage.1.objective.3": "雷に打たれる",
   "pixelmon.research.objective.pokemon.raging_bolt.stage.1.page.1": "素晴らしいわ、%player_name%! あなたのメモは完璧な仕事よ。\n写真に写った 野生のポケモンたちは 皆、 嵐のエネルギーに 掻き立てられたかのように 奇妙な動きをしていたわ。\nこの現象に取り憑かれ、 自然そのものが 落ち着きを失っているように感じるわ。",
@@ -16927,13 +17129,75 @@
   "pixelmon.research.objective.pokemon.raging_bolt.stage.3.page.2": "しかし、この3匹は皆、電気に反応するわ。\nプリンの歌は雷雨の前に変化する。\nモロバレルは空気が帯電すると胞子を放出する。\nそしてレアコイルは…そう、北を見つけるコンパスのように雷を追いかけるのよ。",
   "pixelmon.research.objective.pokemon.raging_bolt.stage.3.page.3": "あなたの調査結果がそれを裏付けているわ。\n磁場のパターンは、エネルギー自体が折り重なる場所を指し示しているのよ。\nまるで世界同士の結界みたいにね。",
   "pixelmon.research.objective.pokemon.raging_bolt.stage.3.page.4": "私は、古代の雷雲がまだそこで荒れ狂っていると思うの。\nどこか遠く、その静けさが不自然な場所。\nもしあなたがその場所を見つけられれば、嵐はその真相を明らかにするかもしれないわ。",
-  "pixelmon.research.objective.pokemon.raging_bolt.stage.4.objective.1": "ジ・エンドを訪れる",
+  "pixelmon.research.objective.pokemon.raging_bolt.stage.4.objective.1": "エンドを訪れる",
   "item.pixelmon.dragoninite": "カイリュナイト",
   "item.pixelmon.starminite": "スターミナイト",
   "gui.screenpokechecker.evolve": "進化",
   "pixelmon.evolution.multiple": "複数の進化",
   "pixelmon.evolution.multiple.description": "%s には複数の進化先があり、どれにするか決めることができません！ 続行するには1つを選択してください…",
   "pokemon.mark.evolve": "%s は進化できます！",
+  "pixelmon.message.cannot_shoulder": "%s を肩に乗せることができません",
+  "pixelmon.research.pokemon.gouging_fire": "古代の炎",
+  "pixelmon.research.objective.pokemon.gouging_fire.stage.0.page.1": "あら、%player_name%！またちょうどいいところに来たわ。あなたのエンテイに関する成果、まさに今必要としていたのよ。\n実はね、最近ずっと古代の記録を読み解いていたの。そこには、激しく噴き上がる火山と、その炎から生まれた存在が記されていたのよ。",
+  "pixelmon.research.objective.pokemon.gouging_fire.stage.0.page.2": "その姿がエンテイによく似ているのよ。だけどね、書かれている“何か”は、もっと古い、もっと原始の力を宿した祖先のようなの。\n山を揺るがすほど荒々しくて、火そのものに意志があった時代に生きていた……そんな存在よ。",
+  "pixelmon.research.objective.pokemon.gouging_fire.stage.0.page.3": "もしその“古の炎”が本当にいたのなら、私たちでその正体に迫れるかもしれないわ。\nあなたの旅は、まだまだ始まったばかりよ。",
+  "pixelmon.research.objective.pokemon.gouging_fire.stage.1.objective.1": "ガーディを捕まえる",
+  "pixelmon.research.objective.pokemon.gouging_fire.stage.1.objective.2": "ほのおのいし鉱石を16個採掘する",
+  "pixelmon.research.objective.pokemon.gouging_fire.stage.1.objective.3": "ガーディを進化させる",
+  "pixelmon.research.objective.pokemon.gouging_fire.stage.1.page.1": "あらまあ、素晴らしいわ！思った以上の成果ね。ガーディとウインディって、昔から“火山を守る者”として伝えられてきたポケモンなのよ。\nあなたのウインディにも、その高貴な火の気配がしっかり宿っているわ。",
+  "pixelmon.research.objective.pokemon.gouging_fire.stage.1.page.2": "それに、あなたが採ってきたほのおのいし鉱石 ― 自然の熱がぎゅっと詰まってる。古代資料に書かれていた特徴ともぴったり一致しているわ。",
+  "pixelmon.research.objective.pokemon.gouging_fire.stage.1.page.3": "ありがとう、%player_name%。これで“古の炎”の謎にずっと深く踏み込めるわね。",
+  "pixelmon.research.objective.pokemon.gouging_fire.stage.2.objective.1": "ドラゴンタイプのポケモンを16匹捕まえる",
+  "pixelmon.research.objective.pokemon.gouging_fire.stage.2.objective.2": "ほのおタイプのポケモンを16匹捕まえる",
+  "pixelmon.research.objective.pokemon.gouging_fire.stage.2.page.1": "また見事な成果ね。\n古い文献にはね、強力なドラゴンたちが、今では考えられないほどの凄まじい炎と交錯した――そんな瞬間が書かれているの。",
+  "pixelmon.research.objective.pokemon.gouging_fire.stage.2.page.2": "あなたの記録のおかげで、ドラゴンと炎の力の関係が、私の想像以上に複雑だってことがわかってきたわ。\nこれでまた、“あの火山に潜んでいた存在”へ近づけた気がするの。",
+  "pixelmon.research.objective.pokemon.gouging_fire.stage.3.objective.1": "ドンファンを捕まえる",
+  "pixelmon.research.objective.pokemon.gouging_fire.stage.3.objective.2": "ムウマを捕まえる",
+  "pixelmon.research.objective.pokemon.gouging_fire.stage.3.objective.3": "ウルガモスを捕まえる",
+  "pixelmon.research.objective.pokemon.gouging_fire.stage.3.page.1": "ドンファン、ムウマ、ウルガモス……なんだか変わった組み合わせでしょう？でもね、古代の記録だと、この3つが妙に意味深に並んでいるのよ。\nドンファンは圧倒的な耐久。\nムウマは彷徨う魂の象徴。\nウルガモスは、まるで生きた太陽のような存在。",
+  "pixelmon.research.objective.pokemon.gouging_fire.stage.3.page.2": "あなたの手で揃ったことで、当時“古の炎”を取り巻いていた力が、やっと輪郭を見せ始めたわ。\n奇妙だけれど、確かなつながりがある……そんな感じね。",
+  "pixelmon.research.objective.pokemon.gouging_fire.stage.3.page.3": "本当に素晴らしいわ、%player_name%。あなたのおかげで、研究の全体図がどんどん浮かび上がってきているの。",
+  "pixelmon.research.objective.pokemon.gouging_fire.stage.4.objective.1": "エンドを訪れる",
+  "pixelmon.shoulder.removed": "%sは肩に乗れず、モンスターボールに戻った。",
+  "pixelmon.research.pokemon.iron_crown": "未来の光輪",
+  "pixelmon.research.objective.pokemon.iron_crown.stage.0.page.1": "コバルオンは、いかなる炉よりも眩しく輝く刃の伝説と、古くから結び付けられてきたわ。\n一部の学者たちは、その物語が示しているのは過去の存在ではなく、未来から訪れた金属の旅人だと考えているの。",
+  "pixelmon.research.objective.pokemon.iron_crown.stage.0.page.2": "もしその伝承が正しいのなら、%player_name%、あなたは今、実に素晴らしいことの始まりに立っているのかもしれないわ。\n先へ進む前に、あなたが鋼の本質をどれほど理解しているのか、確かめさせてちょうだい。",
+  "pixelmon.research.objective.pokemon.iron_crown.stage.0.page.3": "まずは鉄を集め、それを鋭き形へと鍛え上げなさい。\nあなたが、かつての祖先たちのように金属と向き合えるかを見たいのよ。",
+  "pixelmon.research.objective.pokemon.iron_crown.stage.1.objective.1": "鉄鉱石を16個採掘する",
+  "pixelmon.research.objective.pokemon.iron_crown.stage.1.objective.2": "鉄の剣を作成する",
+  "pixelmon.research.objective.pokemon.iron_crown.stage.1.page.1": "よくやったわ、%player_name%。\n自らの手で形作られた鉄を見ると、あなたが鋼の基礎を理解していることがよく分かるわ。\nけれど、私たちが探している存在は、ただの金属の生き物ではないの。",
+  "pixelmon.research.objective.pokemon.iron_crown.stage.1.page.2": "記録には、空気そのものを切り裂くほど正確で、あり得ない速度の一撃が記されているわ。\nその力を理解するには、あなた自身の技を戦いの中で試す必要があるわね。",
+  "pixelmon.research.objective.pokemon.iron_crown.stage.1.page.3": "どれほど正確に斬撃を当てられるか、そしてその技がどれほど頻繁に急所を捉えるのかを、私に示してちょうだい。",
+  "pixelmon.research.objective.pokemon.iron_crown.stage.2.objective.1": "戦闘で斬撃系の技を10回使う",
+  "pixelmon.research.objective.pokemon.iron_crown.stage.2.objective.2": "戦闘で急所に5回当てる",
+  "pixelmon.research.objective.pokemon.iron_crown.stage.2.page.1": "あなたの技は確実に磨かれてきているわ。\nその正確な一撃の数々が、この研究に求められる精密さを理解し始めている証よ。",
+  "pixelmon.research.objective.pokemon.iron_crown.stage.2.page.2": "私たちが追っている存在は、姿だけでなく精神までもが鋼と結び付いているの。\nその本質の中心にあるのは、力と規律よ。",
+  "pixelmon.research.objective.pokemon.iron_crown.stage.2.page.3": "次に進むには、同じ規律を体現するポケモンたちとの戦いを観察する必要があるわ。\nはがねタイプを探し、戦いと野生の両方であなたの覚悟を示しなさい。",
+  "pixelmon.research.objective.pokemon.iron_crown.stage.3.objective.1": "はがねタイプのポケモンを20匹倒す",
+  "pixelmon.research.objective.pokemon.iron_crown.stage.3.objective.2": "はがねタイプのポケモンを20匹捕まえる",
+  "pixelmon.research.objective.pokemon.iron_crown.stage.3.page.1": "鋼に関わる遭遇をここまで制するとは見事ね。\nあなたは力だけでなく、それを制御する術も示してくれたわ。それは同じくらい重要なことよ。",
+  "pixelmon.research.objective.pokemon.iron_crown.stage.3.page.2": "この謎には、最後の欠片が残っているわ。\n古文書によれば、光り輝く金属の王冠は、確固たる目的を持つ者の前にのみ姿を現すそうよ。\n中には、遥か昔の遺物を身にまとう旅人の周囲で、最も強く輝くと語る者もいるわ。",
+  "pixelmon.research.objective.pokemon.iron_crown.stage.3.page.3": "こだいのおうかんを身に着け、遥かな領域へ旅立ちなさい。\n世界の終わりは、別の始まりを映し出す鏡かもしれないわ。\nもし伝説が真実なら、そこで未来からの訪問者へと至る道が開かれるはずよ。",
+  "pixelmon.research.objective.pokemon.iron_crown.stage.4.objective.1": "こだいのおうかんを装備する",
+  "pixelmon.research.objective.pokemon.iron_crown.stage.4.objective.2": "エンドを訪れる",
+  "pixelmon.research.pokemon.iron_boulder": "未来の巨岩",
+  "pixelmon.research.objective.pokemon.iron_boulder.stage.0.page.1": "%player_name%、あなたがテラキオンと関わったことで、実に興味深い反応が観測されたわ。\n捕獲の瞬間、次元スキャナーが急激に反応し、まるで異なる時代の存在が近づいてくるかのようだったの。",
+  "pixelmon.research.objective.pokemon.iron_boulder.stage.0.page.2": "その反応は重く、地に根差しているわ。\nまるで巨大な石の巨人が、視界の外をゆっくりと進んでいるみたい。\n理解するには、まだデータが足りないわね。",
+  "pixelmon.research.objective.pokemon.iron_boulder.stage.1.objective.1": "石を64個採掘する",
+  "pixelmon.research.objective.pokemon.iron_boulder.stage.1.objective.2": "石の斧を作成する",
+  "pixelmon.research.objective.pokemon.iron_boulder.stage.1.page.1": "興味深い結果ね、%player_name%。\nあなたが集めた石のサンプルには、この時代には存在しない微かなエネルギー痕跡が含まれていたわ。",
+  "pixelmon.research.objective.pokemon.iron_boulder.stage.1.page.2": "作成した道具も、同じ反応を示したの。\nあり得ないほど滑らかに石を断ち割ったわ。\nまるで素材そのものが、あなたを強大な何かへ導こうとしているかのようね。",
+  "pixelmon.research.objective.pokemon.iron_boulder.stage.2.objective.1": "戦闘で斬撃系の技を10回使う",
+  "pixelmon.research.objective.pokemon.iron_boulder.stage.2.objective.2": "戦闘で急所に5回当てる",
+  "pixelmon.research.objective.pokemon.iron_boulder.stage.2.page.1": "あなたの戦いは、私に必要な情報をすべて与えてくれたわ。\n斬撃の軌道と急所への一撃が、検知された存在の動作パターンを再構築する助けになったの。",
+  "pixelmon.research.objective.pokemon.iron_boulder.stage.2.page.2": "その痕跡は、完璧な精度で組み上げられた存在を思わせるわ。\n成長したのではなく、組み立てられたもの。\n自然ではなく、理によって形作られた巨人よ。",
+  "pixelmon.research.objective.pokemon.iron_boulder.stage.3.objective.1": "いわタイプのポケモンを20匹倒す",
+  "pixelmon.research.objective.pokemon.iron_boulder.stage.3.objective.2": "いわタイプのポケモンを20匹捕まえる",
+  "pixelmon.research.objective.pokemon.iron_boulder.stage.3.objective.3": "ケンタロスを捕まえる",
+  "pixelmon.research.objective.pokemon.iron_boulder.stage.3.page.1": "やはり繋がっていたわ。\nあなたが対峙したいわタイプのポケモンたちは皆、エネルギー場に微細な歪みを帯びていた。\nケンタロスでさえ、私たちの観測と一致する反響を放っていたの。",
+  "pixelmon.research.objective.pokemon.iron_boulder.stage.3.page.2": "何かが、この世界への道を探しているわ。\n岩の安定性と、荒々しい力に導かれて。\n私たちは、その到来を目撃する瞬間に近づいているのかもしれないわ。",
+  "pixelmon.research.objective.pokemon.iron_boulder.stage.4.objective.1": "バッフロンを捕まえる",
+  "pixelmon.research.objective.pokemon.iron_boulder.stage.4.objective.2": "エンドを訪れる",
 
 "_comment": "過去バージョンとの互換のための追加",
 "_comment": "v9.0.1 removed",
