@@ -16761,126 +16761,6 @@
   "pixelmon.pokedex.national_dex": "ポケモン",
   "pixelmon.pokedex.shiny_dex": "色違い",
   "pixelmon.pokedex.gigantamax": "キョダイマックス",
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   "structure.minecraft.ancient_city": "古代都市",
   "structure.minecraft.bastion_remnant": "砦の遺跡",
   "structure.minecraft.buried_treasure": "埋もれた宝",
@@ -16915,8 +16795,6 @@
   "structure.minecraft.village_savanna": "サバンナの村",
   "structure.minecraft.village_snowy": "雪原の村",
   "structure.minecraft.village_taiga": "タイガの村",
-
-
   "structure.pixelmon.den/badlands": "荒野の巣穴",
   "structure.pixelmon.den/beach": "砂浜の巣穴",
   "structure.pixelmon.den/desert": "砂漠の巣穴",
@@ -16995,70 +16873,6 @@
   "structure.pixelmon.way_point/plains": "平原の目印",
   "structure.pixelmon.way_point/savanna": "サバンナの目印",
   "structure.pixelmon.way_point/swamp": "沼地の目印",
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   "pixelmon.pokedex.jump": "釣り",
   "pokedex.tab.evolutions.none": "進化なし",
   "commands.npc.spawn.success": "NPCプリセット '%s' をスポーンさせました",
@@ -17198,7 +17012,27 @@
   "pixelmon.research.objective.pokemon.iron_boulder.stage.3.page.2": "何かが、この世界への道を探しているわ。\n岩の安定性と、荒々しい力に導かれて。\n私たちは、その到来を目撃する瞬間に近づいているのかもしれないわ。",
   "pixelmon.research.objective.pokemon.iron_boulder.stage.4.objective.1": "バッフロンを捕まえる",
   "pixelmon.research.objective.pokemon.iron_boulder.stage.4.objective.2": "エンドを訪れる",
-
+  "pixelmon.research.pokemon.bloodmoon_ursaluna": "深紅の月",
+  "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.0.page.1": "%player_name%、あなたがガチグマを捕獲したのは、実に良いタイミングだったわ。\n見慣れた獣でさえ変えてしまう、深紅の月の報告が上がっているわ。\n私は、その光の中で何が目覚めているのかを知りたいのよ。",
+  "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.0.page.2": "調査は日暮れの後に始めてちょうだい。\n研究室ではなく、夜が近い場所で。\n月明かりの下で、荒野の振る舞いが変わる証拠を持ち帰ってほしいの。",
+  "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.1.objective.1": "夜にじめんタイプのポケモンを16匹倒す",
+  "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.1.objective.2": "夜にノーマルタイプのポケモンを16匹倒す",
+  "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.1.objective.3": "夜にじめんタイプのポケモンを8匹捕まえる",
+  "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.1.objective.4": "夜にノーマルタイプのポケモンを8匹捕まえる",
+  "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.1.page.1": "見事だわ。あなたは規律を保ったまま夜を進んだ。\n戦闘と捕獲の記録から、大地も身近なポケモンたちも、まだ月に応えていることが分かるわ。\nけれど、深紅の月は単純な法則で満足する存在ではない。",
+  "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.1.page.2": "次は、月そのものの名残を探しましょう。\n長い夜の中できまぐれな落下の後、世界に残される断片よ。\n十分な量を集め、それをひとつの形へと仕上げて。",
+  "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.2.objective.1": "つきのいし鉱石を32個採掘する",
+  "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.2.objective.2": "つきのいしをクラフトする",
+  "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.2.page.1": "あなた自身の手で作られたつきのいし…見事ね。\n月のエネルギーは精製されることで、触媒であると同時にレンズにもなる。\nこれで、深紅の月が隠そうとするものが見えるはずよ。",
+  "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.2.page.2": "次に必要なのは、噂ではなく記録よ。\n闇の中で目を光らせる存在と、月明かりの静けさの中で息づく緑の生命を探して。\n古い炎を宿した相棒でさえ、忍耐があれば手がかりを残すかもしれないわ。",
+  "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.2.page.3": "たった一枚の写真を持ってきて、科学だと言わないで。\n積み重ねなさい。記録を築くのよ。\nそうして初めて、神話と科学を切り分けられるわ。",
+  "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.3.objective.1": "ヨルノズクを撮影する",
+  "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.3.objective.2": "リーフィアを撮影する",
+  "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.3.objective.3": "ヒスイのガーディを撮影する",
+  "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.3.objective.4": "ポケモンの写真を150枚撮影する",
+  "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.3.page.1": "素晴らしい成果よ。あなたの写真からは、焦りではなく丁寧さが伝わってくる。\n十分な記録が集まれば、生命の世界には必ずパターンが現れる。\nそしてあなたの記録には、月の影響がはっきりと刻まれているわ。",
+  "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.3.page.2": "深紅の月そのものを誘い出す前に、最後の準備が必要ね。\n戦いの場に、空気を和らげ、荒ぶる力を鎮めるヴェールを張りなさい。\nフィールドが淡く穏やかに変わったとき、その道は開かれるはずよ。",
+  "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.4.objective.1": "ミストフィールドを使用する",
 "_comment": "過去バージョンとの互換のための追加",
 "_comment": "v9.0.1 removed",
   "item.pixelmon.quest_editor.copy": "UUIDをクリップボードにコピーしました!",
@@ -18580,5 +18414,7 @@
   "item.pixelmon.silver_hourglass": "銀の砂時計",
 "_comment": "v9.3.10 added",
   "gamerule.battleTickRate": "Pixelmon: 戦闘速度(Tick)",
+"_comment": "v9.3.12 added",
+  "key.summary": "ポケモン詳細表示",
 "_comment": "オリジナル追加終了"
 }
