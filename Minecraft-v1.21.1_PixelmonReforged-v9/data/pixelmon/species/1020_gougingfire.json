@@ -1,0 +1,345 @@
+{
+  "name": "GougingFire",
+  "dex": 1020,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 2.0,
+        "width": 1.2,
+        "length": 2.0,
+        "eyeHeight": 2.3,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Incinerate",
+              "Leer",
+              "Stomp",
+              "Sunny Day"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Fire Fang"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Howl"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Dragon Claw"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Crush Claw"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Morning Sun"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Burning Bulwark"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Dragon Rush"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Fire Blast"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Lava Plume"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Outrage"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Flare Blitz"
+            ]
+          },
+          {
+            "level": 91,
+            "attacks": [
+              "Raging Fury"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Ancient Power",
+          "Double Kick",
+          "Noble Roar"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Scary Face",
+          "Protect",
+          "Fire Fang",
+          "Thunder Fang",
+          "Fire Spin",
+          "Facade",
+          "Bulldoze",
+          "Snarl",
+          "Flame Charge",
+          "Dragon Tail",
+          "Endure",
+          "Sunny Day",
+          "Smart Strike",
+          "Psychic Fangs",
+          "Body Slam",
+          "Sleep Talk",
+          "Dragon Claw",
+          "Stomping Tantrum",
+          "Rest",
+          "Iron Head",
+          "Dragon Dance",
+          "Substitute",
+          "Crunch",
+          "Dragon Pulse",
+          "Heat Wave",
+          "Flamethrower",
+          "Reversal",
+          "Fire Blast",
+          "Earthquake",
+          "Stone Edge",
+          "Giga Impact",
+          "Outrage",
+          "Overheat",
+          "Hyper Beam",
+          "Flare Blitz",
+          "Draco Meteor",
+          "Tera Blast",
+          "Roar",
+          "Heat Crash",
+          "Weather Ball",
+          "Scale Shot",
+          "Double-Edge",
+          "Temper Flare",
+          "Scorching Sands",
+          "Breaking Swipe",
+          "Dragon Cheer"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Ancient Power",
+          "Double Kick",
+          "Noble Roar"
+        ],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Protosynthesis"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": 0.7,
+            "z": 0.6
+          },
+          "moving": {
+            "x": 0.0,
+            "y": 0.7,
+            "z": 0.6
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 105,
+        "attack": 115,
+        "defense": 121,
+        "specialAttack": 65,
+        "specialDefense": 93,
+        "speed": 91
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 295,
+        "baseFriendship": 0,
+        "spawnLevel": 52,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/1020_gougingfire/all/base/none/sprite.png",
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/1020_gougingfire/all/base/none/gougingfire.bmd",
+                      "texture": "pixelmon:pokemon/1020_gougingfire/all/base/none/texture.png",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/1020_gougingfire/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/1020_gougingfire/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 1.0
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/1020_gougingfire/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/1020_gougingfire/all/base/none/gougingfire.bmd",
+                      "texture": "pixelmon:pokemon/1020_gougingfire/all/base/shiny/texture.png",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/1020_gougingfire/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/1020_gougingfire/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 1.0
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "FIRE",
+        "DRAGON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 50,
+      "weight": 590.0,
+      "catchRate": 10,
+      "evolutions": [],
+      "malePercentage": -1,
+      "evYields": {
+        "defense": 3
+      },
+      "growth_data": {
+        "mean": 80.0,
+        "standard_deviation": 4.0,
+        "min_render_scale": 0.7,
+        "max_render_scale": 1.4
+      }
+    }
+  ],
+  "generation": 9
+}

@@ -1,0 +1,392 @@
+{
+  "name": {
+    "translate": "pixelmon.research.pokemon.iron_boulder"
+  },
+  "stages": [
+    {
+      "objectives": [],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "require_healer_block": {
+            "type": "pixelmon:constant_boolean",
+            "value": true
+          },
+          "dialogue": {
+            "pages": [
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.iron_boulder.stage.0.page.1"
+                }
+              },
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.iron_boulder.stage.0.page.2"
+                }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/wisteria.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.iron_boulder.stage.1.objective.1"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:break_block",
+          "condition": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:block_is_one_of",
+                "blocks": "minecraft:stone",
+                "block": {
+                  "type": "pixelmon:context_block_state"
+                }
+              }
+            }
+          ],
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ],
+          "required_amount": 64
+        },
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.iron_boulder.stage.1.objective.2"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:craft_item",
+          "condition": {
+            "recipe": "minecraft:stone_axe",
+            "type": "pixelmon:recipe_matches"
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ],
+          "required_amount": 1
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.iron_boulder.stage.1.page.1"
+                }
+              },
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.iron_boulder.stage.1.page.2"
+                }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/wisteria.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.iron_boulder.stage.2.objective.1"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:use_move",
+          "condition": {
+            "type": "pixelmon:slicing_move"
+          },
+          "required_amount": 10,
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ]
+        },
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.iron_boulder.stage.2.objective.2"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:hit_crit",
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "required_amount": 5,
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ]
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.iron_boulder.stage.2.page.1"
+                }
+              },
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.iron_boulder.stage.2.page.2"
+                }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/wisteria.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.iron_boulder.stage.3.objective.1"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:knockout_pokemon",
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon" : {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "type:rock"
+          },
+          "required_amount": 20,
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ]
+        },
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.iron_boulder.stage.3.objective.2"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:capture_pokemon",
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon" : {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "type:rock"
+          },
+          "required_amount": 20,
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ]
+        },
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.iron_boulder.stage.3.objective.3"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:capture_pokemon",
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon" : {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "tauros"
+          },
+          "required_amount": 1,
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ]
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.iron_boulder.stage.3.page.1"
+                }
+              },
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.iron_boulder.stage.3.page.2"
+                }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/wisteria.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.iron_boulder.stage.4.objective.1"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:capture_pokemon",
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "bouffalant"
+          },
+          "required_amount": 1,
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ]
+        },
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.iron_boulder.stage.4.objective.2"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:change_dimension",
+          "condition": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:string_compare_case_insensitive",
+                "first": {
+                  "type": "pixelmon:constant_string",
+                  "value": "minecraft:the_end"
+                },
+                "second": {
+                  "type": "pixelmon:string_context",
+                  "key": "pixelmon:dimension_to"
+                }
+              }
+            }
+          ],
+          "required_amount": 1,
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ]
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:spawn_and_enter_battle",
+          "spec": "ironboulder"
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/pokemon/1022_ironboulder/all/base/none/sprite.png"
+        }
+      ]
+    }
+  ],
+  "abandonable": false,
+  "repeatable": true,
+  "unique": true
+}
