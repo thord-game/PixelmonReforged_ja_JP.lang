@@ -6,7 +6,7 @@
 - Minecraft v1.12.2 Pixelmon Reforged v8.x.x
 - Minecraft v1.16.5 Pixelmon Reforged v9.1.x
 - Minecraft v1.20.2 Pixelmon Reforged v9.2.x
-- Minecraft v1.21.1 Pixelmon Reforged v9.3.x
+- Minecraft v1.21.1 Pixelmon Reforged v9.4.x 
 
 対応したファイルを利用して日本語化を行ってください。
 
@@ -45,12 +45,12 @@ Pixelmon-1.20.2-9.2.x-universal.jarを7zipで開き、assetsフォルダ,dataフ
 Pixelmon Reforged v9.2.10 まで対応しています。
 
 
-## Minecraft v1.21.1 Pixelmon Reforged v9.3.x
+## Minecraft v1.21.1 Pixelmon Reforged v9.4.x
 
 PixelmonReforged_ja_JP.lang/Minecraft-v1.21.1_PixelmonReforged-v9/ をダウンロードし、
 Pixelmon-1.21.1-9.3.x-universal.jarを7zipで開き、assetsフォルダ,dataフォルダをコピーします。
 
-Pixelmon Reforged v9.3.16 まで対応しています。
+Pixelmon Reforged v9.4.0 まで対応しています。
 
 ## 日本語化ファイル導入方法
 
@@ -72,4 +72,3 @@ https://www.youtube.com/watch?v=p78Lv_xasjc&t=3s
 謝辞：リボンを日本向けに修正するデータはつっちーさんに共有いただきました。
 
 http://tt0.link/pixelmon/
-

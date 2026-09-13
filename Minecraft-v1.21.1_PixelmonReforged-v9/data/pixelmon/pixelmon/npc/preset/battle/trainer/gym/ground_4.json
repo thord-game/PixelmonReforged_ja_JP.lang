@@ -47,19 +47,12 @@
     },
     "type": "pixelmon:constant"
   },
-  "goals": {
+  "ai_provider": {
     "type": "pixelmon:constant",
     "value": {
-      "goals": [
-        {
-          "provider": {
-            "type": "pixelmon:look_at_nearby",
-            "look_distance": 10,
-            "probability": 0.9
-          },
-          "priority": 1
-        }
-      ]
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 10,
+      "swim": false
     }
   },
   "interactions": {
@@ -251,7 +244,8 @@
             "type": "pixelmon:constant",
             "value": [
               {
-                "type": "pixelmon:player_start_npc_battle"
+                "type": "pixelmon:player_start_npc_battle",
+                "ai_mode": "pixelmon:debug_kingfisher"
               }
             ]
           }

@@ -1,0 +1,151 @@
+{
+  "stages": [
+    {
+      "objectives": [],
+      "result": [
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": { "translate": "pixelmon.prof.wisteria" },
+                "text": {
+                  "translate": "research.onboarding.the_galar_pokedex.stage.0.page.1"
+                }
+              },
+              {
+                "title": { "translate": "pixelmon.prof.wisteria" },
+                "text": {
+                  "translate": "research.onboarding.the_galar_pokedex.stage.0.page.2"
+                }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/item/npceditor.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "event": "pixelmon:pokedex_pokemon",
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "gen:8"
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 50.0
+            }
+          ],
+          "required_amount": 30,
+          "name": {
+            "translate": "research.onboarding.galar_pokedex.register",
+            "fallback": "Register 30 Galar-native Pokedex Entries"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        },
+        {
+          "event": "pixelmon:capture_pokemon",
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "form:galarian"
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 150.0
+            }
+          ],
+          "required_amount": 10,
+          "name": {
+            "translate": "research.onboarding.galar_pokedex.galarian",
+            "fallback": "Capture 10 Galarian-form Pokemon"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:give_money",
+          "money": 5000.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 500
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": { "translate": "pixelmon.prof.wisteria" },
+                "text": {
+                  "translate": "research.onboarding.the_galar_pokedex.stage.1.page.1"
+                }
+              },
+              {
+                "title": { "translate": "pixelmon.prof.wisteria" },
+                "text": {
+                  "translate": "research.onboarding.the_galar_pokedex.stage.1.page.2"
+                }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": [
+            {
+              "resource": "pixelmon:textures/gui/research/money_pouch.png",
+              "offset": [-3.0, 3.0, 0],
+              "scale": [0.85, 0.85]
+            },
+            {
+              "resource": "minecraft:textures/item/experience_bottle.png",
+              "offset": [3.0, -3.0, 0],
+              "scale": [0.85, 0.85]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "abandonable": false,
+  "repeatable": false,
+  "unique": true,
+  "name": {
+    "translate": "research.onboarding.the_galar_pokedex",
+    "fallback": "The Galar Pokedex"
+  }
+}
